@@ -1,0 +1,72 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=TW, ST=Taiwan, L=Taipei, O=linux.org, OU=MyOrganizationalUnit, CN=linux.org CA/name=EasyRSA
+        Validity
+            Not Before: Dec 27 04:05:58 2014 GMT
+            Not After : Dec 24 04:05:58 2024 GMT
+        Subject: C=TW, ST=Taiwan, L=Taipei, O=linux.org, OU=MyOrganizationalUnit, CN=client1/name=EasyRSA/emailAddress=test@linux.org
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:93:9d:64:eb:6e:96:a5:1d:28:6c:6b:13:8e:a8:
+                    b3:0d:6e:39:dc:b0:10:83:98:79:9a:c1:a1:59:7f:
+                    d8:65:c3:cc:d1:72:18:9f:61:1e:1b:3b:4a:6c:e4:
+                    f4:e7:32:fd:52:b3:cd:63:5b:5c:d1:8d:1c:58:11:
+                    86:10:e8:92:5c:09:60:37:8f:f7:fc:06:61:a7:29:
+                    b1:af:55:8e:a7:62:94:bd:21:1e:ca:0a:e5:be:6f:
+                    d7:89:3f:69:9b:95:95:3a:ee:cd:1c:f8:ea:1d:3f:
+                    b1:88:a8:b2:2f:21:1b:6c:94:ad:a8:30:cd:a5:8d:
+                    bc:81:31:cf:95:eb:1f:8f:c1
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                8A:92:B1:62:87:E6:C7:91:D9:DE:58:60:B4:7D:4D:AF:9B:DE:AF:1F
+            X509v3 Authority Key Identifier: 
+                keyid:B1:6A:8A:CC:8A:45:B4:69:74:06:C2:F9:BE:D0:F4:BE:EF:E2:23:A2
+                DirName:/C=TW/ST=Taiwan/L=Taipei/O=linux.org/OU=MyOrganizationalUnit/CN=linux.org CA/name=EasyRSA
+                serial:D3:11:84:CB:38:3A:63:EE
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha256WithRSAEncryption
+        63:2c:43:4c:33:20:71:4f:fa:20:5d:f6:6d:a1:9c:8c:2e:ff:
+        86:a7:fd:c1:7b:9a:6b:cd:df:8f:d3:eb:2f:03:3a:77:8a:83:
+        1f:5b:9d:35:a4:61:77:5c:1a:0a:0f:f7:1a:70:8c:7e:99:73:
+        b5:7d:b1:07:e2:53:fd:eb:03:f4:e4:cc:6d:c5:fc:dd:40:9a:
+        f1:14:6c:d3:f1:91:8b:8b:ec:20:75:3b:15:03:91:85:be:62:
+        10:57:8d:2a:1e:cb:0c:a4:e8:7b:9e:f5:5a:b9:2a:0e:f5:94:
+        7e:52:e7:1d:e7:70:3e:7f:9a:02:8a:bc:16:35:31:54:5b:9d:
+        1e:aa
+-----BEGIN CERTIFICATE-----
+MIID7DCCA1WgAwIBAgIBAjANBgkqhkiG9w0BAQsFADCBizELMAkGA1UEBhMCVFcx
+DzANBgNVBAgTBlRhaXdhbjEPMA0GA1UEBxMGVGFpcGVpMRIwEAYDVQQKEwlsaW51
+eC5vcmcxHTAbBgNVBAsTFE15T3JnYW5pemF0aW9uYWxVbml0MRUwEwYDVQQDEwxs
+aW51eC5vcmcgQ0ExEDAOBgNVBCkTB0Vhc3lSU0EwHhcNMTQxMjI3MDQwNTU4WhcN
+MjQxMjI0MDQwNTU4WjCBpTELMAkGA1UEBhMCVFcxDzANBgNVBAgTBlRhaXdhbjEP
+MA0GA1UEBxMGVGFpcGVpMRIwEAYDVQQKEwlsaW51eC5vcmcxHTAbBgNVBAsTFE15
+T3JnYW5pemF0aW9uYWxVbml0MRAwDgYDVQQDEwdjbGllbnQxMRAwDgYDVQQpEwdF
+YXN5UlNBMR0wGwYJKoZIhvcNAQkBFg50ZXN0QGxpbnV4Lm9yZzCBnzANBgkqhkiG
+9w0BAQEFAAOBjQAwgYkCgYEAk51k626WpR0obGsTjqizDW453LAQg5h5msGhWX/Y
+ZcPM0XIYn2EeGztKbOT05zL9UrPNY1tc0Y0cWBGGEOiSXAlgN4/3/AZhpymxr1WO
+p2KUvSEeygrlvm/XiT9pm5WVOu7NHPjqHT+xiKiyLyEbbJStqDDNpY28gTHPlesf
+j8ECAwEAAaOCAUIwggE+MAkGA1UdEwQCMAAwLQYJYIZIAYb4QgENBCAWHkVhc3kt
+UlNBIEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQUipKxYofmx5HZ3lhg
+tH1Nr5verx8wgcAGA1UdIwSBuDCBtYAUsWqKzIpFtGl0BsL5vtD0vu/iI6KhgZGk
+gY4wgYsxCzAJBgNVBAYTAlRXMQ8wDQYDVQQIEwZUYWl3YW4xDzANBgNVBAcTBlRh
+aXBlaTESMBAGA1UEChMJbGludXgub3JnMR0wGwYDVQQLExRNeU9yZ2FuaXphdGlv
+bmFsVW5pdDEVMBMGA1UEAxMMbGludXgub3JnIENBMRAwDgYDVQQpEwdFYXN5UlNB
+ggkA0xGEyzg6Y+4wEwYDVR0lBAwwCgYIKwYBBQUHAwIwCwYDVR0PBAQDAgeAMA0G
+CSqGSIb3DQEBCwUAA4GBAGMsQ0wzIHFP+iBd9m2hnIwu/4an/cF7mmvN34/T6y8D
+OneKgx9bnTWkYXdcGgoP9xpwjH6Zc7V9sQfiU/3rA/TkzG3F/N1AmvEUbNPxkYuL
+7CB1OxUDkYW+YhBXjSoeywyk6Hue9Vq5Kg71lH5S5x3ncD5/mgKKvBY1MVRbnR6q
+-----END CERTIFICATE-----

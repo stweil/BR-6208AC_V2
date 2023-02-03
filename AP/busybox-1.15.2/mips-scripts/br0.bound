@@ -1,0 +1,113 @@
+#!/bin/sh
+# Sample udhcpc renew script
+
+#include file
+. /bin/scriptlib.sh
+. /bin/oem_script.sh
+. /web/FUNCTION_SCRIPT
+. /var/flash.inc
+
+if [ "$_WIFI_REPEATER_" = "y" ]; then # Default or Normal LED defined
+	oem_led AGband_led
+fi
+
+#if [ "$IQSET_DISABLE" = "1" -a "$WIZ_MODE" = "2" -a "$SINGLESIGNON_FREEZE" = "0" ]; then
+#	echo "1" > /tmp/NoEnled
+#fi
+echo "######## br0.bound ########"
+
+RESOLV_CONF="/etc/udhcpc/resolv.conf"
+[ -n "$broadcast" ] && BROADCAST="broadcast $broadcast"
+[ -n "$subnet" ] && NETMASK="netmask $subnet"
+
+/sbin/ifconfig $interface $ip $BROADCAST $NETMASK
+route del default
+
+rm -f /tmp/br0_gw
+echo $router > /tmp/br0_gw
+
+
+if [ "$router" ]
+then
+	echo "deleting routers"
+	while route del -net default gw 0.0.0.0 dev $interface
+	do :
+	done
+
+	for i in $router
+	do
+		route add -net default gw $i dev $interface
+	done
+fi
+
+echo -n > $RESOLV_CONF
+[ -n "$domain" ] && echo domain $domain >> $RESOLV_CONF
+
+for i in $dns
+do
+	echo adding dns $i
+	echo nameserver $i >> $RESOLV_CONF
+done
+
+if [ "$WIZ_MODE" != "0" -a "$WIZ_MODE" != "4" ]; then #Robert 2014_06_03 Fix, NTP server issue.
+	line=`cat /etc/udhcpc/resolv.conf | wc -l`
+	num=1
+	while [ $num -le $line ]; do
+		if [ "$num" = 1 ]; then
+			echo `head -n $num /etc/udhcpc/resolv.conf | tail -n 1` > /etc/resolv.conf
+		else
+			echo `head -n $num /etc/udhcpc/resolv.conf | tail -n 1` >> /etc/resolv.conf
+		fi
+		num=`expr $num + 1`
+	done
+fi
+
+
+
+
+killall -9 sntp.sh
+sleep 1
+/bin/sntp.sh &
+echo ">> br0.bound update system time"
+
+if [ "1" = "2" ]; then
+
+	if [ "$_WIFI_ROMAING_" = "y" ]; then
+		if [ "$WIZ_MODE" = "2" ] && [ "$IQSET_DISABLE" = "1" ]; then
+			if [ "`pidof gddb`" != "" ];then
+				kill -15 `pidof gddb`
+			fi
+			if [ "`pidof airfores`" != "" ];then
+				kill -15 `pidof airfores`
+			fi
+			if [ "`pidof ModifySinglesignon.sh`" != "" ];then
+				kill -15 `pidof ModifySinglesignon.sh`
+			fi
+			sleep 1
+			wifiromaing.sh createDefXml
+			sleep 2
+			gddb -n garden -t &
+			sleep 2
+			gddbc -l /tmp/device.xml
+			sleep 2
+			airfores -i br0 &
+			sleep 5
+			wifiromaing.sh createDefXml restart
+			if [ "$SINGLESIGNON_FREEZE" = "0" ]; then
+				/bin/ModifySinglesignon.sh &
+				rm -rf /tmp/NoEnled
+				if [ "`pidof led.sh`" = "" ]; then #When Reboot completed, A/GBand LED need start work now, no need to wait crossband led.
+					echo "==FUJI_br0.bound=="
+					oem_system init_done
+				fi
+			else
+				if [ "`pidof led.sh`" = "" ]; then
+					echo "==TREK=="
+					oem_system init_done
+				fi
+			fi
+		fi
+	fi
+
+fi
+

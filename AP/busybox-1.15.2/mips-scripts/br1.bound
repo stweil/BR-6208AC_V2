@@ -1,0 +1,67 @@
+#!/bin/sh
+# Sample udhcpc renew script
+
+_MODEL_="`cat /web/FUNCTION_SCRIPT | grep \"^_MODEL_=\" | cut -f 2 -d \\\"`"
+_MODE_="`cat /web/FUNCTION_SCRIPT | grep \"^_MODE_=\" | cut -f 2 -d \\\"`"
+AP_MODE="`cat /var/flash.inc | grep \"^AP_MODE=\" | cut -f 2 -d =`"
+IP_ADDR="`cat /var/flash.inc | grep \"^IP_ADDR=\" | cut -f 2 -d \'`"
+
+echo "######## br1.bound ########"
+
+RESOLV_CONF="/etc/udhcpc/resolv.conf"
+[ -n "$broadcast" ] && BROADCAST="broadcast $broadcast"
+[ -n "$subnet" ] && NETMASK="netmask $subnet"
+
+/sbin/ifconfig $interface $ip $BROADCAST $NETMASK
+
+route del default
+
+rm -f /tmp/br1_gw
+echo $router > /tmp/br1_gw
+
+
+if [ "$router" ]
+then
+	echo "deleting routers"
+	while route del -net default gw 0.0.0.0 dev $interface
+	do :
+	done
+
+	for i in $router
+	do
+		route add -net default gw $i dev $interface
+	done
+fi
+
+echo -n > $RESOLV_CONF
+[ -n "$domain" ] && echo domain $domain >> $RESOLV_CONF
+
+for i in $dns
+do
+	echo adding dns $i
+	echo nameserver $i >> $RESOLV_CONF
+done
+
+# start 802.1x, and IAPP daemon
+iappauth.sh br1
+
+if [ "$WIZ_MODE" != "0" -a "$WIZ_MODE" != "4" ]; then #Robert 2014_06_03 Fix, NTP server issue.
+	line=`cat /etc/udhcpc/resolv.conf | wc -l`
+	num=1
+	while [ $num -le $line ]; do
+		if [ "$num" = 1 ]; then
+			echo `head -n $num /etc/udhcpc/resolv.conf | tail -n 1` > /etc/resolv.conf
+		else
+			echo `head -n $num /etc/udhcpc/resolv.conf | tail -n 1` >> /etc/resolv.conf
+		fi
+		num=`expr $num + 1`
+	done
+fi
+
+sleep 3
+killall -9 sntp.sh
+sleep 1
+sntp.sh &
+echo "--> br1.bound update system time"
+
+

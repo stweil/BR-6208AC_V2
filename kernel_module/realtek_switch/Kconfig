@@ -1,0 +1,3 @@
+config REALTEK_SWITCH
+	tristate "Realtek 8370 support"
+	depends on RAETH && (GE1_RGMII_FORCE_1000 || P5_RGMII_TO_MAC_MODE)

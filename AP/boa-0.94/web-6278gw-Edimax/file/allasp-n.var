@@ -1,0 +1,2220 @@
+var aspformVirtualSvErrFullAdd=new Array
+(
+"Cannot add new entry because table is full!",
+""
+);
+var aspFormVpnSetup7=new Array
+(
+"Error! SPI length too long.",
+""
+);
+var aspFormTcpipSetup10=new Array
+(
+"ERROR: Set user name to MIB database failed.",
+""
+);
+var aspFormStaEncrypt25=new Array
+(
+"Error! invalid psk value.",
+""
+);
+var aspFormStcIpSetup1=new Array
+(
+"Invalid DNS address value!",
+""
+);
+var aspFormDDNSSetup8=new Array
+(
+"Set Authentication Type flag error!",
+""
+);
+var aspFormTcpipSetup11=new Array
+(
+"ERROR: Set user password to MIB database failed.",
+""
+);
+var aspFormStaEncrypt22=new Array
+(
+"Error! no psk format.",
+""
+);
+var aspFormTcpipSetup34=new Array
+(
+"Set DHCP client end address error!",
+""
+);
+var aspFormL2TPSetup1=new Array
+(
+"Set IP Mode failed!",
+""
+);
+var aspFormWlSiteSurvey5=new Array
+(
+"Please refresh again!",
+""
+);
+var aspformVirtualSvInvValuePublic=new Array
+(
+"Error! Invalid value of public-port.",
+""
+);
+var aspformFilterInvIpWan=new Array
+(
+"Invalid IP address! It should be set within the WAN subnet.",
+""
+);
+var aspformTriggerPortInvPortTo=new Array
+(
+"Error! Invalid value of  to-port.",
+""
+);
+var aspError=new Array
+(
+"Error!",
+""
+);
+var aspFormTELBPSetup2=new Array
+(
+"Set user password MIB error!",
+""
+);
+var aspformPortFwErrCmtLong=new Array
+(
+"Error! Comment length too long.",
+""
+);
+var aspFormAdvanceSetup10=new Array
+(
+"Error! Invalid Turbo value.",
+""
+);
+var aspFormAdvanceSetup37=new Array
+(
+"Set MIB_WLAN_PROTECTION_DISABLED failed!",
+""
+);
+var aspFormAdvanceSetup16=new Array
+(
+"Set Tx basic rate failed!",
+""
+);
+var aspformPortFwErrGetNum=new Array
+(
+"Get entry number error!",
+""
+);
+var aspFormPPTPSetup5=new Array
+(
+"Set PPTP idle time MIB error!",
+""
+);
+var aspFormAdvanceSetup21=new Array
+(
+"Error! Invalid value of DTIM period.",
+""
+);
+var aspFormVpnSetup11=new Array
+(
+"Get entry number error!",
+""
+);
+var aspformFilterErrDelAll=new Array
+(
+"Delete all table error!",
+""
+);
+var aspFormWlanSetup26=new Array
+(
+"Error! Invalid MAC3 address.",
+""
+);
+var aspFormRoute9=new Array
+(
+"Duplicate with entry %d!",
+""
+);
+var aspformQoSErrMacInv=new Array
+(
+"Error! Invalid MAC of source address.",
+""
+);
+var aspFormPreventionSetup4=new Array
+(
+"Invalid time of Ping of Death!",
+""
+);
+var aspFormWlAc6=new Array
+(
+"Add table entry error!",
+""
+);
+var aspFormStaEncrypt2=new Array
+(
+"Key length must exist!",
+""
+);
+var aspFormWlanSetup1=new Array
+(
+"Set disabled flag error!",
+""
+);
+var aspformUrlbErrDelAll=new Array
+(
+"Delete all table error!",
+""
+);
+var aspFormWlEnable2=new Array
+(
+"Set Wireless Enable failed!",
+""
+);
+var aspFormWlanSetup30=new Array
+(
+"Error! Invalid MAC5 address.",
+""
+);
+var aspFormAdvanceSetup7=new Array
+(
+"Set Beacon interval failed!",
+""
+);
+var aspFormWlEncrypt8=new Array
+(
+"Error! Invalid value of RS port number.",
+""
+);
+var aspformVirtualSvErrDelEntry=new Array
+(
+"Delete table entry error!",
+""
+);
+var aspFormReManagementSetup1=new Array
+(
+"Error! Invalid value of Port Number.",
+""
+);
+var aspWirelessClientList2=new Array
+(
+"Read wlan sta info failed!",
+""
+);
+var aspFormL2TPSetup19=new Array
+(
+"PPPoE disconnected.",
+""
+);
+var aspFormTcpipSetup22=new Array
+(
+"Set Domain Name MIB error!",
+""
+);
+var aspFormTcpipSetup7=new Array
+(
+"ERROR: Unable to add user account.",
+""
+);
+var aspformQoSOther=new Array
+(
+"Other entry can\'t edit!",
+""
+);
+var aspFormRoute18=new Array
+(
+"Get table entry error!",
+""
+);
+var aspFormTcpipSetup19=new Array
+(
+"Get DHCP MIB error!",
+""
+);
+var aspformVirtualSvErrSetRange=new Array
+(
+"Setting port range has overlapped with used port numbers!",
+""
+);
+var aspFormAdvanceSetup23=new Array
+(
+"Error! Invalid IAPP value.",
+""
+);
+var aspFormStaEncrypt3=new Array
+(
+"Invalid key length value!",
+""
+);
+var aspFormVpnConn3=new Array
+(
+"RSA len exceed len",
+""
+);
+var aspFormRoute12=new Array
+(
+"Get entry number error!",
+""
+);
+var aspformFilterInvPtcType=new Array
+(
+"Error! Invalid protocol type.",
+""
+);
+var aspformFilterErrNoMac=new Array
+(
+"Error! No mac address to set.",
+""
+);
+var aspformQoSErrCfgTbl=new Array
+(
+"configure table entry error!",
+""
+);
+var aspFormStaEncrypt16=new Array
+(
+"Invalid key 3 length!",
+""
+);
+var aspformFilterErrPortTo=new Array
+(
+"Error! Invalid value of to-port.",
+""
+);
+var aspFormStaEncrypt11=new Array
+(
+"Invalid wep-key1 value!",
+""
+);
+var aspFormPreventionSetup13=new Array
+(
+"Error! Invalid value of burst of Sync Flood.",
+""
+);
+var aspFormWlEncrypt14=new Array
+(
+"Set RS password error!",
+""
+);
+var aspFormPSSetup6=new Array
+(
+"Set PrinterServer LPR Enable/Disable failed!",
+""
+);
+var aspFormWlanSetup10=new Array
+(
+"Set 1x enable flag error!",
+""
+);
+var aspFormL2TPSetup16=new Array
+(
+"Invalid PPP type value!",
+""
+);
+var aspFormDDNSSetup6=new Array
+(
+"Set HostID failed!",
+""
+);
+var aspformQoSInvIpStart=new Array
+(
+"Invalid start ip of source address! It should be set within the current subnet.",
+""
+);
+var aspFormStaEncrypt33=new Array
+(
+"Set MIB_STA_EAP_PASS error!",
+""
+);
+var aspformTriggerPortErrAddTbl=new Array
+(
+"Add table entry error!",
+""
+);
+var aspFormTcpipSetup1=new Array
+(
+"ERROR: Password is not matched!",
+""
+);
+var aspformTriggerPortErrGetTbl=new Array
+(
+"Get table entry error!",
+""
+);
+var aspformSaveConfigInvCfg=new Array
+(
+"Invalid configuration file!",
+""
+);
+var aspformQoSInvIpEnd=new Array
+(
+"Invalid End ip of source address! It should be set within the current subnet.",
+""
+);
+var aspFormPreventionSetup12=new Array
+(
+"Set time of Sync Flood error!",
+""
+);
+var aspFormStaEncrypt30=new Array
+(
+"Set MIB_STA_PASS error!",
+""
+);
+var aspformFilterErrGetNum=new Array
+(
+"Get entry number error!",
+""
+);
+var aspWlSiteSurveyTbl1=new Array
+(
+"Get AP_MODE failed!",
+""
+);
+var aspFormL2TPSetup11=new Array
+(
+"Connected to server successfully.",
+""
+);
+var aspFormWlanSetup32=new Array
+(
+"Error! Invalid MAC6 address.",
+""
+);
+var aspFormWlSiteSurvey14=new Array
+(
+"Change Root AP Successfully!",
+""
+);
+var aspFormAdvanceSetup6=new Array
+(
+"Error! Invalid value of Beacon Interval.",
+""
+);
+var aspFormTELBPSetup1=new Array
+(
+"Set user name MIB error!",
+""
+);
+var aspFormDDNSSetup9=new Array
+(
+"Set DHIS password MIB error!",
+""
+);
+var aspFormStaEncrypt19=new Array
+(
+"Invalid wep-key4 value!",
+""
+);
+var aspFormWlEncrypt12=new Array
+(
+"Set RS IP-address error!",
+""
+);
+var aspFormPPTPSetup6=new Array
+(
+"Set PPTP Connection ID MIB error!",
+""
+);
+var aspFormVpnSetup8=new Array
+(
+"Error! Encryption Key length too long.",
+""
+);
+var aspFormAdvanceSetup20=new Array
+(
+"Error! Invalid hiddenSSID value.",
+""
+);
+var aspformFilterInvIpPortTo=new Array
+(
+"Error! Invalid value of  to-port.",
+""
+);
+var aspformDdnsErrPasswd=new Array
+(
+"Set DDNS Password String error!",
+""
+);
+var aspFormStaEncrypt9=new Array
+(
+"Set default tx key id error!",
+""
+);
+var aspFormTcpipSetup2=new Array
+(
+"ERROR: Get supervisor name MIB error!",
+""
+);
+var aspformQoSErrPortSrcOrd=new Array
+(
+"Invalid source port range! 1st port value should be less than 2nd value",
+""
+);
+var aspFormPreventionSetup11=new Array
+(
+"Invalid time of Sync Flood!",
+""
+);
+var aspFormFilterError=new Array
+(
+"Error!",
+""
+);
+var aspFormWlEncrypt6=new Array
+(
+"Set MIB_WLAN_WPA_PSK error!",
+""
+);
+var aspFormAdvanceSetup17=new Array
+(
+"Set Tx operation rate failed!",
+""
+);
+var aspFormStaEncrypt17=new Array
+(
+"Invalid wep-key3 value!",
+""
+);
+var aspFormL2TPSetup3=new Array
+(
+"Set L2TP gateway error!",
+""
+);
+var aspFormTcpipSetup20=new Array
+(
+"Invalid DHCP value!",
+""
+);
+var aspFormWlanSetup13=new Array
+(
+"Error! Invalid auto MAC Clone value.",
+""
+);
+var aspFormWlanSetup27=new Array
+(
+"Set MIB_WL_LINKMAC3 mib error!",
+""
+);
+var aspFormWlAc5=new Array
+(
+"Cannot add new entry because table is full!",
+""
+);
+var aspFormWlanSetup31=new Array
+(
+"Set MIB_WL_LINKMAC5 mib error!",
+""
+);
+var aspFormStaEncrypt24=new Array
+(
+"Set MIB_STA_WPA_PSK_FORMAT failed!",
+""
+);
+var aspFormTcpipSetup31=new Array
+(
+"Invalid DHCP client start address!",
+""
+);
+var aspformTriggerPortInvPortFr=new Array
+(
+"Error! Invalid value of  form-port.",
+""
+);
+var aspformFilterInvHopCount=new Array
+(
+"Error! Invalid value of Hop Count.",
+""
+);
+var aspFormTimeZoneSetup1=new Array
+(
+"Error! Invalid value of Time Zone.",
+""
+);
+var aspFormWlAc4=new Array
+(
+"Get entry number error!",
+""
+);
+var aspFormWlanSetup21=new Array
+(
+"Set MIB_ELAN_MAC_ADDR mib error!",
+""
+);
+var aspformQoSInvIpRange=new Array
+(
+"Invalid source IP address range! end IP address should be greater than start IP address.",
+""
+);
+var aspFormAdvanceSetup30=new Array
+(
+"Error! Invalid value of Transmit Burst Mode.",
+""
+);
+var aspFormTcpipSetup6=new Array
+(
+"ERROR: Unable to add supervisor account.",
+""
+);
+var aspFormWlanSetup19=new Array
+(
+"Set MIB_WLAN_MAC_ADDR mib error!",
+""
+);
+var aspFormStaEncrypt34=new Array
+(
+"Set MIB_STA_ENCLT_CER error!",
+""
+);
+var aspFormTcpipSetup17=new Array
+(
+"Set MIB_ELAN_MAC_ADDR mib error!",
+""
+);
+var aspformPortFwErrPortForm=new Array
+(
+"Error! No from-port value to be set.",
+""
+);
+var aspformQoSErrAddEntry=new Array
+(
+"Add table entry error!",
+""
+);
+var aspFormTimeZoneSetup5=new Array
+(
+"Error! Invalid value of Start Month",
+""
+);
+var aspFormPSSetup5=new Array
+(
+"Error! Invalid PS_LPREnable value.",
+""
+);
+var aspFormPSSetup4=new Array
+(
+"Set PrinterServer IPP Enable/Disable failed!",
+""
+);
+var aspFormStaEncrypt1=new Array
+(
+"Set MIB_STA_ENCRYPT error!",
+""
+);
+var aspformFilterErrSetMac=new Array
+(
+"Set MAC filter Deny Enable failed!",
+""
+);
+var aspFormWlSiteSurvey3=new Array
+(
+"Read site-survey status failed!",
+""
+);
+var aspformVirtualSvErrDelAll=new Array
+(
+"Delete all table error!",
+""
+);
+var aspWlAcList1=new Array
+(
+"Get table entry error!",
+""
+);
+var aspOK=new Array
+(
+"OK!",
+""
+);
+var aspformFilterInvIpLan=new Array
+(
+"Invalid IP address! It should be set within the LAN subnet.",
+""
+);
+var aspformVirtualSvInvValuePrivate=new Array
+(
+"Error! Invalid value of private-port.",
+""
+);
+var aspFormL2TPSetup17=new Array
+(
+"Set PPP type MIB error!",
+""
+);
+var aspFormStaEncrypt18=new Array
+(
+"Set wep-key3 error!",
+""
+);
+var aspformFilterErrGetTbl=new Array
+(
+"Get table entry error!",
+""
+);
+var aspFormTimeZoneSetup7=new Array
+(
+"Error! Invalid value of Start Day.",
+""
+);
+var aspFormTimeZoneSetup4=new Array
+(
+"Set IP-address error!",
+""
+);
+var aspformDdnsErrUser=new Array
+(
+"Set DDNS User String error!",
+""
+);
+var aspFormDDNSSetup7=new Array
+(
+"Set ISAddr error!",
+""
+);
+var aspFormVpnSetup5=new Array
+(
+"Error! Invalid value of RemoteIP mask",
+""
+);
+var aspFormWlEncrypt15=new Array
+(
+"Error! Invalid wepkeylen value.",
+""
+);
+var aspFormWlanSetup23=new Array
+(
+"Set MIB_WL_LINKMAC1 mib error!",
+""
+);
+var aspformPortFwErrPtcType=new Array
+(
+"Error! Protocol type cannot be empty.",
+""
+);
+var aspWirelessClientList1=new Array
+(
+"Allocate buffer failed!",
+""
+);
+var aspFormPreventionSetup9=new Array
+(
+"Error! Invalid value of packet of Sync Flood.",
+""
+);
+var aspformVirtualSvInvPtcType=new Array
+(
+"Error! Invalid protocol type.",
+""
+);
+var aspFormPSSetup8=new Array
+(
+"Set PrinterServer Port1 Name error!",
+""
+);
+var aspformVirtualSvErrCmtLong=new Array
+(
+"Error! Comment length too long.",
+""
+);
+var aspformFilterErrDelTbl=new Array
+(
+"Delete table entry error!",
+""
+);
+var aspFormStaEncrypt6=new Array
+(
+"Invalid key type value!",
+""
+);
+var aspFormWlanSetup33=new Array
+(
+"Set MIB_WL_LINKMAC6 mib error!",
+""
+);
+var aspformFilterErrInput=new Array
+(
+"Error! input argument is not enough",
+""
+);
+var aspFormL2TPSetup9=new Array
+(
+"Set L2TP type MIB error!",
+""
+);
+var aspFormTcpipSetup24=new Array
+(
+"Set IP-address error!",
+""
+);
+var aspFormStaEncrypt13=new Array
+(
+"Invalid key 2 length!",
+""
+);
+var aspFormStaEncrypt36=new Array
+(
+"Set MIB_STA_ENSER_CER error!",
+""
+);
+var aspFormWlEncrypt11=new Array
+(
+"Invalid RS IP-address value!",
+""
+);
+var aspFormTcpipSetup3=new Array
+(
+"ERROR: Cannot use the same user name as supervisor.",
+""
+);
+var aspFormStaEncrypt35=new Array
+(
+"Set MIB_STA_CLIENT_PASS error!",
+""
+);
+var aspFormTimeZoneSetup11=new Array
+(
+"Error! Invalid value of End Day.",
+""
+);
+var aspFormWlanSetup4=new Array
+(
+"Invalid band value!",
+""
+);
+var aspFormTcpipSetup32=new Array
+(
+"Set DHCP client start address error!",
+""
+);
+var aspformQoSErrPortDstTo=new Array
+(
+"Error! Invalid value of destination to-port.",
+""
+);
+var aspformQoSErrGetTbl=new Array
+(
+"Get table entry error!",
+""
+);
+var aspFormWlEncrypt2=new Array
+(
+"Set MIB_WLAN_ENABLE_SUPP_NONWPA mib error!",
+""
+);
+var aspFormALGSetup=new Array
+(
+"Set ALG failed!",
+""
+);
+var aspFormRoute1=new Array
+(
+"Set enabled flag error!",
+""
+);
+var aspformSaveConfigFail=new Array
+(
+"Allocate buffer failed!",
+""
+);
+var aspformPortFwErrDelTbl=new Array
+(
+"Delete table entry error!",
+""
+);
+var aspFormRoute21=new Array
+(
+"Delete table entry error!",
+""
+);
+var aspFormAdvanceSetup5=new Array
+(
+"Set RTS threshold failed!",
+""
+);
+var aspformPortFwErrDelAll=new Array
+(
+"Delete all table error!",
+""
+);
+var aspformFilterErrNoIp=new Array
+(
+"Error! No ip address to set.",
+""
+);
+var aspFormAdvanceSetup31=new Array
+(
+"Set Transmit Burst Mode failed!",
+""
+);
+var aspformTriggerPortInvPtcType=new Array
+(
+"Error! Invalid trigger-port protocol type.",
+""
+);
+var aspFormRoute3=new Array
+(
+"Set RIP WAN Rx  error!",
+""
+);
+var aspFormWlanSetup20=new Array
+(
+"Error! Invalid Elan Mac address.",
+""
+);
+var aspFormTcpipSetup30=new Array
+(
+"Set default-gateway error!",
+""
+);
+var aspFormVpnSetup18=new Array
+(
+"Can\'t set ipsec with pptp wan type.",
+""
+);
+var aspFormDDNSSetup11=new Array
+(
+"Set AUTHP2  MIB error!",
+""
+);
+var aspFormPSSetup7=new Array
+(
+"Set PrinterServer Name error!",
+""
+);
+var aspFormWanTcpipSetup2=new Array
+(
+"Set TTL failed!",
+""
+);
+var aspFormTimeZoneSetup6=new Array
+(
+"Set Start Month failed!",
+""
+);
+var aspFormWlanSetup28=new Array
+(
+"Error! Invalid MAC4 address.",
+""
+);
+var aspformFilterInvPortRange=new Array
+(
+"Invalid port range! 1st port value should be less than 2nd value",
+""
+);
+var aspformPortFwErrFlag=new Array
+(
+"Set enabled flag error!",
+""
+);
+var aspFormWdsEncrypt=new Array
+(
+"Set MIB_WLAN_WPA_PSK_FORMAT failed!",
+""
+);
+var aspFormVpnSetup6=new Array
+(
+"Error! Preshared Key length too long.",
+""
+);
+var aspformTriggerPortErrCmtLong=new Array
+(
+"Error! Comment length too long.",
+""
+);
+var aspFormAdvanceSetup25=new Array
+(
+"Error! Invalid Wireless Isolation value.",
+""
+);
+var aspFormTcpipSetup5=new Array
+(
+"ERROR: Unable to add access limit.",
+""
+);
+var aspFormWlEncrypt16=new Array
+(
+"Set MIB_WLAN_WEP failed!",
+""
+);
+var aspformUrlbErrAddTbl=new Array
+(
+"Add table entry error!",
+""
+);
+var aspFormWlanSetup22=new Array
+(
+"Error! Invalid MAC1 address.",
+""
+);
+var aspFormTcpipSetup12=new Array
+(
+"Error! Invalid value of Lease Time.",
+""
+);
+var aspFormStaEncrypt10=new Array
+(
+"Invalid key 1 length!",
+""
+);
+var aspFormVpnSetup3=new Array
+(
+"Error! Invalid value of Local IP mask",
+""
+);
+var aspformVirtualSvErrIpNo=new Array
+(
+"Error! No ip address to set.",
+""
+);
+var aspFormDynIpSetup3=new Array
+(
+"Set MIB_WAN_MAC_ADDR mib error!",
+""
+);
+var aspFormDDNSSetup4=new Array
+(
+"Set DDNS Account / E-Mail MIB error!",
+""
+);
+var aspformFilterInvIpPortFr=new Array
+(
+"Error! Invalid value of  from-port.",
+""
+);
+var aspFormTcpipSetup4=new Array
+(
+"ERROR: Unable to add group.",
+""
+);
+var aspFormAdvanceSetup22=new Array
+(
+"Set DTIM period failed!",
+""
+);
+var aspFormWlanSetup11=new Array
+(
+"Set MIB_WLAN_ENCRYPT error!",
+""
+);
+var aspFormStaEncrypt20=new Array
+(
+"Set wep-key4 error!",
+""
+);
+var aspFormTcpipSetup21=new Array
+(
+"Set DHCP error!\"",
+""
+);
+var aspFormAdvanceSetup32=new Array
+(
+"Error! Invalid value of Network Authentication.",
+""
+);
+var aspFormWlanSetup2=new Array
+(
+"Invalid WLAN Mode!",
+""
+);
+var aspFormAdvanceSetup4=new Array
+(
+"Error! Invalid value of RTS threshold.",
+""
+);
+var aspFormWlEncrypt9=new Array
+(
+"Set RS port error!",
+""
+);
+var aspFormStaEncrypt37=new Array
+(
+"Set MIB_STA_SERVER_PASS error!",
+""
+);
+var aspFormWlEncrypt3=new Array
+(
+"Set MIB_WLAN_SUPP_NONWPA mib error!",
+""
+);
+var aspformFilterErrPtcTypeEmpty=new Array
+(
+"Error! Protocol type cannot be empty.",
+""
+);
+var aspformVirtualSvErrGetNum=new Array
+(
+"Get entry number error!",
+""
+);
+var aspFormWlanSetup3=new Array
+(
+"Set WLAN Mode error!",
+""
+);
+var aspFormUPNPSetup1=new Array
+(
+"Error! Invalid UPnP value.",
+""
+);
+var aspFormRoute2=new Array
+(
+"Set RIP WAN Tx error!",
+""
+);
+var aspFormL2TPSetup14=new Array
+(
+"Set PPP user name MIB error!",
+""
+);
+var aspFormRoute22=new Array
+(
+"Delete all table error!",
+""
+);
+var aspFormWlEncrypt10=new Array
+(
+"No RS IP address!",
+""
+);
+var aspSetFirewallFail=new Array
+(
+"Set Firewall Enable failed!",
+""
+);
+var aspformQoSErrPortSrcFr=new Array
+(
+"Error! Invalid value of source form-port.",
+""
+);
+var aspFormL2TPSetup8=new Array
+(
+"Invalid L2TP type value!",
+""
+);
+var aspFormTimeZoneSetup12=new Array
+(
+"Set End Day failed!",
+""
+);
+var aspformVirtualSvErrFlag=new Array
+(
+"Set enabled flag error!",
+""
+);
+var aspFormTimeZoneSetup3=new Array
+(
+"Invalid IP-address value!",
+""
+);
+var aspFormAdvanceSetup14=new Array
+(
+"Set rate adaptive failed!",
+""
+);
+var aspFormStaEncrypt23=new Array
+(
+"Error! invalid psk format.",
+""
+);
+var aspFormStaEncrypt4=new Array
+(
+"Set STA WEP error!",
+""
+);
+var aspformFilterErrSetIp=new Array
+(
+"Set IP filter Deny Enable failed!",
+""
+);
+var aspFormWlanSetup29=new Array
+(
+"Set MIB_WL_LINKMAC4 mib error!",
+""
+);
+var aspFormPreventionSetup14=new Array
+(
+"Set burst of Sync Flood  failed!",
+""
+);
+var aspformUrlbErrCmtLong=new Array
+(
+"Error! Comment length too long.",
+""
+);
+var aspFormStaEncrypt29=new Array
+(
+"Set MIB_STA_ID error!",
+""
+);
+var aspformPortFwErrAdd=new Array
+(
+"Cannot add new entry because table is full!",
+""
+);
+var aspFormStaEncrypt26=new Array
+(
+"Set MIB_STA_WPA_PSK error!",
+""
+);
+var aspFormDDNSSetup2=new Array
+(
+"Set DDNS Provider MIB error!",
+""
+);
+var aspformFilterInvIp=new Array
+(
+"Invalid IP address! It should be set within the current subnet.",
+""
+);
+var aspFormWlEncrypt4=new Array
+(
+"Set MIB_WLAN_AUTH_TYPE failed!",
+""
+);
+var aspformTriggerPortErrPortRange=new Array
+(
+"Trigger port range has overlapped with used port numbers!",
+""
+);
+var aspFormPreventionSetup1=new Array
+(
+"Set enabled flag error!",
+""
+);
+var aspformTriggerPortErrPortFr=new Array
+(
+"Error! No from-port value to be set.",
+""
+);
+var aspFormTcpipSetup16=new Array
+(
+"Error! Invalid MAC address.",
+""
+);
+var aspformPortFwInvIp=new Array
+(
+"Invalid IP address! It should be set within the current subnet.",
+""
+);
+var aspformTriggerPortInvPortType=new Array
+(
+"Error! Invalid incoming-port protocol type.",
+""
+);
+var aspFormStaEncrypt15=new Array
+(
+"Set wep-key2 error!",
+""
+);
+var aspformDdnsErrType=new Array
+(
+"Set DDNS Type error!",
+""
+);
+var aspFormVpnSetup4=new Array
+(
+"Error! Cannot set Any Address in Remote Site for more than one entry.",
+""
+);
+var aspFormRadiusl3=new Array
+(
+"Error! Password length too long.",
+""
+);
+var aspFormTcpipSetup13=new Array
+(
+"Set Lease Time failed!",
+""
+);
+var aspformPortFwErrGetTbl=new Array
+(
+"Get table entry error!",
+""
+);
+var aspFormWlanSetup7=new Array
+(
+"Set Repeater SSID error!",
+""
+);
+var aspformQoSInvIpDest=new Array
+(
+"Invalid destination IP address range! end IP address should be greater than start IP address.",
+""
+);
+var aspFormWlAc1=new Array
+(
+"Set enabled flag error!",
+""
+);
+var aspFormL2TPSetup4=new Array
+(
+"Set L2TP user name MIB error!",
+""
+);
+var aspFormAdvanceSetup34=new Array
+(
+"Error! Invalid value of CTS Protection.",
+""
+);
+var aspFormTcpipSetup29=new Array
+(
+"Invalid default-gateway value!",
+""
+);
+var aspformQoSErrPortDstOrd=new Array
+(
+"Invalid destination port range! 1st port value should be less than 2nd value",
+""
+);
+var aspFormStaEncrypt8=new Array
+(
+"Invalid default tx key id!",
+""
+);
+var aspFormRoute11=new Array
+(
+"Add table entry error!",
+""
+);
+var aspFormWlanSetup6=new Array
+(
+"Set Universal Repeater Mode error!",
+""
+);
+var aspFormStaEncrypt5=new Array
+(
+"Key type must exist!",
+""
+);
+var aspFormStaEncrypt12=new Array
+(
+"Set wep-key1 error!",
+""
+);
+var aspFormPSSetup1=new Array
+(
+"Error! Invalid PSEnable value.",
+""
+);
+var aspFormStaEncrypt38=new Array
+(
+"Set MIB_STA_SEC_MODE error!",
+""
+);
+var aspformFilterErrPortRange=new Array
+(
+"Error! Invalid port range.",
+""
+);
+var aspFormAdvanceSetup33=new Array
+(
+"Set Network Authentication failed!",
+""
+);
+var aspFormVpnConn4=new Array
+(
+"Create WPA config file error!",
+""
+);
+var aspFormAdvanceSetup27=new Array
+(
+"Set Transmit Rate MIB error!",
+""
+);
+var aspFormRoute5=new Array
+(
+"Set RIP LAN Rx error!",
+""
+);
+var aspFormTcpipSetup28=new Array
+(
+"Get subnet-mask error!",
+""
+);
+var aspFormL2TPSetup15=new Array
+(
+"Set PPP user password MIB error!",
+""
+);
+var aspformPortFwErrNoIp=new Array
+(
+"Error! No ip address to set.",
+""
+);
+var aspformTriggerPort2=new Array
+(
+"Error! Invalid value of trigger to-port.",
+""
+);
+var aspformTriggerPortErrAdd=new Array
+(
+"Cannot add new entry because table is full!",
+""
+);
+var aspFormPreventionSetup8=new Array
+(
+"Set Items of Port Scan failed!",
+""
+);
+var aspFormDDNSSetup5=new Array
+(
+"Set DDNS user password MIB error!",
+""
+);
+var aspFormWanTcpipSetup6=new Array
+(
+"Get DNS3 MIB error!",
+""
+);
+var aspformTriggerPort3=new Array
+(
+"Error! Invalid trigger port range.",
+""
+);
+var aspFormL2TPSetup7=new Array
+(
+"Set MTU failed!",
+""
+);
+var aspFormTimeZoneSetup10=new Array
+(
+"Set End Month failed!",
+""
+);
+var aspFormAdvanceSetup15=new Array
+(
+"Set fix rate failed!",
+""
+);
+var aspformVirtualSvInvIp=new Array
+(
+"Invalid IP address! It should be set within the current subnet.",
+""
+);
+var aspFormPreventionSetup7=new Array
+(
+"Set burst of Ping of Death  failed!",
+""
+);
+var aspFormTcpipSetup35=new Array
+(
+"Invalid DHCP client range!",
+""
+);
+var aspFormAdvanceSetup1=new Array
+(
+"Error! Invalid authentication value.",
+""
+);
+var aspformVirtualSvErrNoPrivate=new Array
+(
+"Error! No private-port value to be set.",
+""
+);
+var aspFormDDNSSetup10=new Array
+(
+"Set AUTHP1 MIB error!",
+""
+);
+var aspformQoSErrGetNum=new Array
+(
+"Get entry number error!",
+""
+);
+var aspFormWlEncrypt5=new Array
+(
+"Set WEP MIB error!",
+""
+);
+var aspformTriggerPortInvPortTypeEmpty=new Array
+(
+"Error! incoming-port protocol type cannot be empty.",
+""
+);
+var aspFormTimeZoneSetup8=new Array
+(
+"Set Start Day failed!",
+""
+);
+var aspFormTcpipSetup14=new Array
+(
+"Set IP Disabled mib error!",
+""
+);
+var aspFormDynIpSetup1=new Array
+(
+"Set Wan Mode error!",
+""
+);
+var aspFormWlAc8=new Array
+(
+"Delete all table error!",
+""
+);
+var aspFormUPNPSetup2=new Array
+(
+"Set UPnP failed!",
+""
+);
+var aspFormRoute4=new Array
+(
+"Set RIP LAN Tx error!",
+""
+);
+var aspFormPPTPSetup1=new Array
+(
+"Set PPTP user name MIB error!",
+""
+);
+var aspFormTcpipSetup23=new Array
+(
+"Invalid IP-address value!",
+""
+);
+var aspFormStaEncrypt21=new Array
+(
+"Set MIB_STA_WPA_CIPHER_SUITE failed!",
+""
+);
+var aspFormWlSiteSurvey1=new Array
+(
+"Site-survey request failed!",
+""
+);
+var aspFormWlanSetup14=new Array
+(
+"Set auto MAC Clone failed!",
+""
+);
+var aspformTriggerPortErrGetNum=new Array
+(
+"Get entry number error!",
+""
+);
+var aspFormTimeZoneSetup9=new Array
+(
+"Error! Invalid value of End Month.",
+""
+);
+var aspFormVpnSetup1=new Array
+(
+"Error! Connection Name length too long.",
+""
+);
+var aspFormStaEncrypt39=new Array
+(
+"Set MIB_ADHOC_SEC_MODE error!",
+""
+);
+var aspFormReManagementSetup2=new Array
+(
+"Set Port Number failed!",
+""
+);
+var aspFormWlanSetup5=new Array
+(
+"Set band error!",
+""
+);
+var aspFormAdvanceSetup35=new Array
+(
+"Set CTS Protection failed!",
+""
+);
+var aspformTriggerPortErrDelAll=new Array
+(
+"Delete all table error!",
+""
+);
+var aspFormStcIpSetup3=new Array
+(
+"Get DNS1 MIB error!",
+""
+);
+var aspFormL2TPSetup6=new Array
+(
+"Error! Invalid value of MTU.",
+""
+);
+var aspformUrlbErrDelTbl=new Array
+(
+"Delete table entry error!",
+""
+);
+var aspformDdnsErrFlag=new Array
+(
+"Set enabled flag error!",
+""
+);
+var aspContinueApply=new Array
+(
+"You may press CONTINUE button to continue configuring other settings or press APPLY button to restart the system for changes to take effect",
+""
+);
+var aspFormWlEncrypt1=new Array
+(
+"Error! no encryption method.",
+""
+);
+var aspformPortFwErrPortTo=new Array
+(
+"Error! Invalid value of to-port.",
+""
+);
+var aspFormAdvanceSetup24=new Array
+(
+"Set MIB_WLAN_IAPP_DISABLED failed!",
+""
+);
+var aspFormVpnSetup9=new Array
+(
+"Error! Authentication Key length too long.",
+""
+);
+var aspFormWlanSetup25=new Array
+(
+"Set MIB_WL_LINKMAC2 mib error!",
+""
+);
+var aspformFilterErrCmtLong=new Array
+(
+"Error! Comment length too long.",
+""
+);
+var aspformTriggerPort1=new Array
+(
+"Error! Invalid value of trigger from-port.",
+""
+);
+var aspformFilterInvIpType=new Array
+(
+"Invalid IP address! It should be %d.%d.%d.%d.",
+""
+);
+var aspFormWlanSetup9=new Array
+(
+"Set MIB_SECURITY_MODE error!",
+""
+);
+var aspFormWanTcpipSetup5=new Array
+(
+"Get DNS2 MIB error!",
+""
+);
+var aspformStatsErrRep=new Array
+(
+"Set Universal Repeater Mode error!",
+""
+);
+var aspFormVpnSetup14=new Array
+(
+"Add table entry error!",
+""
+);
+var aspFormStaEncrypt28=new Array
+(
+"Set MIB_STA_EAP_TYPE error!",
+""
+);
+var aspFormL2TPSetup12=new Array
+(
+"Connect to server failed!",
+""
+);
+var aspformTriggerPortErrPtcTypeEmpty=new Array
+(
+"Error! trigger-port protocol type cannot be empty.",
+""
+);
+var aspFormAdvanceSetup12=new Array
+(
+"Error! Invalid WMM value.",
+""
+);
+var aspFormWanTcpipSetup1=new Array
+(
+"Error! Invalid TTL value.",
+""
+);
+var aspFormDDNSSetup3=new Array
+(
+"Set DDNS user name MIB error!",
+""
+);
+var aspformQoSErrPortDstFr=new Array
+(
+"Error! Invalid value of destination form-port.",
+""
+);
+var aspformFilterErrAddTbl=new Array
+(
+"Add table entry error!",
+""
+);
+var aspFormPreventionSetup10=new Array
+(
+"Set packet of Sync Flood  failed!\"",
+""
+);
+var aspFormVpnConn5=new Array
+(
+"Set RSA file error!",
+""
+);
+var aspformTriggerPortErrDelTbl=new Array
+(
+"Delete table entry error!",
+""
+);
+var aspFormPPTPSetup3=new Array
+(
+"Invalid PPTP type value!",
+""
+);
+var aspFormAdvanceSetup28=new Array
+(
+"Error! Invalid value of Basic Rates Mode.",
+""
+);
+var aspFormPPTPSetup7=new Array
+(
+"PPTP disconnected.",
+""
+);
+var aspFormDDNSSetup13=new Array
+(
+"Set AUTHQ2  MIB error!",
+""
+);
+var aspFormL2TPSetup5=new Array
+(
+"Set L2TP user password MIB error!",
+""
+);
+var aspFormVpnConn1=new Array
+(
+"Set enabled flag error!",
+""
+);
+var aspFormTcpipSetup8=new Array
+(
+"ERROR: Unable to delete user account.",
+""
+);
+var aspFormTcpipSetup18=new Array
+(
+"Set MIB_WLAN_MAC_ADDR mib error!",
+""
+);
+var aspSaveSetSuccess=new Array
+(
+"Save setting successfully!",
+""
+);
+var aspFormWanTcpipSetup7=new Array
+(
+"Get WAN DHCP MIB error!",
+""
+);
+var aspformQoSErrMacNo=new Array
+(
+"Error! No mac of source address to set.",
+""
+);
+var aspFormTcpipSetup27=new Array
+(
+"Set subnet-mask error!",
+""
+);
+var aspformFilterInvPortFr=new Array
+(
+"Error! Invalid value of from-port.",
+""
+);
+var aspformPortFwErrAddTbl=new Array
+(
+"Add table entry error!",
+""
+);
+var aspFormAdvanceSetup9=new Array
+(
+"Set TX power failed!",
+""
+);
+var aspFormDDNSSetup12=new Array
+(
+"Set AUTHQ1 MIB error!\"",
+""
+);
+var aspFormStaEncrypt32=new Array
+(
+"Set MIB_STA_EAP_ID error!",
+""
+);
+var aspFormNatEnable=new Array
+(
+"Set Firewall Enable failed!",
+""
+);
+var aspFormVpnSetup2=new Array
+(
+"Error! Invalid value of tunnel id",
+""
+);
+var aspformQoSErrPortSrcTo=new Array
+(
+"Error! Invalid value of source to-port.",
+""
+);
+var aspFormTcpipSetup26=new Array
+(
+"Invalid subnet-mask value!",
+""
+);
+var aspFormL2TPSetup2=new Array
+(
+"Set L2TP Host Name MIB error!",
+""
+);
+var aspAPPLY=new Array
+(
+"APPLY!",
+""
+);
+var aspFormPPTPSetup2=new Array
+(
+"Set PPTP user password MIB error!",
+""
+);
+var aspFormWlEnable1=new Array
+(
+"Error!",
+""
+);
+var aspFormAdvanceSetup11=new Array
+(
+"Set hidden ssid failed!",
+""
+);
+var aspformPortFwErrPortRange=new Array
+(
+"Error! Invalid port range.",
+""
+);
+var aspFormWanTcpipSetup8=new Array
+(
+"Invalid IP mode value!",
+""
+);
+var aspformUrlbErrGetNum=new Array
+(
+"Get entry number error!",
+""
+);
+var aspformPortFwInvPortForm=new Array
+(
+"Error! Invalid value of from-port.",
+""
+);
+var aspformQoSInvAddEntry=new Array
+(
+"Cannot add new entry because table is full!",
+""
+);
+var aspFormWlEncrypt7=new Array
+(
+"No RS port number!",
+""
+);
+var aspFormL2TPSetup18=new Array
+(
+"Set PPP idle time MIB error!",
+""
+);
+var aspFormWanTcpipSetup4=new Array
+(
+"Get DNS MIB error!",
+""
+);
+var aspFormWlanSetup12=new Array
+(
+"Set authentication failed!",
+""
+);
+var aspFormAdvanceSetup19=new Array
+(
+"Set Preamble failed!",
+""
+);
+var aspFormWlanSetup24=new Array
+(
+"Error! Invalid MAC2 address.",
+""
+);
+var aspFormAdvanceSetup3=new Array
+(
+"Set fragment threshold failed!",
+""
+);
+var aspCONTINUE=new Array
+(
+"CONTINUE!",
+""
+);
+var aspFormWlSiteSurvey6=new Array
+(
+"Connect failed!",
+""
+);
+var aspformQoSErrDelAll=new Array
+(
+"Delete all table error!",
+""
+);
+var aspFormPSSetup9=new Array
+(
+"Set PrinterServer Port2 Name error!",
+""
+);
+var aspFormPreventionSetup3=new Array
+(
+"Set packet of Ping of Death  failed!",
+""
+);
+var aspFormWlAc3=new Array
+(
+"Error! Comment length too long.",
+""
+);
+var aspFormTimeZoneSetup2=new Array
+(
+"Set Time Zone failed!",
+""
+);
+var aspFormWlSiteSurvey13=new Array
+(
+"Set Root AP SSID error!",
+""
+);
+var aspformQoSErrFlag=new Array
+(
+"Set enabled flag error!",
+""
+);
+var aspFormAdvanceSetup13=new Array
+(
+"Set WMM failed!",
+""
+);
+var aspFormPSSetup3=new Array
+(
+"Error! Invalid PS_IPPEnable value.",
+""
+);
+var aspformPortFwInvPtcType=new Array
+(
+"Error! Invalid protocol type.",
+""
+);
+var aspFormStaEncrypt14=new Array
+(
+"Invalid wep-key2 value!",
+""
+);
+var aspformUrlbErrGetTbl=new Array
+(
+"Get table entry error!",
+""
+);
+var aspFormWlanSetup16=new Array
+(
+"Invalid channel number!",
+""
+);
+var aspFormL2TPSetup13=new Array
+(
+"L2TP disconnected.",
+""
+);
+var aspFormPreventionSetup6=new Array
+(
+"Error! Invalid value of burst of Ping of Death.",
+""
+);
+var aspFormTcpipSetup33=new Array
+(
+"Invalid DHCP client end address!",
+""
+);
+var aspformFilterErrAdd=new Array
+(
+"Cannot add new entry because table is full!",
+""
+);
+var aspFormWlanSetup18=new Array
+(
+"Error! Invalid Wlan Mac address.",
+""
+);
+var aspFormAdvanceSetup29=new Array
+(
+"Set Basic Rates Mode failed!",
+""
+);
+var aspFormTcpipSetup9=new Array
+(
+"ERROR: Unable to save user configuration.",
+""
+);
+var aspFormVpnSetup16=new Array
+(
+"Get entry error!",
+""
+);
+var aspFormWanTcpipSetup3=new Array
+(
+"Invalid DNS mode value!",
+""
+);
+var aspFormL2TPSetup10=new Array
+(
+"Set L2TP idle time MIB error!",
+""
+);
+var aspFormStaEncrypt7=new Array
+(
+"Set WEP key type error!",
+""
+);
+var aspFormRadiusl2=new Array
+(
+"Error! UserName length too long.",
+""
+);
+var aspFormAdvanceSetup8=new Array
+(
+"Error! Invalid value of TX power.",
+""
+);
+var aspFormStcIpSetup2=new Array
+(
+"Set DNS MIB error!",
+""
+);
+var aspFormWlanSetup8=new Array
+(
+"Set MIB_WLAN_NETWORK_TYPE failed!",
+""
+);
+var aspFormStaEncrypt27=new Array
+(
+"Set MIB_STA_ENRADIUS error!",
+""
+);
+var aspFormRoute6=new Array
+(
+"Get entry number error!",
+""
+);
+var aspFormPPTPSetup4=new Array
+(
+"Set PPTP type MIB error!",
+""
+);
+var aspformTriggerPortInvPortRange=new Array
+(
+"Invalid port range! 1st port value should be less than 2nd value",
+""
+);
+var aspformFilterInvNoMac=new Array
+(
+"Error! Invalid MAC address.",
+""
+);
+var aspFormRoute10=new Array
+(
+"Set Route error",
+""
+);
+var aspFormAdvanceSetup36=new Array
+(
+"Error! Invalid 11g Protection value.",
+""
+);
+var aspFormPSSetup2=new Array
+(
+"Set PrinterServer Enable/Disable failed!",
+""
+);
+var aspFormWlAc2=new Array
+(
+"Error! Invalid MAC address.",
+""
+);
+var aspformVirtualSvErrAdd=new Array
+(
+"Add table entry error!",
+""
+);
+var aspformQoSErrLong=new Array
+(
+"Error! rule name length too long.",
+""
+);
+var aspformFilterErrSetIpPub=new Array
+(
+"Setting public ip has overlapped with used ip address!",
+""
+);
+var aspformFilterErrSetFlag=new Array
+(
+"Set enabled flag error!",
+""
+);
+var aspFormPreventionSetup5=new Array
+(
+"Set time of Ping of Death error!",
+""
+);
+var aspformQoSOtherD=new Array
+(
+"Other entry can\'t delete!",
+""
+);
+var aspFormRoute19=new Array
+(
+"Delete table entry error!",
+""
+);
+var aspFormWlanSetup15=new Array
+(
+"Set SSID error!",
+""
+);
+var aspFormAdvanceSetup26=new Array
+(
+"Set MIB_WLAN_BLOCK_RELAY failed!",
+""
+);
+var aspFormVpnSetup12=new Array
+(
+"Cannot add new entry because table is full!",
+""
+);
+var aspformVirtualSvErrPtcTypeEmpty=new Array
+(
+"Error! Protocol type cannot be empty.",
+""
+);
+var aspFormTcpipSetup25=new Array
+(
+"Get IP-address error!",
+""
+);
+var aspFormAdvanceSetup18=new Array
+(
+"Error! Invalid Preamble value.",
+""
+);
+var aspformUrlbErrFlag=new Array
+(
+"Set enabled flag error!",
+""
+);
+var aspFormWlEncrypt13=new Array
+(
+"RS password length too long!",
+""
+);
+var aspformFilterErrPortFr=new Array
+(
+"Error! No from-port value to be set.",
+""
+);
+var aspFormWlanSetup17=new Array
+(
+"Set channel number error!",
+""
+);
+var aspFormTcpipSetup15=new Array
+(
+"Set STP mib error!",
+""
+);
+var aspformVirtualSvErrGetTbl=new Array
+(
+"Get table entry error!",
+""
+);
+var aspFormPreventionSetup2=new Array
+(
+"Error! Invalid value of packet of Ping of Death.",
+""
+);
+var aspFormStaEncrypt31=new Array
+(
+"Set MIB_STA_PROTOCOL error!",
+""
+);
+var aspFormDDNSSetup1=new Array
+(
+"Set DDNS Enable failed!",
+""
+);
+var aspFormLicence1=new Array
+(
+" Set licence flag failed!",
+""
+);
+var aspFormAdvanceSetup2=new Array
+(
+"Error! Invalid value of fragment threshold.",
+""
+);
+var aspformQoSErrEditTbl=new Array
+(
+"Edit table entry error!",
+""
+);
+var aspFormDynIpSetup2=new Array
+(
+"Set AP Host Name MIB error!",
+""
+);
+var apply1=new Array
+(
+"Apply",
+""
+);
+var ok1=new Array
+(
+"OK",
+""
+);
+var continue1=new Array
+(
+"Continue",
+""
+);
+var sysrst=new Array
+(
+"System Restarting! Please wait for a while !",
+""
+);
+var aspApplyToReset=new Array
+(
+"Please press APPLY button to restart the system for changes to take effect.",
+""
+);
+var aspUpgradeSuccess=new Array
+(
+"Update successfully. <br><br>Please wait a while for rebooting...",
+""
+);
+var aspInvalidMaxUpBw=new Array
+(
+"Error! Invalid value of Max Upload Bandwidth.",
+""
+);
+var aspInvalidMaxDownBw=new Array
+(
+"Error! Invalid value of Max Download Bandwidth.",
+""
+);

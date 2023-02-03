@@ -1,0 +1,107 @@
+/*- Menu Tabs F--------------------------- */
+#tabsC
+	{
+	padding:0px;
+	margin:0px;
+	width:100%;
+	border-left:#666 1px solid;
+	border-right:#666 1px solid;
+	border-bottom:#666 1px solid;
+	}
+
+#tabsF
+	{
+	float:left;
+	width:100%;
+	margin:0;
+	padding:0;
+	font-size:13px;
+	line-height:normal;
+	border-left:#FFF 1px solid;
+	border-right:#FFF 1px solid;
+	border-bottom:0px solid #666;
+	background:url(tabBG.gif) repeat-x left bottom;
+	*float:none;
+      	}
+#tabsF ul
+	{
+	margin:0;
+	padding:10px 10px 0px 6px;
+	list-style:none;
+      	}
+#tabsF li
+	{
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+
+#tabsF a
+	{
+	float:left;
+	background:url("tableftF.gif") no-repeat left top;
+	margin:0;
+	padding:0px 0 0 4px;
+	text-decoration:none;
+	border-bottom:1px solid #666;
+	}
+
+#tabsF a span
+	{
+	float:left;
+	display:block;
+	background:url("tabrightF.gif") no-repeat right top;
+	padding:9px 15px 5px 6px;
+	color:#666;
+	}
+
+#tabsF span
+	{
+	float:left;
+	background:url("tableftF.gif") no-repeat left top;
+	margin:0;
+	padding:4px 0 0 4px;
+	text-decoration:none;
+	}
+
+#tabsF span span
+	{
+	float:left;
+	display:block;
+	background:url("tabrightF.gif") no-repeat right top;
+	padding:9px 15px 5px 6px;
+	color:#666;
+	}
+
+	#tabsF a span {float:none;}
+	/* End IE5-Mac hack */
+	#tabsF a:hover span {
+      		color:#000;
+		}
+#tabsF a:hover
+	{
+
+	}
+
+#tabsF a:hover span
+	{
+
+	}
+
+	#tabsF #current a
+		{
+                background-position:0% -42px;
+      		border-bottom:1px solid #FFF;
+                color:#000;
+        	}
+	#tabsF #current a span
+		{
+                background-position:100% -42px;
+                color:#000;
+        	}
+	#tabsF #current span span
+		{
+                background-position:100% -42px;
+      		border-bottom:1px solid #FFF;
+                color:#000;
+		}

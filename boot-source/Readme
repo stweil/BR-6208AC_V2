@@ -1,0 +1,6 @@
+1. For GPL run convert.sh to make the switch driver to .S files.
+2. The boot code version is follow the ralink SDK and add subversion for Edimax used.
+3. SDK version
+	GPL_4000 : SDK 4010
+	GPL_4100 : SDK 4110
+

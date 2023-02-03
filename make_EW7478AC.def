@@ -1,0 +1,21 @@
+
+include /home/BR6477AC_Edimax/define/FUNCTION_SCRIPT
+PLATFORM=-D_RT305X_
+MODEL=-D_EW7478AC_
+ENDIAN=
+GATEWAY=y
+CROSS=/home/BR6477AC_Edimax/tools/buildroot-gcc342/bin/mipsel-linux-
+CROSS_LINUX=/home/BR6477AC_Edimax/tools/buildroot-gcc342/bin/mipsel-linux-
+CROSS_COMPILE=/home/BR6477AC_Edimax/tools/buildroot-gcc342/bin/mipsel-linux-
+CROSS_PATH=/home/BR6477AC_Edimax/tools/buildroot-gcc342
+WLDEV=-D_RALINK_WL_DEVICE_
+PSDEV=-D_OFF_PS_DEVICE_
+SDEV=-D_OFF_S_DEVICE_
+CC=$(CROSS)gcc
+STRIP=$(CROSS)strip
+LD=$(CROSS)ld
+AR=$(CROSS)ar
+RANLIB=$(CROSS)ranlib
+CAS=$(CROSS)gcc -c
+CPP=$(CROSS)gcc -E
+PLATFORM=RT305X_4200

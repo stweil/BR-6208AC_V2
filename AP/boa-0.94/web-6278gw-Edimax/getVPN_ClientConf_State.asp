@@ -1,0 +1,1 @@
+<% response.write( getInfo("openvpnClientConf") ); %>

@@ -1,0 +1,47 @@
+EXTRA_CFLAGS += -I../kernel_module/realtek_switch/realtek_8367b -I../kernel_module/realtek_switch -D_LITTLE_ENDIAN -DCHIP_RTL8367R_VB
+
+obj-$(CONFIG_REALTEK_SWITCH) = rgmii.o #realtek/smi.o
+
+#rgmii-objs := init_rgmii.o realtek/smi.o realtek/rtk_api.o realtek/rtl8370_asicdrv.o realtek/rtl8370_asicdrv_dot1x.o realtek/rtl8370_asicdrv_led.o realtek/rtl8370_asicdrv_lut.o realtek/rtl8370_asicdrv_port.o realtek/rtl8370_asicdrv_vlan.o
+
+rgmii-objs := init_rgmii.o smi.o  
+rgmii-objs += realtek_8367b/rtl8367b_asicdrv.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_specialCongest.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_oam.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_eee.o
+rgmii-objs += realtek_8367b/rtl8367b_asicdrv_dot1x.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_interrupt.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_eav.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_rma.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_gpio.o
+rgmii-objs += realtek_8367b/rtl8367b_asicdrv_lut.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_mib.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_rldp.o
+rgmii-objs += realtek_8367b/rtl8367b_asicdrv_vlan.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_hsb.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_eeep.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_misc.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_igmp.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_eeelldp.o
+rgmii-objs += realtek_8367b/rtl8367b_asicdrv_phy.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_qos.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_storm.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_portIsolation.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_green.o
+rgmii-objs += realtek_8367b/rtl8367b_asicdrv_port.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_mirror.o
+rgmii-objs += realtek_8367b/rtl8367b_asicdrv_cputag.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_rrcp.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_pkg.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_acl.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_meter.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_fc.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_unknownMulticast.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_inbwctrl.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_autofallback.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_scheduling.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_trunking.o
+rgmii-objs += realtek_8367b/rtl8367b_asicdrv_led.o
+rgmii-objs += realtek_8367b/rtk_api.o
+#rgmii-objs += realtek_8367b/rtl8367b_asicdrv_svlan.o
+#obj-m += init_rgmii.o realtek/smi.o

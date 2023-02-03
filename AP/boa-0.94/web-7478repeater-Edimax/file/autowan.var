@@ -1,0 +1,3154 @@
+var setLanguage=new Array
+(
+"Language",
+"Sprache",
+"Idioma",
+"Langue",
+"Lingua",
+"Taal",
+"Idioma",
+"Limbă",
+"Jazyk",
+"Język",
+"Язык",
+"Jazyk",
+"Dil",
+"Ngôn ngữ",
+"語言",
+"语言"
+);
+var getStarted=new Array
+(
+"Get Started",
+"Erste Schritte",
+"Introducción",
+"Démarrer",
+"Per iniziare",
+"Begin",
+"Introdução",
+"Începere configurare",
+"Začínáme",
+"Rozpocznij",
+"Начать установку",
+"Začíname",
+"Başlangıç",
+"Bắt đầu",
+"開始",
+"开始"
+);
+var Back=new Array
+(
+"Back",
+"Zurück",
+"Atrás",
+"Retour",
+"Indietro",
+"Terug",
+"Retroceder",
+"Înapoi",
+"Zpět",
+"Wstecz",
+"Назад",
+"Späť",
+"Geri",
+"Lùi",
+"回上一步",
+"回上一步"
+);
+var Next=new Array
+(
+"Next",
+"Weiter",
+"Siguiente",
+"Suivant",
+"Avanti",
+"Volgende",
+"Seguinte",
+"Următor",
+"Další",
+"Dalej",
+"Далее",
+"Ďalšie",
+"ileri",
+"Tiếp",
+"下一步",
+"下一步"
+);
+var linkunset=new Array
+(
+"The Ethernet cable is not properly connected.",
+"Das Ethernet-Kabel ist nicht richtig angeschlossen.",
+"El cable Ethernet no está correctamente conectado.",
+"Le câble Ethernet n'est pas correctement branché.",
+"Il cavo Ethernet non è collegato correttamente.",
+"De ethernetkabel is niet goed aangesloten.",
+"O cabo Ethernet não está ligado correctamente.",
+"Cablul Ethernet nu este conectat adecvat.",
+"Ethernetový kabel není správně zapojen.",
+"Przewód Ethernet nie jest prawidłowo podłączony.",
+"Ethernet кабель не подключен.",
+"Ethernetový kábel nie je správne zapojený.",
+"Ethernet kablosu düzgün bağli degil.",
+"Cáp Ethernet được kết nối không đúng",
+"網路線未正確連接。",
+"网路线未正确连接。"
+);
+var nextBelow=new Array
+(
+"Please select from the list below and click \"Next\".",
+"Bitte wählen Sie aus der Liste unten aus und klicken Sie auf \"Weiter\".",
+"Seleccione de la lista de abajo y haga clic en \"Siguiente\".",
+"Veuillez choisir dans la liste ci-dessous et cliquer sur \"Suivant\".",
+"Selezionare dalla lista sottostante e fare clic su \"Avanti\".",
+"Maak a.u.b. een selectie uit de onderstaande lijst en klik op \"Next (Volgende)\".",
+"Seleccione uma opção da lista abaixo e clique em \"Next\" (Seguinte).",
+"Vă rugăm să selectaţi din lista de mai jos şi apo să faceţi clic pe \"Următor\".",
+"Prosím, vyberte ze seznamu níže a klikněte na \"Další\"",
+"Wybież z listy poniżej i wciśnij \"Dalej\".",
+"Пожалуйста, выберите из списка ниже и нажмите\"Далее\".",
+"Prosím, vyberte zo zoznamu nižšie a kliknite na \"Ďalší \"",
+"Aşağıdaki listeden seçin ve \"İleri \" tıklayınız.",
+"Vui lòng chọn theo danh sách bên dưới và nhấn \"Tiếp\"",
+"請從下表中選擇並點擊\"下一步\"。",
+"请从下表中选择并点击\"下一步\"。"
+);
+var redetect=new Array
+(
+"Detect again",
+"Erneut erfassen",
+"Detectar nuevamente",
+"Recommencer la détection",
+"Rilevare di nuovo",
+"Opnieuw detecteren",
+"Detectar novamente",
+"Detectare din nou",
+"Detekovat znovu",
+"Wykryj ponownie",
+"Определить подключение заново",
+"Detekovať znova",
+"Tekrardan Algılama yapın",
+"Tìm lại",
+"再次偵測",
+"再次侦测"
+);
+var redetect2=new Array
+(
+"I have properly connected the Ethernet cable.",
+"Ich habe das Ethernet-Kabel richtig angeschlossen.",
+"He conectado correctamente el cable Ethernet.",
+"J'ai correctement branché le câble Ethernet.",
+"Ho collegato il cavo Ethernet correttamente.",
+"Ik heb de ethernetkabel goed aangesloten.",
+"Liguei o cabo Ethernet correctamente.",
+"Am conectat adecvat cablul Ethernet.",
+"Mám správně připojený Ethernetový kabel",
+"Przewód Ethernet jest prawidłowo podłączony.",
+"Я подключил Ethernet кабель.",
+"Mám správne pripojený Ethernetový kábel",
+"Ethernet kablosunu düzgün bağladım.",
+"Tối đã kết nối đúng cáp Ethernet",
+"我已經正確連接網路線。",
+"我已经正确连接网路线。"
+);
+var internetConnected=new Array
+(
+"Internet is now connected",
+"Internet ist nun angeschlossen",
+"Ahora Internet está conectado",
+"Connecté à Internet",
+"Internet è ora connesso",
+"Internet is nu verbonden",
+"A Internet está ligada",
+"Internetul este conectat acum",
+"Připojeno k internetu",
+"Ustanowiono połączenie z Internetem",
+"Сейчас Интернет подключен и работает.",
+"Pripojené k internetu",
+"Internet bağlanmıştır",
+"Mạng đã được kết nối",
+"已連接 Internet ",
+"已连接互联网"
+);
+var nextWireless=new Array
+(
+"Please click \"Next\" to configure your wireless network.",
+"Bitte klicken Sie auf \"Weiter\", um Ihr drahtloses Netzwerk zu konfigurieren.",
+"Haga clic en \"Siguiente\" para configurar su red inalámbrica.",
+"Veuillez cliquer sur \"Suivant\" pour configurer votre réseau sans fil.",
+"Fare clic su \"Avanti\" per configurare la rete wireless.",
+"Klik a.u.b. op \"Next (Volgende)\" om uw draadloze netwerk te configureren.",
+"Clique em \"Next\" (Seguinte) para configurar a rede sem fios.",
+"Vă rugăm să faceţi clic pe \"Următor\" pentru a configura reţeaua dumneavoastră wireless.",
+"Klikněte na \"Další\" pro konfiguraci bezdrátové sítě.",
+"Wciśnij \"Dalej\" żeby skonfigurować sieć bezprzewodową.",
+"Пожалуйста, нажмите \"Далее\" для конфигурирования беспроводной сети.",
+"Kliknite na \"Ďalšie \" pre konfiguráciu bezdrôtovej siete.",
+"Kablosuz ağınızı yapılandırmak için \"İleri \" tıklayınız.",
+"Vui lòng nhấn \"Tiếp\" để cấu hình mạng không dây của bạn.",
+"請點擊\"下一步\"來配置您的無線網路。",
+"请点击\"下一步\"来配置您的无线网路。"
+);
+var ISPtip=new Array
+(
+"Please enter the username and password provided by your ISP.",
+"Bitte geben Sie den Benutzernamen und das Passwort Ihres ISP ein.",
+"Ingrese el nombre de usuario y la contraseña suministrada por su proveedor de servicios Internet.",
+"Veuillez entrer le nom d'utilisateur et le mot de passe fournis par votre FAI.",
+"Inserire il nome utente e la password forniti dall'ISP.",
+"Voer a.u.b. de gebruikersnaam en het wachtwoord in die u van uw internetaanbieder hebt gekregen.",
+"Introduza o nome de utilizador e a palavra-passe fornecidos pelo seu ISP.",
+"Vă rugăm să introduceţi numele de utilizator şi parola oferită de furnizorul de servicii Internet.",
+"Prosím zadejte uživatelské jméno a heslo od vašeho ISP",
+"Podaj nazwę użytkownika i hasło otrzymane od dostawcy Internetu.",
+"Пожалуйста, введите имя пользователя и пароль, выданные вашим провайдером.",
+"Prosím zadajte užívateľské meno a heslo od vášho ISP",
+"ISP tarafından verilen kullanıcı adı ve şifrenizi yazin.",
+"Vui lòng nhập Tên truy cập và mật khẩu được cấp bởi ISP của bạn",
+"請輸入您的ISP所提供的用戶名稱和密碼。",
+"请输入您的ISP所提供的用户名称和密码。"
+);
+var manualConfig=new Array
+(
+"Configure manually",
+"Manuelles Konfigurieren",
+"Configurar manualmente",
+"Configurer manuellement",
+"Configura manualmente",
+"Handmatige configuratie",
+"Configurar manualmente",
+"Configurare manuală",
+"Ruční konfigurace.",
+"Konfiguracja ręczna",
+"Настроить вручную",
+"Ručnej konfigurácie.",
+"Manuel Ayarlama",
+"Cấu hình bằng tay",
+"手動配置",
+"手动配置"
+);
+var manualConfig2=new Array
+(
+"I wish to configure it manually.",
+"Ich möchte es manuell konfigurieren.",
+"Deseo configurarlo manualmente.",
+"Je souhaite le configurer manuellement.",
+"Desidero configurarlo manualmente.",
+"Ik wil handmatig configureren.",
+"Pretendo configurá-la manualmente.",
+"Doresc să fac configurările manual.",
+"Chci to nakonfigurovat ručně.",
+"Przejdź do konfiguracji ręcznej",
+"Я хочу настроить это вручную.",
+"Chcem to nakonfigurovať ručne.",
+"Manuel Ayarlamak istiyorum.",
+"Tối muốn cấu hình thiết bị bằng tay",
+"我要手動配置。",
+"我要手动配置。"
+);
+var wificonfig=new Array
+(
+"Please set your Wi-Fi network name (SSID) and Wi-Fi password.",
+"Bitte legen Sie Ihren WLAN-Netzwerknamen (SSID) und Ihr WLAN-Passwort fest.",
+"Ingrese el nombre de su red Wi-Fi (SSID) y la contraseña del Wi-Fi.",
+"Veuillez paramétrer le nom de votre réseau Wi-Fi (SSID) et le mot de passe Wi-Fi.",
+"Impostare il nome della rete Wi-Fi (SSID) e la password Wi-Fi.",
+"Stel a.u.b. uw Wi-Fi netwerknaam (SSID) en Wi-Fi wachtwoord in.",
+"Defina o nome da rede Wi-Fi (SSID) e a palavra-passe da Wi-Fi.",
+"Vă rugăm să setaţi denumirea de reţea Wi-Fi (SSID) şi parola Wi-Fi.",
+"Prosím nastavte název a heslo  vaší WiFi sítě",
+"Podaj nazwę i hasło sieci bezprzewodwej.",
+"Пожалуйста, ведите имя (SSID) вашей Wi-Fi сети и Wi-Fi пароль.",
+"Prosím nastavte názov a heslo vašej WiFi siete",
+"Wi-Fi ağ adını (SSID) ve Wi-Fi şifrenizi giriniz.",
+"Vui lòng nhập tên Mạng Wi-Fi của bạn (SSID) và mật khẩu Wi-Fi của bạn.",
+"請設定您的Wi-Fi 網路名稱（SSID）和Wi-Fi密碼。",
+"请设定您的无线网络连接网路名称（SSID）和无线网络密码。"
+);
+var wirelessname2=new Array
+(
+"Wi-Fi network name",
+"Name des WLAN-Netzwerks",
+"Nombre de la red Wi-Fi",
+"Nom Réseau Wi-Fi",
+"Nome di rete Wi-Fi",
+"Wi-Fi netwerknaam",
+"Nome da rede Wi-Fi",
+"Denumirea reţelei Wi-Fi",
+"Název WiFi sítě",
+"Nazwa sieci bezprzewodowej",
+"Имя Wi-Fi сети",
+"Názov WiFi siete",
+"Wi-Fi ağ adı",
+"Tên mạng Wi-Fi.",
+"Wi-Fi 網路名稱",
+"无线网络连接网路名称"
+);
+var wirelessname5=new Array
+(
+"Wi-Fi network name",
+"Name des WLAN-Netzwerks",
+"Nombre de la red Wi-Fi",
+"Nom Réseau Wi-Fi",
+"Nome di rete Wi-Fi",
+"Wi-Fi netwerknaam",
+"Nome da rede Wi-Fi",
+"Denumirea reţelei Wi-Fi",
+"Název WiFi sítě",
+"Nazwa sieci bezprzewodowej",
+"Имя Wi-Fi сети",
+"Názov WiFi siete",
+"Wi-Fi ağ adı",
+"Tên mạng Wi-Fi.",
+"Wi-Fi 網路名稱",
+"无线网络连接网路名称"
+);
+var wirelesspassword=new Array
+(
+"Wi-Fi password",
+"WLAN-Passwort",
+"Contraseña del Wi-Fi",
+"Mot de passe Wi-Fi",
+"Password Wi-Fi",
+"Wi-Fi wachtwoord",
+"Palavra-passe da Wi-Fi",
+"Parola Wi-Fi",
+"WiFi Heslo",
+"Hasło sieci bezprzewodowej",
+"Wi-Fi пароль",
+"WiFi Heslo",
+"Wi-Fi şifre",
+"Mật khẩu Wi-Fi.",
+"Wi-Fi 密碼",
+"无线网络密码"
+);
+var Morethan8=new Array
+(
+"(at least 8 characters)",
+"(mindestens 8 Zeichen)",
+"(8 caracteres como mínimo)",
+"(au moins 8 caractères)",
+"(almeno 8 caratteri)",
+"(minstens 8 tekens)",
+"(pelo menos 8 caracteres)",
+"(cel puţin 8 caractere)",
+"(minimálně 8 znaků)",
+"(co najmniej 8 znaków)",
+"(не менее 8 символов)",
+"(Minimálne 8 znakov)",
+"en az 8 karakter gereklidir",
+"(tối thiểu 8 ký tự)",
+"（至少8個字符）",
+"（至少8个字符）"
+);
+var pskshouldbe8=new Array
+(
+"Wi-Fi password should be set at least 8 characters.",
+"Das Wi-Fi-Passwort sollte mindestens 8 Zeichen lang sein.",
+"La contraseña Wi-Fi debe tener 8 caracteres como mínimo.",
+"Le mot de passe doit contenir au moins 8 caractères.",
+"La password Wi-Fi deve essere composta da almeno 8 caratteri.",
+"Wi-Fi wachtwoord moet uit minstens 8 tekens bestaan.",
+"A palavra-passe de Wi-Fi deve ter, pelo menos, 8 caracteres.",
+"Parola Wi-Fi trebuie să fie de cel puţin 8 caractere.",
+"WiFi heslo musí mít alespoň 8 zanků.",
+"Hasło sieci bezprzewodowej musi mieć co najmniej 8 znaków.",
+"Wi-Fi пароль должен содержать не менее 8 символов.",
+"WiFi heslo musí mať aspoň 8 Zánka.",
+"Wi-Fi şifresi icin en az 8 karakter gereklidir.",
+"Mật khẩu Wi-Fi nên đặt ít nhất là 8 ký tự.",
+"Wi-Fi 密碼應至少要設定8個字符。",
+"无线网络密码应至少要设定8个字符。"
+);
+var setupDone=new Array
+(
+"Configuration is complete. It is recommended that you backup your settings, please click \"Backup this configuration\" to do so. Then click \"Next\" when you are ready to continue.",
+"Konfiguration vollständig. Es wird empfohlen, dass Sie ein Backup Ihrer Einstellungen anlegen, klicken Sie dazu auf \"Backup dieser Konfiguration\". Klicken Sie auf \"Weiter\", wenn Sie bereit sind fortzufahren.",
+"Se ha completado la configuración. Le recomendamos que haga una copia de seguridad de la configuración. Para hacerlo, haga clic en \"Hacer copia de seguridad de esta configuración\". A continuación, haga clic en \“Siguiente\” cuando esté listo para continuar.",
+"La configuration est terminée. Nous vous recommandons de sauvegarder vos paramètres, veuillez cliquer sur \"Sauvegarder cette configuration\" pour le faire. Cliquez ensuite sur \"Suivant\" lorsque vous êtes prêt à continuer.",
+"La configurazione è terminata. Si consiglia di eseguire il backup delle impostazioni, fare clic su \"Esegui il backup di questa configurazione\" per farlo. Quindi fare clic su \"Avanti\" quando si è pronti per procedere.",
+"De configuratie is gereed. Wij raden aan dat u uw instellingen back-upped, klik a.u.b. op \"Backup this configuration (Deze configuratie back-uppen)\" om dit te doen. Klik daarna op \"Next (verdergaan)\" als u klaar bent om verder te gaan.",
+"A configuração foi concluída. É recomendável criar uma cópia de segurança das suas definições, clique em \"Backup this configuration\" (Criar cópia de segurança desta configuração) para fazê-lo. Em seguida, clique em \"Next\" (Seguinte) quando estiver pronto para continuar.",
+"Configurarea este efectuată. Este recomandat să faceţi o copie de rezervă a setărilor, vă rugăm să faceţi clic pe \"Copie de rezervă a configurărilor\" pentru a face acest lucru. Apoi, faceţi clic pe \"Următor\" când sunteţi gata pentru a continua.",
+"Konfigurace je kompletní. Doporučujeme zálohovat nastavení, klikněte na \"Zálohovat tuto konfiguraci\" pro vytvoření zálohy. Poté klikněte na \"Další\" jakmile budete připraveni pokračovat.",
+"Konfiguracja zakończona. Zalecane jest zapisanie kopii ustawień, wciśnij \"Zapisz konfigurację\" żeby to zrobić. Następnie wciśnij \"Dalej\".",
+"Конфигурирование завершено. Мы рекомендуем сохранить эту конфигурацию. Пожалуйста, нажмите  \"Сохранить эту конфигурацию\". Затем нажмите \"Далее\", когда вы готовы продолжить.",
+"Konfigurácia je kompletný. Odporúčame zálohovať nastavenia, kliknite na \"Zálohovať túto konfiguráciu\" pre vytvorenie zálohy. Potom kliknite na \"Ďalšie\" akonáhle budete pripravení pokračovať.",
+"Single-Band with maximum speed capacity from your router through your extender and to your Wi-Fi device.. Bu yedekleme ayarlarınızı kaydetmek icin lütfen  \"bu ayarlari kaydet\" tiklayiniz ve sonra  \"ileri \" butonuna tıklayınız.",
+"Cấu hình hoàn thành. Lời khuyên là bạn nên sao lưu lại cài đặt của bạn, vui lòng nhấn\"Sao lưu cấu hình này\" để làm việc này. Sau đó nhấn \"Tiếp\" khi bạn sẳn sàng để tiếp tục.",
+"配置已完成。建議您備份您的設定，請點擊\"備份這個配置\"，然後點擊\"下一步\"以繼續。",
+"配置已完成。建議您備份您的設定，請點擊\"備份這個配置\"，然後點擊\"下一步\"以繼續。"
+);
+var internetType=new Array
+(
+"Internet Type",
+"Internettyp",
+"Tipo de Internet",
+"Type Internet",
+"Tipo Internet",
+"Type internet",
+"Tipo de Internet",
+"Tip Internet",
+"Typ Internetového připojení",
+"Rodzaj połączenia internetowego",
+"Тип интернет подключения",
+"Typ Internetového pripojenia",
+"İnternet Tipi",
+"Kiểu mạng",
+"網路類型",
+"网路类型"
+);
+var username=new Array
+(
+"Username",
+"Benutzername",
+"Nombre de usuario",
+"Nom d'utilisateur",
+"Nome utente",
+"Gebruikersnaam",
+"Nome de utilizador",
+"Nume utilizator",
+"Uživatelské jméno",
+"Nazwa użytkownika",
+"Имя пользователя",
+"Užívateľské meno",
+"Kullanıcı adı",
+"Tên truy cập",
+"用戶名稱",
+"用户名称"
+);
+var password=new Array
+(
+"Password",
+"Passwort",
+"Contraseña",
+"Mot de Passe",
+"Password",
+"Wachtwoord",
+"Palavra-passe",
+"Parolă",
+"Heslo",
+"Hasło",
+"Пароль",
+"Heslo",
+"Şifre",
+"Mật khẩu",
+"密碼",
+"密码"
+);
+var backup=new Array
+(
+"Backup this configuration",
+"Backup dieser Konfiguration",
+"Hacer copia de seguridad de esta configuración",
+"Sauvegarder cette configuration",
+"Esegui il backup di questa configurazione",
+"Deze configuratie back-uppen",
+"Criar uma cópia de segurança desta configuração",
+"Copie de rezervă configurărilor",
+"Zálohovat tuto konfiguraci",
+"Zapisz konfigurację",
+"Сохранить эту конфигурацию",
+"Zálohovať túto konfiguráciu",
+"Bu kurulumu yedekle",
+"Sao lưu cấu hình này.",
+"備份此配置",
+"备份此配置"
+);
+var selectType=new Array
+(
+"Please select your internet service type. If you are not sure, please contact your Internet Service Provider (ISP).",
+"Bitte wählen Sie den Typ Ihres Internetdienstes aus. Wenn Sie nicht sicher sind, kontaktieren Sie bitte Ihren Internet Service Provider (ISP).",
+"Seleccione su tipo de servicio Internet. Si no está seguro, póngase en contacto con su proveedor de servicios Internet (ISP).",
+"Veuillez sélectionner votre type de service Internet. En cas de doute, veuillez contacter votre Fournisseur d'Accès Internet (FAI).",
+"Selezionare il tipo di servizio Internet. In caso di dubbi, contattare il provider di servizi Internet (ISP).",
+"Selecteer uw type internet. Als u twijfelt, neem dan contact op met uw internetaanbieder (ISP).",
+"Seleccione o tipo de serviço Internet. Se não tiver a certeza, contacte o seu Fornecedor de serviços Internet (WISP).",
+"Vă rugăm să selectaţi tipul serviciilor de Internet. Dacă nu sunteţi sigur, vă rugăm să contactaţi furnizorul de servicii Internet (ISP).",
+"Prosím vyberte typ internetového připojení. Pokud si nejste jisti, kontaktujte poskytovatele internetového připojení.",
+"Wybierz rodzaj połączenia internetowego. Jeśli masz wątpliwości, skontaktuj się z dostawcą Internetu.",
+"Пожалуйста, выберите тип вашего интернет подключения, если вы этого не знаете, то, пожалуйста, свяжитесь с вашим провайдером.",
+"Prosím vyberte typ internetového pripojenia. Ak si nie ste istý, kontaktujte poskytovateľa internetového pripojenia.",
+"Internet servis türünü seçiniz. Emin değilseniz, İnternet Servis Sağlayıcısı (ISP) başvurun.",
+"Vui lòng chọn kiểu dịch vụ mạng của bạn. Nếu bạn không chắc, vui lòng liên hệ với nhà cung cấp dịch vụ mạng (ISP)",
+"請選擇您的Internet服務類型。如果您不能確定，請聯繫您的ISP(網路服務提供商）。",
+"請選擇您的Internet服務類型。如果您不能確定，請聯繫您的ISP(網路服務提供商）。"
+);
+var DHCP=new Array
+(
+"Dynamic IP",
+"Dynamische IP",
+"IP dinámica",
+"IP dynamique",
+"IP dinamico",
+"Dynamisch IP",
+"IP dinâmico",
+"IP dinamic",
+"Dynamická IP",
+"Dynamiczne IP",
+"Динамический IP",
+"Dynamická IP",
+"Dinamik IP",
+"IP động",
+"動態IP",
+"动态IP"
+);
+var staticIP=new Array
+(
+"Static IP",
+"Statische IP",
+"IP estática",
+"IP fixe",
+"IP statico",
+"Statisch IP",
+"IP estático",
+"IP static",
+"Statická IP",
+"Stałe IP",
+"Статический IP",
+"Statická IP",
+"Statik IP",
+"IP tĩnh",
+"靜態IP",
+"静态IP"
+);
+var PPPoE=new Array
+(
+"PPPoE",
+"PPPoE",
+"PPPoE",
+"PPPoE",
+"PPPoE",
+"PPPoE",
+"PPPoE",
+"PPPoE",
+"PPPoE",
+"PPPoE",
+"PPPoE",
+"PPPoE",
+"PPPoE",
+"PPPoE",
+"PPPoE協議",
+"的PPPoE协议"
+);
+var PPTP=new Array
+(
+"PPTP",
+"PPTP",
+"PPTP",
+"PPTP",
+"PPTP",
+"PPTP",
+"PPTP",
+"PPTP",
+"PPTP",
+"PPTP",
+"PPTP",
+"PPTP",
+"PPTP",
+"PPTP",
+"PPTP",
+"PPTP"
+);
+var TelBP=new Array
+(
+"Telstra Big Pond",
+"Telstra Big Pond",
+"Telstra Big Pond",
+"Telstra Big Pond",
+"Telstra Big Pond",
+"Telstra Big Pond",
+"Telstra Big Pond",
+"Telstra Big Pond",
+"Telstra Big Pond",
+"Telstra Big Pond",
+"Telstra Big Pond",
+"Telstra Big Pond",
+"Telstra Big Pond",
+"Telstra Big Pond",
+"Telstra Big Pond",
+"Telstra的大池塘"
+);
+var L2TP=new Array
+(
+"L2TP",
+"L2TP",
+"L2TP",
+"L2TP",
+"L2TP",
+"L2TP",
+"L2TP",
+"L2TP",
+"L2TP",
+"L2TP",
+"L2TP",
+"L2TP",
+"L2TP",
+"L2TP",
+"L2TP",
+"L2TP"
+);
+var HostName=new Array
+(
+"Host name",
+"Hostname",
+"Nombre de host",
+"Nom d'hôte",
+"Nome host",
+"Hostnaam",
+"Nome de anfitrião",
+"Nume gazdă",
+"Název hostitele",
+"Nazwa hosta",
+"Имя хоста",
+"Názov hostiteľa",
+"Ana bilgisayar adı",
+"Tên máy chủ ",
+"主機名",
+"主机名"
+);
+var MACAddress=new Array
+(
+"MAC address",
+"MAC-Adresse",
+"Dirección MAC",
+"Adresse MAC",
+"Indirizzo MAC",
+"MAC-adres",
+"Endereço MAC",
+"Adresă MAC",
+"MAC adresa",
+"Adres MAC",
+"MAC адрес",
+"MAC adresa",
+"Mac adresi",
+"Địa chỉ MAC",
+"MAC位址",
+"MAC位址"
+);
+var CloneMAC=new Array
+(
+"Clone MAC",
+"MAC klonen",
+"Clonar MAC",
+"Clonage MAC",
+"Clona MAC",
+"Clone MAC",
+"Clonar MAC",
+"Clonare MAC",
+"Klonovat MAC",
+"Klonuj adres MAC",
+"Клонировать MAC",
+"Klonovať MAC",
+"Clone MAC",
+"Clone MAC",
+"複製MAC位址",
+"复制MAC位址"
+);
+var dnsAddr=new Array
+(
+"DNS server address",
+"DNS-Server-Adresse",
+"Dirección del servidor DNS",
+"Adresse serveur DNS",
+"Indirizzo server DNS",
+"DNS server adres",
+"Endereço do servidor DNS",
+"Adresă server DNS",
+"Adresa DNS serveru",
+"Adres serwera DNS",
+"Адрес DNS сервера",
+"Adresa DNS servera",
+"DNS adresi",
+"Địa  chỉ máy chủ DNS",
+"DNS伺服器位址",
+"DNS伺服器位址"
+);
+var dnsAddr1=new Array
+(
+"DNS1",
+"DNS1",
+"DNS1",
+"DNS1",
+"DNS1",
+"DNS1",
+"DNS1",
+"DNS1",
+"DNS1",
+"DNS 1",
+"DNS1",
+"DNS1",
+"DNS2",
+"DNS1",
+"DNS1",
+"DNS1"
+);
+var dnsAddr2=new Array
+(
+"DNS2",
+"DNS2",
+"DNS2",
+"DNS2",
+"DNS2",
+"DNS2",
+"DNS2",
+"DNS2",
+"DNS2",
+"DNS 2",
+"DNS2",
+"DNS2",
+"DNS3",
+"DNS2",
+"DNS2",
+"DNS2"
+);
+var dnsAddr3=new Array
+(
+"DNS",
+"DNS",
+"DNS",
+"DNS",
+"DNS",
+"DNS",
+"DNS",
+"DNS",
+"DNS",
+"DNS",
+"DNS",
+"DNS",
+"DNS",
+"DNS",
+"DNS",
+"DNS"
+);
+var IPAddress=new Array
+(
+"IP address",
+"IP-Adresse",
+"Dirección IP",
+"Adresse IP",
+"Indirizzo IP",
+"IP-adres",
+"Endereço IP",
+"Adresă IP",
+"IP adresa",
+"Adres IP",
+"IP адрес",
+"IP adresa",
+"IP adresi",
+"Địa chỉ IP",
+"IP位址",
+"IP位址"
+);
+var SubnetMask=new Array
+(
+"Subnet Mask",
+"Subnetzmaske",
+"Máscara de subred",
+"Masque de sous-réseau",
+"Maschera sottorete",
+"Subnet mask",
+"Máscara de sub-rede",
+"Mască subreţea",
+"Maska podsítě",
+"Maska podsieci",
+"Маска сети",
+"Maska podsiete",
+"Subnet Mask",
+"Subnet Mask",
+"子網域遮罩",
+"子网域遮罩"
+);
+var defaultGateway=new Array
+(
+"Default gateway",
+"Standardgateway",
+"Puerta de enlace predeterminada",
+"Passerelle par défaut",
+"Gateway predefinito",
+"Standaard gateway",
+"Gateway predefinido",
+"Gateway implicit",
+"Výchozí brána",
+"Brama domyślna",
+"Основной шлюз",
+"Predvolená brána",
+"Default gateway",
+"Default gateway",
+"預設閘道",
+"预设闸道"
+);
+var ObtainAutomatically=new Array
+(
+"Obtain automatically",
+"Automatisch erhalten",
+"Obtener automáticamente",
+"Obtention automatique",
+"Ottieni automaticamente",
+"Automatisch verkrijgen",
+"Obter automaticamente",
+"Obţinere automată",
+"Získat automaticky",
+"Uzyskaj automatycznie",
+"Получить автоматически",
+"Získať automaticky",
+"otomatik ayar",
+"Tự động nhận",
+"自動取得",
+"自动取得"
+);
+var PPTPGateway=new Array
+(
+"PPTP Gateway",
+"PPTP-Gateway",
+"Puerta de enlace PPTP",
+"Passerelle PPTP",
+"Gateway PPTP",
+"PPTP gateway",
+"Gateway PPTP",
+"Gateway PPTP",
+"PPTP brána",
+"Brama PPTP",
+"PPTP шлюз",
+"PPTP brána",
+"PPTP Gateway",
+"Cổng PPTP",
+"PPTP 閘道",
+"PPTP 闸道"
+);
+var L2TPGateway=new Array
+(
+"L2TP Gateway",
+"L2TP-Gateway",
+"Puerta de enlace L2TP",
+"Passerelle L2TP",
+"Gateway L2TP",
+"L2TP-gateway",
+"Gateway L2TP",
+"Gateway L2TP",
+"L2TP brána",
+"Brama L2TP",
+"L2TP шлюз",
+"L2TP brána",
+"L2TP Gateway",
+"Cổng L2TP",
+"L2TP 閘道",
+"L2TP 闸道"
+);
+var use=new Array
+(
+"use",
+"verwenden",
+"uso",
+"utiliser",
+"usa",
+"gebruik",
+"utilizar",
+"utilizare",
+"Použít",
+"użyj",
+"Использовать",
+"Použiť",
+"kullanım",
+"Sử dụng",
+"使用",
+"使用"
+);
+var noresponse=new Array
+(
+"No response from the remote network",
+"Keine Antwort vom Remote-Netzwerk",
+"Ninguna respuesta de la red remota",
+"Le réseau déporté ne répond pas.",
+"Nessuna risposta dalla rete remota",
+"Geen reactie van het externe netwerk",
+"Não houve qualquer resposta da rede remota",
+"Niciun răspuns de la reţea",
+"Žádná odezva od vzdálené sítě",
+"Brak odpowiedzi ze zdalnej sieci",
+"Удаленная сеть не отвечает",
+"Žiadna odozva od vzdialenej siete",
+"Uzak ağdan yanıt yok",
+"Không hồi đáp từ xa qua mạng",
+"遠端網路無回應",
+"远端网路无回应"
+);
+var InvalidSomething=new Array
+(
+"Invalid #####.",
+"Ungültige #####.",
+"##### no válido.",
+"##### incorrect.",
+"Non valido #####.",
+"Ongeldig #####.",
+"##### inválido.",
+"Nevalid #####.",
+"Neplatný ####",
+"Nieprawidłowe #####.",
+"Неверный #####.",
+"Neplatný ####",
+"Geçersiz #####.",
+"Không giá trị###",
+"無效#####",
+"无效#####"
+);
+var shouldbeSomething=new Array
+(
+"It should be ####.",
+"Diese muss #### sein.",
+"Debería ser ####.",
+"Ce devrait être ####.",
+"Dovrebbe contenere ####.",
+"Het moet zijn ####.",
+"Deve ser ####.",
+"Trebuie să fie ####.",
+"Měl by být ####",
+"Powinno być ####.",
+"Должен быть ####.",
+"Mal by byť ####",
+"Olmasi Gereken ####.",
+"Nó nên là###",
+"它應該是####",
+"它应该是####"
+);
+var decimalnumber=new Array
+(
+"Decimal number (0-9)",
+"Dezimalzahl (0-9)",
+"Número decimal (0-9)",
+"Nombre décimal (0-9).",
+"Numero decimale (da 0 a 9)",
+"Decimaal nummer (0-9)",
+"Número decimal (0 a 9)",
+"Număr zecimal (0-9)",
+"Desítkové číslo (0-9)",
+"Liczby dziesiętne (0-9)",
+"десятичное число (0-9)",
+"Desiatkové číslo (0-9)",
+"Decimal sayı (0-9)",
+"Số thập phân (0-9)",
+"十進位數（0-9）",
+"十进位数（0-9）"
+);
+var shouldbeSomethingRange=new Array
+(
+"It should be #### (range in ####@st digit)",
+"Sie sollte #### sein (Bereich in #### @st Ziffer)",
+"Debería ser #### (intervalo en ####@st digit)",
+"Ce devrait être #### (situé dans les #### premiers chiffres)",
+"Dovrebbe contenere #### (intervallo in ####@st cifra)",
+"Het moet zijn #### (reeks in ####@st cijfer)",
+"Deve ser #### (intervalo no ####@.º dígito)",
+"Trebuie să fie #### (seria de ####@ cifră)",
+"Mělo by bý #### (rozsah od ####@stdigit)",
+"Powinno być #### (z zakresu ####@st digit)",
+"Должен быть #### (диапазон ####@st)",
+"Malo by BY #### (rozsah od #### @ stdigit)",
+"olmasi gereken #### (range in ####@st digit)",
+"It should be #### (range in ####@st digit)",
+"它應該是####（在#### 範圍內）",
+"它应该是####（在####范围内）"
+);
+var routermode=new Array
+(
+"Wi-Fi Router",
+"Wi-Fi-Router",
+"Enrutador Wi-Fi",
+"Routeur Wi-Fi",
+"Router Wi-Fi",
+"Wi-Fi Router",
+"Router Wi-Fi",
+"Router Wi-Fi",
+"Wi-Fi Router",
+"Router bezprzewodowy",
+"Wi-Fi маршрутизатор",
+"Wi-Fi Router",
+"Wi-Fi Router",
+"Định tuyến không dây",
+"無線分享器",
+"无线路由器"
+);
+var apmode=new Array
+(
+"Access Point",
+"Access Point",
+"Punto de acceso",
+"Point d'accès",
+"Punto di accesso",
+"Access Point",
+"Ponto de acesso",
+"Punct de acces",
+"Přístupový bod",
+"Punkt dostępu",
+"Точка доступа",
+"Prístupový bod",
+"Access Point",
+"Điểm truy cập",
+"無線AP",
+"无线AP"
+);
+var repeatermode=new Array
+(
+"Wi-Fi Extender",
+"Bereichserweiterer",
+"Extensor de alcance",
+"Répéteur",
+"Unità di estensione di campo",
+"Wi-Fi Extender",
+"Extensão de alcance",
+"Amplificator de semnal",
+"Extender dosahu",
+"Ekspander sieci bezprzewodowej",
+"Ретранслятор",
+"Extender dosahu",
+"Menzil genişleticisi",
+"Mở rộng khoảng cách",
+"無線訊號延伸器",
+"无线讯号延伸器"
+);
+var repeatermode_info=new Array
+(
+"This setup wizard will assist you to setup a wireless connection between the Wi-Fi extender and your existing router. Place the Wi-Fi extender close to the area where you wish to extend your network, but please ensure the Wi-Fi extender is still within the coverage range of your existing wireless network.",
+"Dieser Einrichtungs-Assistent hilft Ihnen, eine drahtlose Verbindung zwischen dem Bereichserweiterer und Ihrem vorhandenen Router einzurichten. Stellen Sie den Bereichserweiterer bitte in die Nähe der Stelle, an der Sie Ihr Netzwerk erweitern wollen, aber achten Sie bitte darauf, dass der Bereichserweiterer noch in der Reichweite Ihres vorhandenen Drahtlosnetzwerks ist.",
+"El asistente de instalación le ayudará a instalar la conexión inalámbrica entre el extensor de alcance y su enrutador existente. Coloque el extensor de alcance cerca de la zona hacia donde desea extender su red, pero compruebe que el extensor de alcance aún esté dentro del alcance de la cobertura de su red inalámbrica existente.",
+"Cet assistant de configuration va vous aider à configurer une connexion sans fil entre le répéteur et votre routeur existant. Placez le répéteur proche de la zone où vous souhaitez étendre votre réseau, tout en vous assurant qu'il reste dans la plage de couverture de votre réseau sans fil existant.",
+"Questa procedura di configurazione guidata fornirà assistenza nella configurazione di una connessione wireless tra l'unità di estensione di campo e il router esistente. Posizionare l'unità di estensione di campo nell'area in cui si desidera estendere la propria rete, ma assicurarsi che l'unità di estensione di campo sia ancora entro la copertura della rete wireless esistente.",
+"Deze setup wizard helpt u met het instellen van een draadloze verbinding tussen de Wi-Fi extender en uw router. Plaats de Wi-Fi extender dichtbij het gebied waar u uw netwerk wilt uitbreiden, maar zorg ervoor dat de Wi-Fi extender zich nog steeds binnen het bereik van uw huidige draadloze netwerk bevind.",
+"Este assistente de configuração irá ajudá-lo a configurar uma ligação sem fios entre a extensão de alcance e o router. Coloque a extensão de alcance próxima da área onde pretende alargar a sua rede, mas certifique-se de que a extensão de alcance permanece dentro da área de cobertura da sua rede sem fios.",
+"Aplicaţia de configurare vă va asista în configurarea unei conexiuni între amplificatorul de semnal şi routerul existent. Puneţi amplificatorul de semnal acolo unde doriţi să extindeţi reţeaua, însă vă rugăm să vă asiguraţi că amplificatorul este în domeniul de acoperire al reţelei wireless existente.",
+"Tento průvodce Vám pomůže vytvořit bezdrátové připojení mezi extenderem a existujícím routerem. Umístěte extender blízko místa, kam chcete síť rozšířit, ale zároveň se ujistěte, že je tato oblast stále v dosahu existující bezdrátové sítě.",
+"iQ Setup pomoże Ci w skonfigurowaniu połączenia bezprzewodowego między ekspanderem a routerem. Umieść ekspander w miejscu, w którym chcesz zwiększyć zasięg sieci bezprzewodowej. Upewnij się jednak, że ekspander znajduje się w zasięgu istniejącej sieci bezprzewodowej.",
+"Этот мастер установки поможет вам настроить беспроводное соединение между ретранслятором и существующим маршрутизатором. Поместите ваш ретранслятор в область, где вы хотите расширить вашу беспроводную сеть. Пожалуйста, убедитесь, что беспроводной мост находится в зоне покрытия вашей беспроводной сети.",
+"Tento sprievodca vám pomôže vytvoriť bezdrôtové pripojenie medzi Extender a existujúcim routerom. Umiestnite extender blízko miesta, kam chcete sieť rozšíriť, ale zároveň sa uistite, že je táto oblasť stále v dosahu existujúcej bezdrôtovej siete.",
+"Bu hizli kurulum kablosuz aginizi ve menzil  genişleticisini  bağlamaniz icin size yardımcı olacaktır.Menzil Genisleticisini aginizi uzatmak istediginiz bölgeye yerlestirin , ve  kablosuz aginiza bagli oldugunuza  emin olun.",
+"Hướng dẫn cài đặt này sẽ giúp bạn thiết lập kết nối không dây giữa  thiết bị Mở rộng khoảng cách với Định tuyến hiện có của bạn. Đặt thiết bị Mở rộng gần với khu vực mà bạvar n muốn mở rộng mạng của bạn, nhưng hãy đảm bảo các thiết bị Mở rộng vẫn nằm trong phạm vi phủ sóng của mạng không dây hiện có.",
+"此設定精靈將幫助您設定無線訊號延伸器和無線分享器之間的無線連接。請將無線訊號延伸器放置在接近您想延伸您的無線網路的地方，但請確認，無線訊號延伸器仍在無線訊號的覆蓋範圍內",
+"此设定精灵将帮助您设定无线讯号延伸器和无线路由器之间的无线连接。请将无线讯号延伸器放置在接近您想延伸您的无线网络的地方，但请确认，无线讯号延伸器仍在无线讯号的覆盖范围内"
+);
+var ObtainIpauto=new Array
+(
+"Obtain an IP address automatically",
+"IP-Adresse automatisch beziehen",
+"Obtener automáticamente una dirección IP",
+"Obtenir une adresse IP automatiquement",
+"Ottenere automaticamente l'indirizzo IP",
+"IP-adres automatisch verkrijgen",
+"Obter um endereço IP automaticamente",
+"Obţinerea automată adresă IP",
+"Získat IP adresu automaticky",
+"Uzyskaj adres IP automatycznie",
+"Получить IP адрес автоматически",
+"Získať IP adresu automaticky",
+"Otomatik olarak  IP adresi al",
+"Tự động nhận địa chỉ IP",
+"自動取得IP位址",
+"自动取得IP地址"
+);
+var FollowIp=new Array
+(
+"Use the following IP address",
+"Folgende IP-Adresse verwenden",
+"Utilice la siguiente dirección IP",
+"Utiliser l'adresse IP suivante",
+"Utilizzare il seguente indirizzo IP",
+"Gebruik het volgende IP-adres",
+"Utilize o seguinte endereço IP",
+"Utilizare Adresă IP următoare",
+"Použít následující IP adresu",
+"Użyj następującego adresu IP",
+"Использовать следующие  IP адреса",
+"Použiť nasledujúcu IP adresu",
+"Aşağıdaki IP adresini kullan",
+"Sử dụng địa chỉ IP sau",
+"使用下列的IP位址",
+"使用下列的IP地址"
+);
+var mode=new Array
+(
+"Mode",
+"Modus",
+"Modo",
+"Mode",
+"Modalità",
+"Modus",
+"Modo",
+"Mod",
+"Režim",
+"Tryb",
+"Режим",
+"Režim",
+"Fonksiyon",
+"Chế độ",
+"模式",
+"模式"
+);
+var wiz_survy_info=new Array
+(
+"The Wi-Fi extender is surveying all available routers nearby. Please select the router you wish to connect to. If the router you wish to connect is not listed, try clicking \"Refresh\". To connect to a hidden SSID please select \"Setup extender manually\".",
+"Der Bereichserweiterer überwacht alle vorhandenen Router in der Nähe. Wählen Sie bitte den Router aus, mit dem Sie sich verbinden wollen. Wenn der Router, mit dem Sie sich verbinden wollen, nicht aufgelistet ist, versuchen Sie, auf \"Refresh\" zu klicken. Um sich mit einem versteckten WLAN-Namen zu verbinden, wählen Sie bitte \"Erweiterer manuell einrichten\".",
+"El extensor de alcance está inspeccionando todos los enrutadores disponibles en los alrededores. Seleccione el enrutador al que desea conectarse. Si el enrutador al que desea conectarse no aparece en la lista, haga clic en \“Actualizar\”. Para conectarse a un SSID oculto, seleccione \"Configurar el extensor manualmente\".",
+"Le répéteur interroge tous les routeurs disponibles à proximité. Veuillez sélectionner le routeur auquel vous voulez vous connecter. Si le routeur auquel vous voulez vous connecter ne s'affiche pas, essayez de cliquer sur \"Actualiser\". Pour vous connecter à un SSID masqué, veuillez sélectionner \"Configurer le répéteur manuellement\".",
+"L'unità di estensione di campo sta analizzando tutti i router disponibili nelle vicinanze. Selezionare il router al quale si desidera connettersi. Se il router al quale si desidera connettersi non è elencato, provarea cliccare su \"Aggiorna\". Per connettersi a un SSID nascosto, selezionare \"Configura unità di estensione manualmente\".",
+"De Wi-Fi extender zoekt naar alle beschikbare routers. Selecteer de router waarmee u verbinding wilt maken. Als de router waar u verbinding mee wilt maken niet in de lijst staat, klik dan op \"Refresh (Vernieuwen)\". Kies \"Setup extender manually (Extender handmatig instellen)\" om verbinding te maken met een verborgen SSID.",
+"A extensão de alcance pesquisa todos os routers disponíveis por perto. Seleccione o router ao qual pretende estabelecer ligação. Se o router ao qual pretende ligar não aparecer na lista, clique em \"Refresh\" (Actualizar). Para estabelecer ligação a um SSID oculto, seleccione \"Setup extender manually\" (Configurar extensão manualmente).",
+"Amplificatorul de semnal interoghează toate routerele existente în jur. Vă rugăm să selectaţi routerul la care doriţi să vă conectaţi. În cazul în care routerul la care doriţi să vă conectaţi nu este listat, încercaţi să faceţi clic pe \"Împrospătare\". Pentru a vă conecta la un SSID ascuns, vă rugăm să selectaţi\"Configurare manuală extender\".",
+"Extender vyhledává bezdrátové sítě v dosahu. Prosím vyberte tu síť, ke které se chcete připojit. Pokud taková síť není na seznamu, klikněte na \"Obnovit\". Pro připojení ke skryté síti vyberte \"Nastavit extender ručně\"",
+"Ekspander wyszukuje sieci bezprzewodowe. Wybierz sieć, z którą chcesz się połączyć. Jeśli sieci, z którą chcesz się połączyć, nie ma liście, wciśnij \"Odśwież\". Żeby połączyć się z ukrytą siecią wciśnij \"Skonfiguruj ekspander ręcznie\".",
+"Ретранслятор сканирует наличие всех доступных беспроводных сетей. Пожалуйста, выберите сеть, к которой вы хотите присоединиться. Если нужной вам беспроводной сети нет в списке, нажмите \"обновить\". Для присоединения к сети со скрытым идентификатором SSID, пожалуйста, выберите \"Установить ретранслятор вручную\".",
+"Extender vyhľadáva bezdrôtové siete v dosahu. Prosím vyberte tú sieť, ku ktorej sa chcete pripojiť. Ak takáto sieť nie je na zozname, kliknite na \"Obnoviť \". Pre pripojenie ku skrytej sieti vyberte \"Nastaviť extender ručne \"",
+"Aralık genişletici yakınlarda tüm mevcut yönlendiricileri ölçme durumunda. Bağlanmak istediğiniz yönlendirici seçiniz. Bağlanmak istediğiniz yönlendirici listede yoksa, \"Yenile\" tıklamayı deneyin. Gizli SSID bağlanmak için  \"elle kurulum genişletici\" seciniz .  ",
+"Thiết bị Mở rộng đang dò tìm các Định tuyến có sẵn gần đó. Vui lòng chọn các Định tuyến mà bạn muốn kết nối tới. Nếu Định tuyến mà bạn muốn kết nối không var được liệt kê, thử nhấn \"Làm mới\". Để kết nối với 1 SSID ẩn vùi lòng chọn \"Thiết lập Mở rộng bằng tay\".",
+"此無線訊號延伸器正在搜尋附近所有可用的無線分享器。請選擇您想要連接到分享器。如果您要連接的分享器不在清單上，請試試點選\“重新整理\”。若您要連接到隱藏的SSID，請選擇\“手動設定無線訊號延伸器\”",
+"此无线讯号延伸器正在搜寻附近所有可用的无线路由器。请选择您想要连接到路由器。如果您要连接的路由器不在清单上，请试试点选\“重新整理\”。若您要连接到隐藏的SSID，请选择\“手动设定无线讯号延伸器\”"
+);
+var WirelessSiteSurvey=new Array
+(
+"Wireless Site Survey ",
+"WLAN-Standortaufnahme ",
+"Sondeo de sitio inalámbrico ",
+"Évaluation du sans fil du site ",
+"Indagine sito wireless ",
+"Overzicht draadloze omgeving ",
+"Inquérito no local sem fios ",
+"Interogare locaţie wireless ",
+"Vyhledat bezdrátové sítě",
+"Lista sieci bezprzewodowych",
+"Поиск беспроводных сетей",
+"Vyhľadať bezdrôtové siete",
+"W-LAN ortamı",
+"Đánh giá mạng không dây",
+"無線站台掃描",
+"无线站台扫描"
+);
+var select=new Array
+(
+"Select",
+"Select (Auswählen)",
+"Seleccionar",
+"Sélectionner",
+"Seleziona",
+"Selecteer",
+"Seleccionar",
+"Selectare",
+"Vybrat",
+"Wybierz",
+"Выбрать",
+"Vybrať",
+"Seç",
+"Chọn",
+"選擇",
+"选择"
+);
+var SSID=new Array
+(
+"SSID",
+"SSID",
+"SSID",
+"SSID",
+"SSID",
+"SSID",
+"SSID",
+"SSID",
+"SSID",
+"Nazwa sieci bezprzewodowej",
+"SSID",
+"SSID",
+"Kablosuz Ag adi (SSID)",
+"SSID",
+"SSID",
+"SSID"
+);
+var Signal=new Array
+(
+"Signal",
+"Signal",
+"Señal",
+"Signal",
+"Segnale",
+"Signaal",
+"Sinal",
+"Semnal",
+"Signál",
+"Sygnał",
+"Уровень",
+"Signál",
+"Sinyal",
+"Tính hiệu",
+"訊號",
+"讯号"
+);
+var Setupextendermanually=new Array
+(
+"Setup extender manually",
+"Erweiterer manuell einrichten",
+"Configurar el extensor manualmente",
+"Configurer le répéteur manuellement",
+"Configura unità di estensione manualmente",
+"Extender handmatig instellen",
+"Configurar extensão manualmente",
+"Configurare manuală extender",
+"Nastavit exender ručně",
+"Skonfiguruj ekspander ręcznie",
+"Установить ретранслятор вручную",
+"Nastaviť exender ručne",
+"Ağ genışleticiği manuel ayarla",
+"Thiết lập Mở rộng bằng tay.",
+"手動設定無線訊號延伸器",
+"手动设定无线讯号延伸器"
+);
+var DeviceSSID=new Array
+(
+"Device SSID",
+"Geräte-WLAN-Name",
+"SSID del dispositivo",
+"SSID de l'appareil",
+"SSID del dispositivo",
+"Apparaat SSID",
+"SSID do dispositivo",
+"SSID dispozitiv",
+"SSID zařízení",
+"Nazwa sieci urządzenia",
+"устройство SSID",
+"SSID zariadenia",
+"ürün kablosuz ağ adi ( SSID)",
+"SSID của thiết bị.",
+"設備的SSID",
+"设备的SSID"
+);
+var HideSSID=new Array
+(
+"Hide SSID",
+"WLAN-Name verstecken",
+"Ocultar SSID",
+"Masquer le SSID",
+"Nascondi SSID",
+"Verberg SSID",
+"Ocultar SSID",
+"Ascunde SSID",
+"Skrýt SSID",
+"Ukrywanie nazwy sieci",
+"Скрыть SSID",
+"Skryť SSID",
+"Gizli kablosuz ağ adi (SSID)",
+"SSID Ẩn",
+"隱藏SSID",
+"隐藏SSID"
+);
+var refresh=new Array
+(
+"Refresh",
+"Auffrischen",
+"Actualizar",
+"Actualiser",
+"Aggiorna",
+"Vernieuwen",
+"Actualizar",
+"Reîmprospătare",
+"Obnovit",
+"Odśwież",
+"Обновить",
+"Obnoviť",
+"Yenile",
+"Làm mới",
+"重新整理",
+"重新整理"
+);
+var SomethingCannotBeEmpty=new Array
+(
+"##### cannot be empty.",
+"##### darf nicht leer sein.",
+"##### no puede estar vacío.",
+"##### ne peut être vide.",
+"##### non può essere vuoto.",
+"##### kan niet leeg zijn.",
+"##### não pode estar em branco.",
+"##### nu poate fi gol.",
+"#### nemůže být prázdný.",
+"##### nie może być puste.",
+"##### не может быть пустым.",
+"#### Nemôže byť prázdny.",
+"##### Boşluk olamaz.",
+"#### không thể làm trống",
+"#####不能為空白",
+"#####不能为空白"
+);
+var ConnectionTest24=new Array
+(
+"Testing wireless connection",
+"Drahtlosverbindung testen",
+"Comprobando la conexión inalámbrica...",
+"Test de la connexion sans fil",
+"Test della connessione wireless",
+"Draadloze verbinding testen",
+"Testar ligação sem fios",
+"Testarea conexiunii wireless",
+"Testování bezdrátového připojení",
+"Testowanie połączenia bezprzewodowego",
+"Тестирование беспроводной связи",
+"Testovanie bezdrôtového pripojenia",
+"Kablosuz bağlantıyı sınama",
+"Kiểm tra kết nối mang không dây",
+"測試無線連接",
+"测试无线连接"
+);
+var OpenSecurity=new Array
+(
+"Open Security",
+"Sicherheit öffnen",
+"Abrir Seguridad",
+"Sécurité ouverte",
+"Apri Sicurezza",
+"Open beveiliging",
+"Segurança aberta",
+"Deschide securitate",
+"Bez zabezpečení",
+"Bez zabezpieczeń",
+"Открытый доступ",
+"Bez zabezpečenia",
+"Güvenlik açık ",
+"Bảo mật mở",
+"開放安全性",
+"开放安全性"
+);
+var SecurityKey=new Array
+(
+"Security Key",
+"Sicherheitsschlüssel",
+"Clave de seguridad",
+"Clé de sécurité",
+"Chiave di sicurezza",
+"Beveiligingssleutel",
+"Chave de segurança",
+"Cheie de securitate",
+"Bezpečnostní klíč",
+"Klucz zabezpieczeń",
+"Ключ безопасности",
+"Bezpečnostný kľúč",
+"Güvenlik Anahtarı",
+"Từ khóa bảo mật",
+"安全密鑰",
+"安全密钥"
+);
+var hw_info3=new Array
+(
+"Please connect one end of an Ethernet cable to your modem and connect the other end to the Ethernet port on the router.",
+"Schließen Sie bitte ein Ende des Ethernet-Kabels an Ihr vorhandenes Modem und das andere Ende an den Ethernet-Anschluss am Router an.",
+"Conecte un extremo del cable Ethernet al módem y, el otro extremo, al puerto Ethernet del enrutador.",
+"Veuillez brancher une extrémité d'un câble Ethernet à votre modem et brancher l'autre extrémité au port Ethernet du routeur.",
+"Collegare un'estremità di un cavo Ethernet al modem e collegare l'altra estremità alla porta Ethernet sul router.",
+"Verbind a.u.b. één uiteinde van een ethernetkabel met uw modem en verbind het andere uiteinde met de ethernet-poort van de router.",
+"Ligue uma extremidade de um cabo Ethernet ao modem e ligue a outra extremidade à porta Ethernet no router.",
+"Vă rugăm să conectaţi un capăt al cabului Ethernet la modemul dumneavoastră şi să conectaţi celălalt capăt la portul Ethernet de la router.",
+"Prosím propojte modem a router ethernetovým kabelem.",
+"Podłącz jeden koniec przewodu Ethernet do modemu a drugi do portu Ethernet routera.",
+"Пожалуйста, присоедините один конец Ethernet кабеля к модему провайдера, а второй конец - к WAN порту маршрутизатора.",
+"Prosím prepojte modem a router ethernetovým káblom.",
+"Lütfen  Ethernet kablosunun bir ucunu Modeminize  ve diger ucunu yönlendiricinin üzerindeki Ethernet portuna takin.",
+"Vui lòng kết nối một đầu cáp Ethernet vào Modem của ban và kết nối đầu còn lại vào cổng Ethernet trên bộ Định tuyến.",
+"請將網路線的一端連接到您的數據機，另一端連接到分享器上的網路埠。",
+"请将网路线的一端连接到您​​的数据机，另一端连接到路由器上的网路埠。"
+);
+var ConnectingtoInternet=new Array
+(
+"Connecting to Internet",
+"Verbindung mit dem Internet",
+"Conectando a Internet",
+"Connexion à Internet",
+"Connessione a Internet",
+"De verbinding met internet wordt tot stand gebracht",
+"A estabelecer ligação à Internet",
+"Conectare la Internet",
+"Připojování k Internetu",
+"Łączenie z Internetem",
+"Подключение к Интернету",
+"Pripájanie k Internetu",
+"İnternet'e bağlaniyor",
+"Kết nối đến mạng",
+"連接至Internet",
+"连接至互联网"
+);
+var Applyingyoursettings=new Array
+(
+"Applying your settings, please wait.",
+"Einstellungen werden übernommen, bitte warten.",
+"Aplicando su configuración, espere...",
+"Application de vos paramètres. Veuillez patienter.",
+"Applicazione delle impostazioni, si prega di attendere.",
+"Uw instellingen worden toegepast, een ogenblik geduld a.u.b.",
+"As suas definições estão a ser aplicadas, aguarde.",
+"Configurările sunt în curs de aplicare, vă rugăm să aşteptaţi.",
+"Zápis nastavení, čekejte prosím",
+"Zapisywanie ustawień, proszę czekać.",
+"Применение ваших настроек, пожалуйста, подождите.",
+"Zápis nastavenia, čakajte prosím",
+"Ayarlarınız uygulaniyor, lütfen bekleyin.",
+"Đang áp dụng các cài đặt của bạn, vui lòng đợi.",
+"正在啟用您的設定，請稍候！",
+"正在启用您的设定，请稍候！"
+);
+var settheIPaddress=new Array
+(
+"Please set the IP address of the access point.",
+"Stellen Sie bitte die IP-Adresse des Access Points ein.",
+"Establezca la dirección IP del punto de acceso.",
+"Veuillez paramétrer l'adresse IP du point d'accès.",
+"Impostare l'indirizzo IP del punto di accesso.",
+"Stel a.u.b. het IP-adres van het access point in.",
+"Defina o endereço IP do ponto de acesso.",
+"Vă rugăm să setaţi adresa IP pentru punctul de acces.",
+"Prosím nastavte IP adresu přístupového bodu",
+"Wpisz adres IP punktu dostępu.",
+"Пожалуйста, установите IP адрес точки доступа.",
+"Prosím nastavte IP adresu prístupového bodu",
+"Erişim noktasının IP adresini ayarlayın.",
+"Vui lòng chọn địa chỉ IP cho điểm truy cập AP",
+"請設定基地台的IP位址",
+"请设定基地台的IP位址"
+);
+var manualSSIDinfo=new Array
+(
+"Please set a new Wi-Fi network name (SSID) for the Wi-Fi extender if you wish, and set the security key for your existing wireless network if required.",
+"Legen Sie bitte einen neuen Drahtlosnetzwerknamen (SSID) für den Bereichserweiterer fest, wenn Sie möchten, und legen Sie den Sicherheitsschlüssel für das vorhandene Drahtlosnetzwerk fest, wenn es gefordert wird.",
+"Si lo desea, establezca un nuevo nombre de red Wi-Fi (SSID) para el extensor de alcance y, si fuera necesario, la clave de seguridad de su red inalámbrica existente.",
+"Veuillez saisir un nouveau nom de réseau Wi-Fi (SSID) pour le répéteur si vous le souhaitez, puis paraméter la clé de sécurité pour votre réseau sans fil existant si nécessaire.",
+"Impostare un nuovo nome di rete Wi-Fi (SSID) per l'unità di estensione di campo se lo si desidera, e impostare la chiave di sicurezza per la rete wireless esistente se necessario.",
+"Voer a.u.b. een nieuwe Wi-Fi netwerknaam (SSID) in voor de Wi-Fi extender, en voer wanneer nodig de beveiligingssleutel in voor het bestaande draadloze netwerk.",
+"Se necessário, defina um novo nome de rede Wi-Fi (SSID) para a extensão de alcance e depois defina a chave de segurança da rede sem fios.",
+"Vă rugăm să setaţi o nouă denumire de reţea Wi-Fi (SSID) pentru amplificatorul de semnal, dacă doriţi, sau să setaţi cheia de securitate a reţelei existente, dacă vă este solicitată.",
+"Pokud potřebujete, nastavte nový název bezdrátové sítě a bezpečnostní klíč pro existující Wi-Fi síť.",
+"Jeśli chcesz możesz wpisać nową nazwę sieci bezprzewodowej ekspandera. Jeśli jest to wymagane, podaj hasło do istniejącej sieci bezprzewodwej.",
+"Пожалуйста, назначьте новое имя беспроводной сети (идентификатор SSID) вашего ретранслятора, если вы этого хотите, и введите ключ доступа существующей беспроводной сети, если это требуется.",
+"Ak potrebujete, nastavte nový názov bezdrôtovej siete a bezpečnostný kľúč pre existujúce Wi-Fi sieť.",
+"İsterseniz menzil genişletici için yeni bir kablosuz ağ adı (SSID) ayarlayabilirsiniz  ve gerekirse mevcut kablosuz ağ  güvenlik anahtarıni giriniz.",
+"Vui lòng đặt tên mạng Wi-Fi mới (SSID) của thiết bị Mở rộng nếu bạn muốn, và đặt mật khẩu cho mạng không dây hiện có nếu được yêu cầu.",
+"請幫此無線訊號延伸器設定一個新的Wi-Fi網路名稱（SSID）及連線安全密碼(同現有分享器的無線網路連線密碼)",
+"请帮此无线讯号延伸器设定一个新的Wi-Fi网络名称（SSID）及联机安全密码(同现有路由器的无线网络联机密码)"
+);
+var wlSiteSurvey=new Array
+(
+"Site Survey",
+"Standortaufnahme",
+"Sondeo del sitio",
+"Évaluation du site",
+"Verifiche di sito",
+"Overzicht van de site",
+"Inquérito do local",
+"Interogare locaţie",
+"Vyhledat sítě",
+"Pokaż sieci bezprzewodowe",
+"Поиск беспроводных сетей",
+"Vyhľadať siete",
+"Site ortamı",
+"Trang khảo sát",
+"站台掃描",
+"站台扫描"
+);
+var selSiteSurvey=new Array
+(
+"Site Survey List",
+"Standortaufnahmeliste",
+"Lista de sondeo del sitio",
+"Liste de l'évaluation du site",
+"Lista Verifiche di sito",
+"Overzicht draadloze omgeving",
+"Lista de inquéritos do local",
+"Listă interogare locaţie",
+"Seznam sítí",
+"Lista sieci bezprzewodowych",
+"Список обнаруженных сетей",
+"Zoznam sietí",
+"Site ortam Listesi",
+"Trang danh sách khảo sát",
+"站台掃描清單",
+"站台扫描清单"
+);
+var Wireless=new Array
+(
+"Wireless",
+"Drahtlos",
+"Conexión inalámbrica",
+"Sans fil",
+"Wireless",
+"Draadloos",
+"Sem fios",
+"Wireless",
+"Wi-Fi ",
+"Wi-Fi",
+"Беспроводная связь",
+"Wi-Fi",
+"Wi-Fi",
+"Mạng không dây",
+"無線",
+"无线"
+);
+var disable=new Array
+(
+"Disable",
+"Disable (Deaktivieren)",
+"Desactivar",
+"Désactiver",
+"Disattiva",
+"Uitschakelen",
+"Desactivar",
+"Dezactivare",
+"Zakázat",
+"Wyłącz",
+"Выключить",
+"Zakázať",
+"kapat",
+"Tắt",
+"關閉",
+"关闭"
+);
+var enable=new Array
+(
+"Enable",
+"Enable (Aktivieren)",
+"Activar",
+"Activer",
+"Attiva",
+"Inschakelen",
+"Activar",
+"Activare",
+"Povolit",
+"Włącz",
+"Включить",
+"Povoliť",
+"Ac",
+"Bật",
+"啟用",
+"启用"
+);
+var Gband=new Array
+(
+"2.4 GHz",
+"2,4 GHz",
+"2.4 GHz",
+"2,4 GHz",
+"2,4 GHz",
+"2,4 GHz",
+"2,4 GHz",
+"2,4 GHz",
+"2.4 GHz",
+"2.4GHz",
+"2.4 ГГц",
+"2.4 GHz",
+"2.4 GHz",
+"2.4 GHz",
+"2.4 GHz",
+"2.4 GHz的"
+);
+var Nband=new Array
+(
+"5 GHz",
+"5 GHz",
+"5 GHz",
+"5 GHz",
+"5 GHz",
+"5 GHz",
+"5 GHz",
+"5 GHz",
+"5 GHz",
+"5GHz",
+"5 ГГц",
+"5 GHz",
+"5 GHz",
+"5 GHz",
+"5 GHz",
+"5 GHz的"
+);
+var characters=new Array
+(
+"characters",
+"Zeichen",
+"caracteres",
+"caractères",
+"Caratteri",
+"tekens",
+"caracteres",
+"caractere",
+"znaky",
+"znaków",
+"символы",
+"znaky",
+"Karakter",
+"ký tự",
+"字元",
+"字元"
+);
+var KeyFormat=new Array
+(
+"Key Format",
+"Schlüsselformat",
+"Formato de la clave",
+"Format de la clé",
+"Formato chiave",
+"Sleuteltype",
+"Formato de chave",
+"Format cheie",
+"Formát klíče",
+"Format klucza",
+"Формат ключа",
+"Formát kľúče",
+"Anahtar Formatı",
+"Định dạng mật khẩu",
+"密鑰格式",
+"密钥格式"
+);
+var ItShouldBeHEX=new Array
+(
+"It must be a hex number (0-9 or a-f)",
+"Es muss eine Hexadezimalzahl sein (0-9 oder a-f).",
+"Debe ser un número hexadecimal (0-9 o a-f)",
+"Il doit s'agir d'une valeur hexadécimale (0-9 ou a-f)",
+"Deve essere un valore esadecimale (0-9 o a-f)",
+"Het moet een hexadecimaal nummer zijn (0-9 of a-f)",
+"Deve ser um número hexadecimal (0 a 9 ou a-f).",
+"Trebuie să fie un număr hex (0-9 sau a-f)",
+"Musí být hexadecimální číslo (0-9 a A-F)",
+"Liczby szesnastkowe (0-9 i A-F)",
+"Должно быть HEX числом (0-9 или a-f).",
+"Musí byť hexadecimálne číslo (0-9 a A-F)",
+"Onaltılık sayı (0-9 veya a-f) olmalıdır",
+"Nó phải là số thập lục phân (0-9 hoặc a-f)",
+"它必須是一個十六進制數字（0-9 或 a-f）",
+"它必须是一个十六进制数字（0-9或AF）"
+);
+var Pre_shared_Key=new Array
+(
+"Pre-shared Key",
+"Preshared-Schlüssel",
+"Clave previamente compartida",
+"Clé pré-partagée",
+"Pre-shared Key",
+"Pre-shared sleutel",
+"Chave pré-partilhada",
+"Cheie prepartajată",
+"Sdílený klíč",
+"Współdzielony klucz",
+"Ключ доступа",
+"Zdieľaný kľúč",
+"Wi-Fi anahtarı",
+"Pre-shared Key",
+"預共享密鑰",
+"预共享密钥"
+);
+var keyLen=new Array
+(
+"Key Length",
+"Schlüssellänge",
+"Largo de la clave",
+"Longueur de la clé",
+"Lunghezza della chiave",
+"Sleutellengte",
+"Comprimento da chave",
+"Lungime cheie",
+"Délka klíče",
+"Długość klucza",
+"Длина ключа",
+"Dĺžka kľúča",
+"Anahtar uzunluğu",
+"Chiều đài mật khẩu",
+"密鑰長度",
+"密钥长度"
+);
+var keyLeninfo=new Array
+(
+"Key Length",
+"Schlüssellänge",
+"Largo de la clave",
+"Longueur de la clé",
+"Lunghezza della chiave",
+"Sleutellengte",
+"Comprimento da chave",
+"Lungime cheie",
+"Délka klíče",
+"Długość klucza",
+"Длина ключа",
+"Dĺžka kľúča",
+"Anahtar uzunluğu",
+"Chiều đài mật khẩu",
+"密鑰長度",
+"密钥长度"
+);
+var get24GIPfail=new Array
+(
+"The Wi-Fi extender could not obtain an IP address from router, please click \"Back\" to check the security key,or assign an IP address to the extender manually. Then click \"Next\" when you are ready to continue.",
+"Der Bereichserweiterer konnte keine IP-Adresse vom Router erhalten, klicken Sie auf \"Zurück\", um den Sicherheitsschlüssel zu überprüfen oder um manuell eine IP-Adresse für den Erweiterer zuzuweisen. Klicken Sie auf \"Weiter\", wenn Sie bereit sind fortzufahren.",
+"El extensor de alcance no ha podido obtener una dirección IP del enrutador, haga clic en \"Volver\" para comprobar la clave de seguridad o atribuir una dirección IP al extensor manualmente. A continuación, haga clic en \“Siguiente\” cuando esté listo para continuar.",
+"Le répéteur n'a pas pu obtenir d'adresse IP du routeur, veuillez cliquer sur \"Retour\" pour vérifier la clé de sécurité ou assigner manuellement une adresse IP au répéteur. Cliquez ensuite sur \"Suivant\" lorsque vous êtes prêt à continuer.",
+"L'unità di estensione di campo non è riuscita a ottenere un indirizzo IP dal router, fare clic su \"Indietro\" per verificare la chiave di sicurezza, o assegnare un indirizzo IP all'unità di estensione manualmente. Quindi fare clic su \"Avanti\" quando si è pronti per procedere.",
+"De Wi-Fi extender kan geen IP-adres van de router verkrijgen, klik a.u.b. op\"Back (Terug)\" om de beveiligingssleutel te controleren,of voer handmatig een IP-adres in. Klik daarna op \"Next (verdergaan)\" als u klaar bent om verder te gaan.",
+"A extensão de alcance não conseguiu obter um endereço IP do router, clique em \"Back\" (Retroceder) para verificar a chave de segurança ou atribuir um endereço IP manualmente à extensão. Em seguida, clique em \"Next\" (Seguinte) quando estiver pronto para continuar.",
+"Amplificatorul de semnal nu poate obţine o adresă IP de la router, vă rugăm să faceţi clic pe \"Înapoi\" pentru a verifica cheia de securitate, ori să alocaţi manual o adresă IP la amplificator. Apoi, faceţi clic pe \"Următor\" când sunteţi gata pentru a continua.",
+"Extender nemůže získat IP adresu, prosím klikněte na \"Zpět\" a zkontrolujte bezpečnostní klíč nebo nastavte IP extenderu ručně. Jakmile budete připraveni, klikněte na \"Další\"",
+"Ekspander nie mógł uzyskać adresu IP. Wciśnij \"Wstecz\" żeby sprawdzić  hasło lub przypisać ręcznie adres IP. Następnie wciśnij \"Dalej\".",
+"Ретранслятор не может получить IP адрес от маршрутизатора, пожалуйста, проверьте пароль и нажмите \"Назад\" для новой попытки подключения, или нажмите \"Статический IP\", чтобы назначить IP адрес ретранслятора вручную, и, затем, нажмите  \"Далее\" для завершения настройки.",
+"Extender nemôže získať IP adresu, prosím kliknite na \"Späť \" a skontrolujte bezpečnostný kľúč alebo nastavte IP extenderu ručne. Akonáhle budete pripravení, kliknite na \"Ďalší \"",
+"Menzil Genisleticisi  bir IP adresi alamiyor, lütfen  \"Geri\" tuslayin ve  güvenlik anahtarıni kontrol edin. Veya elden bir IP adresi vermek için \"Geri\"  tıklayınız. Devam etmeye hazır olduğunuzda  \"ileri\" butonuna tıklayınız.",
+"Thiết bị Mở rộng không thể nhận 1 địa chỉ IP từ bộ Định tuyến, vui lòng nhấn \"Lùi\" để kiểm tra từ khóa bảo mật, hoặc gán 1 địa chỉ IP cho thiết bị Mở rộng bằng tay. Sau đó nhấn \"Tiếp\" khi bạn sẵn sàng để tiếp tục.",
+"此無線訊號延伸器無法從分享器取得IP位址，請點選\“回上一步\”來檢查安全密鑰，或手動派發一個IP位址給無線訊號延伸器。完成後，請點選\“下一步\”以繼續",
+"此无线讯号延伸器无法从路由器取得IP地址，请点选\“回上一步\”来检查安全密钥，或手动派发一个IP地址给无线讯号延伸器。完成后，请点选\“下一步\”以继续"
+);
+var get24GIPok=new Array
+(
+"Connection test complete. Please click \"Next\" when you are ready to continue.",
+"Verbindungstest beendet. Klicken Sie bitte auf \"Weiter\", wenn Sie bereit sind fortzufahren.",
+"Prueba de conexión finalizada. Haga clic en \“Siguiente\” cuando esté listo para continuar.",
+"Test de connexion terminé. Veuillez cliquer sur \"Suivant\" lorsque vous êtes prêt à continuer.",
+"Test di connessione completato. Fare clic su \"Avanti\" quando si è pronti per procedere.",
+"Testen van de verbinding voltooid. Klik op \"Next (verdergaan)\" als u klaar bent om verder te gaan.",
+"Teste de ligação concluído. Clique em \"Next\" (Seguinte) quando estiver pronto para continuar.",
+"Test conexiune finalizat. Vă rugăm să faceţi clic pe \"Următor\" când sunteţi gata pentru a continua.",
+"Test připojení je kompletní. Klikněte na \"Další\" pro pokračování.",
+"Testowanie połączenia zakończone. Wciśnij \"Dalej\".",
+"Тестирование связи завершено. Нажмите \"Далее\", для завершения настройки.",
+"Test pripojenia je kompletný. Kliknite na \"Ďalšie \" pre pokračovanie.",
+"Bağlantı testi tamamlandı. Devam etmeye hazır olduğunuzda \"ileri \" tıklayınız.",
+"Kiểm tra kết nối hoàn chỉnh. Vui lòng nhấn \"Tiếp\" khi bạn đã sẵn sàng tiếp tục",
+"連接測試完成。請點選\“下一步\”以繼續",
+"连接测试完成。请点选\“下一步\”以继续"
+);
+var get5GIPfail=new Array
+(
+"The Wi-Fi extender could not obtain an IP address from router, please click \"Back\" to check the security key,or assign an IP address to the extender manually. Then click \"Next\" when you are ready to continue.",
+"Der Bereichserweiterer konnte keine IP-Adresse vom Router erhalten, klicken Sie auf \"Zurück\", um den Sicherheitsschlüssel zu überprüfen oder um manuell eine IP-Adresse für den Erweiterer zuzuweisen. Klicken Sie auf \"Weiter\", wenn Sie bereit sind fortzufahren.",
+"El extensor de alcance no ha podido obtener una dirección IP del enrutador, haga clic en \"Volver\" para comprobar la clave de seguridad o atribuir una dirección IP al extensor manualmente. A continuación, haga clic en \“Siguiente\” cuando esté listo para continuar.",
+"Le répéteur n'a pas pu obtenir d'adresse IP du routeur, veuillez cliquer sur \"Retour\" pour vérifier la clé de sécurité ou assigner manuellement une adresse IP au répéteur. Cliquez ensuite sur \"Suivant\" lorsque vous êtes prêt à continuer.",
+"L'unità di estensione di campo non è riuscita a ottenere un indirizzo IP dal router, fare clic su \"Indietro\" per verificare la chiave di sicurezza, o assegnare un indirizzo IP all'unità di estensione manualmente. Quindi fare clic su \"Avanti\" quando si è pronti per procedere.",
+"De Wi-Fi extender kan geen IP-adres van de router verkrijgen, klik a.u.b. op\"Back (Terug)\" om de beveiligingssleutel te controleren,of voer handmatig een IP-adres in. Klik daarna op \"Next (verdergaan)\" als u klaar bent om verder te gaan.",
+"A extensão de alcance não conseguiu obter um endereço IP do router, clique em \"Back\" (Retroceder) para verificar a chave de segurança ou atribuir um endereço IP manualmente à extensão. Em seguida, clique em \"Next\" (Seguinte) quando estiver pronto para continuar.",
+"Amplificatorul de semnal nu poate obţine o adresă IP de la router, vă rugăm să faceţi clic pe \"Înapoi\" pentru a verifica cheia de securitate, ori să alocaţi manual o adresă IP la amplificator. Apoi, faceţi clic pe \"Următor\" când sunteţi gata pentru a continua.",
+"Extender nemůže získat IP adresu, prosím klikněte na \"Zpět\" a zkontrolujte bezpečnostní klíč nebo nastavte IP extenderu ručně. Jakmile budete připraveni, klikněte na \"Další\"",
+"Ekspander nie mógł uzyskać adresu IP. Wciśnij \"Wstecz\" żeby sprawdzić  hasło lub przypisać ręcznie adres IP. Następnie wciśnij \"Dalej\".",
+"Ретранслятор не может получить IP адрес от маршрутизатора, пожалуйста, проверьте пароль и нажмите \"Назад\" для новой попытки подключения, или нажмите \"Статический IP\", чтобы назначить IP адрес ретранслятора вручную, и, затем, нажмите  \"Далее\" для завершения настройки.",
+"Extender nemôže získať IP adresu, prosím kliknite na \"Späť \" a skontrolujte bezpečnostný kľúč alebo nastavte IP extenderu ručne. Akonáhle budete pripravení, kliknite na \"Ďalší \"",
+"Menzil Genisleticisi  bir IP adresi alamiyor, lütfen  \"Geri\" tuslayin ve  güvenlik anahtarıni kontrol edin. Veya elden bir IP adresi vermek için \"Geri \"tıklayınız. Devam etmeye hazır olduğunuzda  \"ileri\" butonuna tıklayınız.",
+"Thiết bị Mở rộng không thể nhận 1 địa chỉ IP từ bộ Định tuyến, vui lòng nhấn \"Lùi\" để kiểm tra từ khóa bảo mật, hoặc gán 1 địa chỉ IP cho thiết bị Mở rộng bằng tay. Sau đó nhấn \"Tiếp\" khi bạn đã sẳn sàng tiếp tục.",
+"此無線訊號延伸器無法從分享器取得IP位址，請點選\“回上一步\”來檢查安全密鑰，或手動派發一個IP位址給無線訊號延伸器。完成後，請點選\“下一步\”以繼續。",
+"此无线讯号延伸器无法从路由器取得IP地址，请点选\“回上一步\”来检查安全密钥，或手动派发一个IP地址给无线讯号延伸器。完成后，请点选\“下一步\”以继续。"
+);
+var get5GIPok=new Array
+(
+"Connection test complete. Please click \"Next\" when you are ready to continue.",
+"Verbindungstest beendet. Klicken Sie bitte auf \"Weiter\", wenn Sie bereit sind fortzufahren.",
+"Prueba de conexión finalizada. Haga clic en \“Siguiente\” cuando esté listo para continuar.",
+"Test de connexion terminé. Veuillez cliquer sur \"Suivant\" lorsque vous êtes prêt à continuer.",
+"Test di connessione completato. Fare clic su \"Avanti\" quando si è pronti per procedere.",
+"Testen van de verbinding voltooid. Klik op \"Next (verdergaan)\" als u klaar bent om verder te gaan.",
+"Teste de ligação concluído. Clique em \"Next\" (Seguinte) quando estiver pronto para continuar.",
+"Test conexiune finalizat. Vă rugăm să faceţi clic pe \"Următor\" când sunteţi gata pentru a continua.",
+"Test připojení je kompletní. Klikněte na \"Další\" pro pokračování.",
+"Testowanie połączenia zakończone. Wciśnij \"Dalej\".",
+"Тестирование связи завершено. Нажмите \"Далее\", для завершения настройки.",
+"Test pripojenia je kompletný. Kliknite na \"Ďalšie \" pre pokračovanie.",
+"Bağlantı testi tamamlandı. Devam etmeye hazır olduğunuzda \"ileri \" tıklayınız.",
+"Kiểm tra kết nối hoàn chỉnh. Vui lòng nhấn \"Tiếp\" khi bạn đã sẳn sàng tiếp tục",
+"連接測試完成。請點選\“下一步\”以繼續",
+"连接测试完成。请点选\“下一步\”以继续"
+);
+var getIPfail=new Array
+(
+"Unable to get IP address",
+"Abrufen der IP-Adresse fehlgeschlagen",
+"No se ha podido obtener la dirección IP",
+"Impossible d'obtenir une adresse IP",
+"Impossibile ottenere l'indirizzo IP",
+"IP-adres verkrijgen mislukt",
+"Não foi possível obter o endereço IP",
+"Nu s-a putut obţine adresa IP",
+"Nepodařilo se získat IP adresu",
+"Nie można uzyskać adresu IP",
+"Невозможно получить IP адрес",
+"Nepodarilo sa získať IP adresu",
+"IP adresini alınamıyor",
+"Không thể nhận địa chỉ IP",
+"無法取得 IP 位址",
+"无法取得IP位址"
+);
+var wizard_repeater_mode1=new Array
+(
+"Enable 5GHz",
+"5GHz aktivieren",
+"Habilitar 5 GHz",
+"Activer le 5Ghz",
+"Abilita 5GHz",
+"5GHz inschakelen",
+"Activar 5 GHz",
+"Activare 5GHz",
+"Povolit 5GHz",
+"Włącz sieć 5GHz",
+"Включить 5 ГГц",
+"Povoliť 5GHz",
+"5GHz frekans kullan",
+"Bật 5GHz",
+"啟用5GHz",
+"启用5GHz的"
+);
+var wizard_repeater_mode2=new Array
+(
+"Enable 2.4GHz",
+"2,4GHz aktivieren",
+"Habilitar 2.4 GHz",
+"Activer le 2,4Ghz",
+"Abilita 2,4GHz",
+"2,4GHz inschakelen",
+"Activar 2,4GHz",
+"Activare 2,4GHz",
+"Povolit 2.4GHz",
+"Włącz sieć 2.4GHz",
+"Включить 2.4 ГГц",
+"Povoliť 2.4GHz",
+"2.4GHz grekans kullan",
+"Bật 2.4GHz",
+"啟用2.4GHz",
+"启用2.4GHz的"
+);
+var router_no=new Array
+(
+"CHANGE TO A DIFFERENT MODE",
+"WECHSEL ZU EINEM ANDEREN MODUS",
+"CAMBIAR A OTRO MODO",
+"PASSER DANS UN AUTRE MODE",
+"PASSA A UN'ALTRA MODALITA'",
+"MODUS VERANDEREN",
+"MUDAR PARA UM MODO DIFERENTE",
+"SCHIMBAREA LA UN MOD DIFERIT",
+"ZMĚNA REŽIMU",
+"ZMIEŃ TRYB PRACY",
+"ИЗМЕНИТЬ РЕЖИМ РАБОТЫ",
+"ZMENA REŽIMU",
+"FONKSIYONU DEĞİŞTİR",
+"Thây đổi sang 1 chế độ khác",
+"切換到不同的模式",
+"切换到不同的模式"
+);
+var ap_select1=new Array
+(
+"Please select the wireless frequency that you want to use.",
+"Bitte wählen Sie die Wireless-Frequenz, die Sie verwenden möchten.",
+"Seleccione la frecuencia inalámbrica que desea utilizar.",
+"Veuillez sélectionner la fréquence sans fil que vous souhaitez utiliser.",
+"Selezionare la frequenza wireless che si desidera utilizzare.",
+"Selecteer a.u.b. de draadloze frequentie die u wilt gebruiken.",
+"Seleccione a frequência sem fios que pretende utilizar.",
+"Vă rugăm să selectaţi frecvenţa wireless pe care doriţi să o folosiţi.",
+"Vyberte bezdrátovou frekvenci, kterou chcete používat.",
+"Wybierz pasmo sieci bezprzewodowej.",
+"Пожалуйста, выберите частоту беспроводной связи.",
+"Vyberte bezdrôtovú frekvenciu, ktorú chcete používať.",
+"Kullanmak ıstedığınız Frekansı seçiniz",
+"Vui lòng chọn tần số không dây mà bạn muốn sữ dụng.",
+"請選擇您要使用的無線頻段。",
+"请选择您要使用的无线频段。"
+);
+var ap_select2=new Array
+(
+"If you are not sure which one to use, please select both.",
+"Wenn Sie nicht sicher sind, welche zu benutzen ist, wählen Sie bitte beide aus.",
+"Si no está seguro de la frecuencia que debe utilizar, seleccione ambas.",
+"Si vous ne savez pas laquelle utiliser, sélectionnez les deux.",
+"In caso di dubbio su quale utilizzare, selezionarle entrambe.",
+"Als u niet zeker weet welke u wilt gebruiken, selecteer ze dan allebei.",
+"Se não tiver a certeza qual deve utilizar, seleccione ambas.",
+"În cazul în care nu sunteţi sigur pe care doriţi să o folosiţi, vă rugăm să le selectaţi pe ambele.",
+"Pokud si nejste jisti, vyberte obě.",
+"Jeśli nie wiesz które pasmo wybrać, wybierz oba.",
+"Если вы не знаете какая частота нужна, пожалуйста, выберите обе.",
+"Ak si nie ste istí, vyberte obe.",
+"Kullanacağınız frekansı bilmiyorsanız, lütfen ikisini seçin",
+"Nếu bạn không chắc sử dụng cái nào, vui lòng chọn cả hai.",
+"如果您不能確定要使用哪一個，請您兩個都選。",
+"如果您不能确定要使用哪一个，请您两个都选。"
+);
+var ap_alert=new Array
+(
+"2.4GHz wireless and 5GHz wireless can not turn off at the same time! Please select at least one frequency.",
+"2,4GHz-Wireless-und 5GHz-Wireless können sich nicht zur gleichen Zeit abschalten! Bitte wählen Sie mindestens eine Frequenz aus.",
+"La conexión inalámbrica de 2.4 GHz y de 5GHz no pueden apagarse al mismo tiempo. Seleccione al menos una frecuencia.",
+"Le sans fil en 2,4 GHz et en 5 GHz ne peuvent pas se couper en même temps ! Veuillez sélectionner au moins une fréquence.",
+"La rete wireless 2,4GHz e 5GHz non possono essere disattivate contemporaneamente! Selezionare almeno una frequenza.",
+"2,4GHz draadloos en 5GHz draadloos kunnen niet tegelijkertijd uitschakelen! Selecteer minstens één frequentie.",
+"As opções de 2,4 GHz sem fios e 5 GHz sem fios não podem ser desligadas ao mesmo tempo! Seleccione pelo menos uma frequência.",
+"2,4GHz wireless şi 5GHz wireless nu pot fi oprite în acelaşi timp! Vă rugăm să selectaţi cel puţin o frecvenţă.",
+"Vysílače 2.4GHz a 5GHz nemohou být současně vypnuté! Prosím, vyberte alespoň jednu frekvenci.",
+"Pasma 2.4GHz i 5GHz nie mogą być jednocześnie wyłączone. Wybierz co najmniej jedno.",
+"Беспроводная связь на частотах 2.4 ГГц и 5 ГГц не может быть выключена одновременно! Пожалуйста, выберите хотя бы одну частоту.",
+"Vysielače 2.4GHz a 5GHz nemôžu byť súčasne vypnuté! Prosím, vyberte aspoň jednu frekvenciu.",
+"2.,4 GHz ve 5 Ghz frekanslarını aynı zamanda kapatamazsınız. Lütfen en azından birisini acık bırakın.",
+"Tần số không dây 2.4GHz và 5GHz không thể tắt cùng 1 lúc! Vui lòng chọn ít nhất 1 tần số.",
+"2.4GHz無線和5GHz無線不能同時關閉！請至少選擇一個頻段。",
+"2.4GHz的无线和5GHz的无线不能同时关闭！请至少选择一个频段。"
+);
+var wiz_repselect=new Array
+(
+"Please select the wireless frequency that same as your existing wirelesss network.",
+"Bitte wählen Sie die gleiche Wireless-Frequenz wie für Ihr vorhandenes Drahtlosnetzwerk.",
+"Seleccione la misma frecuencia inalámbrica de su red inalámbrica existente.",
+"Veuillez sélectionner la même fréquence sans fil que celle de votre réseau sans fil existant.",
+"Selezionare la stessa frequenza wireless della rete wireless esistente.",
+"Selecteer a.u.b. de draadloze frequentie die hetzelfde is als die van uw bestaande netwerk.",
+"Seleccione a frequência sem fios igual à da sua rede sem fios.",
+"Vă rugăm să selectaţi frecvenţa wireless care este la fel cu cea a reţelei wireless existente.",
+"Prosím vyberte stejné bezdrátové pásmo, jaké využívá existující bezdrátová síť",
+"Wybierz to samo pasmo, w którym pracuje istniejąca sieć bezprzewodowa.",
+"Пожалуйста, выберите частоту, соответствующую вашей беспроводной сети.",
+"Prosím vyberte rovnakej bezdrôtovej pásmo, aké využíva existujúce bezdrôtová sieť",
+"Lütfen kullandığınız kablosuz ağının aynı frekansını seçiniz.",
+"Vui lòng chọn tần số không dây giống với mạng không dây hiện có của bạn.",
+"請選擇與現有無線網路相同的無線頻段",
+"请选择与现有无线网路相同的无线频段"
+);
+var wiz_repmenu1=new Array
+(
+"Wi-Fi network name (SSID):",
+"Name des WLAN-Netzwerks (SSID):",
+"Nombre de la red Wi-Fi (SSID):",
+"Nom Réseau Wi-Fi (SSID) :",
+"Nome della rete Wi-Fi (SSID):",
+"Wi-Fi netwerknaam (SSID):",
+"Nome da rede Wi-Fi (SSID):",
+"Denumirea reţelei Wi-Fi (SSID):",
+"Název bezdrátové sítě (SSID):",
+"Nazwa sieci bezprzewodowej:",
+"Имя Wi-Fi сети (SSID):",
+"Názov bezdrôtovej siete (SSID):",
+"Wi-Fi ağ adı (SSID):",
+"Tên mạng Wi-Fi (SSID):",
+"Wi-Fi 網路名稱（SSID）：",
+"无线网络连接网路名称（SSID）："
+);
+var wiz_repmenu2=new Array
+(
+"Wi-Fi password (Security Key):",
+"WLAN-Passwort (Sicherheitsschlüssel):",
+"Contraseña Wi-Fi (clave de seguridad):",
+"Mot de passe Wi-Fi (Clé de sécurité) :",
+"Password WI-FI (chiave di sicurezza):",
+"Wi-Fi wachtwoord (Beveiligingssleutel):",
+"Palavra-passe da rede Wi-Fi (chave de segurança):",
+"Parolă Wi-Fi (cheie de securitate):",
+"Wi-Fi heslo (Bezpečnostní klíč):",
+"Hasło do sieci bezprzewodowej:",
+"Wi-Fi пароль (ключ доступа):",
+"Wi-Fi heslo (Bezpečnostný kľúč):",
+"Wi-Fi şifre (Güvenlik Anahtarı):",
+"Mật khẩu mạng Wi-Fi (Từ khóa bảo mật)",
+"Wi-Fi 密碼（安全密鑰）：",
+"无线网络密码（安全密钥）："
+);
+var wiz_repmenu3=new Array
+(
+"Wi-Fi extender SSID:",
+"Bereichserweiterer-SSID:",
+"SSID de extensor de alcance:",
+"SSID du répéteur :",
+"SSD di estensione di campo:",
+"Wi-Fi extender SSID:",
+"SSID da extensão de alcance:",
+"Amplificator de semnal SSID:",
+"SSID Extenderu:",
+"Nazwa sieci bezprzewodowej ekspandera:",
+"SSID ретранслятора:",
+"SSID Extender:",
+"Menzil genişletici ağ adı (SSID):",
+"SSID của thiết bị Mở rộng.",
+"無線訊號延伸器的SSID：",
+"无线讯号延伸器的SSID："
+);
+var wizard_router_mode1=new Array
+(
+"iQ Setup wizard",
+"iQ Einrichtungsassistent",
+"Asistente de configuración rápida",
+"Assistant de configuration iQ",
+"iQ Setup wizard",
+"iQ setup wizard",
+"Assistente de iQ Setup",
+"Aplicaţie de configurare iQ Setup",
+"Průvodce iQ Setup",
+"iQ Setup",
+"Мастер iQ установки",
+"Sprievodca iQ Setup",
+"Hızlı kurulum yardımcısı",
+"Hướng dẫn cài đặt nhanh iQ",
+"iQ Setup 安裝精靈",
+"iQ的安装程序安装精灵"
+);
+var wizard_router_mode2=new Array
+(
+"Configure manually",
+"Manuelles Konfigurieren",
+"Configurar manualmente",
+"Configurer manuellement",
+"Configura manualmente",
+"Handmatige configuratie",
+"Configurar manualmente",
+"Configurare manuală",
+"Konfigurovat ručně",
+"Konfiguracja ręczna",
+"Установить вручную",
+"Konfigurovať ručne",
+"Manuel kurulum",
+"Cấu hình bằng tay",
+"手動配置",
+"手动配置"
+);
+var last_1=new Array
+(
+"Congratulation!",
+"Herzlichen Glückwunsch!",
+"¡Enhorabuena!",
+"Félicitations !",
+"Congratulazioni!",
+"Gefeliciteerd!",
+"Parabéns!",
+"Felicitări!",
+"Gratulujeme!",
+"Gratulacje!",
+"Поздравляем!",
+"Gratulujeme!",
+"Tebrikler!",
+"Chúc mừng!",
+"恭喜您！",
+"恭喜您！"
+);
+var APcl=new Array
+(
+"Wi-Fi Bridge",
+"Wi-Fi-Bridge",
+"Puente Wi-Fi",
+"Pont Wi-Fi",
+"Bridge Wi-Fi",
+"Wi-Fi Bridge",
+"Wi-Fi bridge",
+"Bridge Wi-Fi",
+"Wi-Fi Bridge",
+"Most bezprzewodowy",
+"Wi-Fi мост",
+"Wi-Fi Bridge",
+"Wi-Fi Bridge",
+"Cầu nối Wi-Fi ",
+"無線橋接",
+"无线桥接"
+);
+var APcl_1=new Array
+(
+"Wi-Fi Bridge",
+"Drahtlose Bridge",
+"Puente inalámbrico",
+"Pont sans fil",
+"Bridge Wireless",
+"Draadloze bridge",
+"Bridge sem fios",
+"Bridge wireless",
+"Bezdrátový most",
+"Most bezprzewodowy",
+"Беспроводной мост",
+"Bezdrôtový most",
+"Wi-Fi Bridge",
+"Cầu nối không dây.",
+"無線橋接",
+"无线桥接"
+);
+var wisp=new Array
+(
+"WISP",
+"WISP",
+"WISP",
+"FAISP",
+"WISP",
+"WISP",
+"WISP",
+"WISP",
+"WISP",
+"WISP",
+"WISP",
+"WISP",
+"WISP",
+"WISP",
+"WISP",
+"WISP"
+);
+var wisp_1=new Array
+(
+"WISP mode",
+"WISP-Modus",
+"Modo WISP",
+"Mode FAISF",
+"Modalità WISP",
+"WISP modus",
+"Modo WISP",
+"Mod WISP",
+"Režim WISP",
+"tryb WISP",
+"WISP режим",
+"Režim WISP",
+"WISP mode",
+"Chế độ WISP",
+"WISP 模式",
+"WISP模式"
+);
+var S1_head=new Array
+(
+"You have selected Access Point Mode.",
+"Sie haben Access Point-Modus ausgewählt.",
+"Ha seleccionado el Modo Punto de Acceso.",
+"Vous avez choisi le mode Point d'Accès.",
+"Hai selezionato la Modalità Punto di Accesso.",
+"U hebt access point modus geselecteerd.",
+"Seleccionou o Modo Ponto de acesso.",
+"Aţi selectat modul Punct de acces.",
+"Vybrali jste režim Přístupový bod.",
+"Wybrałeś tryb Punkt Dostępu.",
+"Вы выбрали режим точки доступа.",
+"Vybrali ste režim prístupu.",
+"Access Point Yöntemini seçtiniz ",
+"Bạn chọn chế độ điểm truy cập AP",
+"您已選擇無線AP 模式。",
+"您已选择无线AP模式。"
+);
+var S1_info=new Array
+(
+"The product connects to your router via Ethernet cable and provides Internet access for your computers, smartphones, tablets and any other network devices.",
+"Das Produkt verbindet sich via Ethernet-Kabel mit Ihrem Router und bietet Internet-Zugang für Computer, Smartphones, Tablets und andere Netzwerkgeräte.",
+"El producto se conecta a su enrutador mediante un cable Ethernet y ofrece un acceso a Internet para sus ordenadores, teléfonos inteligentes, tabletas y muchos otros dispositivos de red.",
+"L'équipement se connecte à votre routeur grâce à un câble Ethernet et fournit un accès Internet à vos ordinateurs, smartphones, tablettes ou tout autre périphérique réseau.",
+"Il prodotto si collega al router tramite cavo Ethernet e fornisce l'accesso Internet per computer, smartphone, tablet e altri dispositivi di rete.",
+"Het apparaat maakt verbinding met uw router via een ethernetkabel en bied internettoegang voor uw computers, smartphones, tablets en alle andere netwerkapparaten.",
+"O equipamento permite estabelecer ligação ao seu router através do cabo Ethernet e fornece acesso à Internet aos seus computadores, smartphones, tablets e quaisquer outros dispositivos de rede.",
+"Produsul se conectează la router prin cablul Ethernet şi oferă acces la Internet pentru computere, telefoane, tablete şi orice alte dispozitive de reţea.",
+"Zařízení se připojuje k routeru pomocí Ethernetového kabelu a poskytuje přístup k internetu pro smartphony, tablety a jakákoliv jiná zařízení.",
+"Punkt dostępu połączy się przewodowo z routerem i udostępni połączenie internetowe innym urządzeniom bezprzewodowo.",
+"Устройство подключается к вашему маршрутизатору Ethernet кабелем и обеспечивает интернет доступ вашим компьютерам, смартфонам, планшетным ПК, и другим сетевым устройствам.",
+"Zariadenie sa pripája k routeru pomocou Ethernetového kábla a poskytuje prístup k internetu pre smartphony, tablety a akákoľvek iná zariadenia.",
+"Ürün Ethernet kablosu ile Routere bağlaniyor ve bilgisayarlar, akıllı telefonlar , tabletler ve diğer ağ cihazları için İnternet erişimi sağlliyor.",
+"Sản phẩm này kết nối đến bộ Định tuyến của bạn qua cáp Ethernet và cung cấp truy cập mạng cho máy tính, điện thoại thông minh, máy tính bảng và những thiết bị mạng khác của bạn.",
+"本產品透過網路線與您的分享器連接，可讓您的電腦、智慧手機、平板電腦和其它網路裝置連線Internet。",
+"本产品透过网络线与您的路由器连接，可让您的计算机、智能手机、平板计算机和其它网络装置联机Internet。"
+);
+var S3_head=new Array
+(
+"You have selected Wi-Fi Bridge Mode.",
+"Sie haben den Wi-Fi-Bridge-Modus ausgewählt.",
+"Ha seleccionado el Modo Puente inalámbrico.",
+"Vous avez choisi le mode Pont Wi-Fi.",
+"Hai selezionato la Modalità Bridge Wi-Fi.",
+"U hebt Wi-Fi bridge modus geselecteerd.",
+"Seleccionou o Modo Wi-Fi Bridge.",
+"Aţi selectat modul Bridge Wi-Fi.",
+"Vybrali jste režim Wi-Fi Bridge.",
+"Wybrałeś tryb Most Bezprzewodowy.",
+"Вы выбрали режим беспроводного моста.",
+"Vybrali ste režim Wi-Fi Bridge.",
+"Wi-Fi Bridge Modu seçtiniz.",
+"Bạn chọn chế độ Cầu nối Wi-Fi.",
+"您已選擇Wi-Fi 無線橋接模式。",
+"您已选择无线网络连接无线桥接模式。"
+);
+var S3_info=new Array
+(
+"The product connects to a network device via Ethernet cable and acts as a wireless receiver, allowing the network device to join your Wi-Fi network.",
+"Das Produkt verbindet sich via Ethernet-Kabel mit einem Netzwerkgerät und dient als Funkempfänger, mit dessen Hilfe das Netzwerkgerät ein Teil Ihres Wi-Fi-Netzwerks werden kann.",
+"El producto se conecta a un dispositivo de red mediante un cable Ethernet y actúa como un receptor inalámbrico, permitiendo que el dispositivo de red se una a su red Wi-Fi.",
+"L'équipement se connecte à un périphérique réseau grâce à un câble Ethernet et il agit comme un récepteur sans fil, permettant ainsi au périphérique réseau de rejoindre le réseau Wi-Fi.",
+"Questo prodotto si connette a un dispositivo di rete tramite cavo Ethernet e fa da ricevitore wireless, consentendo al dispositivo di rete di unirsi alla rete Wi-Fi.",
+"Het apparaat maakt verbinding met een netwerk via de ethernetkabel en werkt als draadloze ontvanger, waardoor het netwerkapparaat uw Wi-Fi netwerk toetreed.",
+"O equipamento estabelece ligação a um dispositivo de rede através do cabo Ethernet e funciona como receptor sem fios, o que permite ao dispositivo de rede aderir à sua rede Wi-Fi.",
+"Produsul se conectează la un dispozitiv de reţea prin cablul Ethernet şi acţionează ca un receiver wireless, permiţând dispozitivului de reţea să se alăture reţelei Wi-Fi.",
+"Zařízení se připojuje k síťovému zařízení pomocí ethernetového kabelu a funguje jako bezdrátový přijímač, který umožňuje připojení do Wi-Fi sítě jiným zařízením.",
+"Most połączy się bezprzewodowo z routerem i udostępmi połączenie inetrnetowe innym urządzeniom przewodowo.",
+"Устройство подключится к вашему Ethernet устройству кабелем и будет работать как беспроводной приемник, позволяя Ethernet устройству присоединиться к Wi-Fi сети.",
+"Zariadenie sa pripája k sieťovému zariadeniu pomocou ethernetového kábla a funguje ako bezdrôtový prijímač, ktorý umožňuje pripojenie do Wi-Fi siete iným zariadením.",
+"Ürün Ethernet kablosu ile bir kablolu Ağ ürününe baglaniyor ve kablsouz Ağınıza bağlanmasını sağlıyor",
+"Sản phẩm này kết nối đến một thiết bị mạng qua cáp Ethernet và hoạt động như một máy thu không dây, cho phép các thiết bị mạng tham gia vào mạng không dây của bạn.",
+"本產品以網路線連接網路裝置，可作為無線接收器，讓此網路裝置得以加入您的Wi-Fi 無線網路",
+"本产品以网络线连接网络装置，可作为无线接收器，让此网络装置得以加入您的Wi-Fi无线网路"
+);
+var S4_head=new Array
+(
+"You have selected WISP Mode.",
+"Sie haben den WISP-Modus gewählt.",
+"Ha seleccionado el Modo WISP.",
+"Vous avez choisi le mode FAISF.",
+"Hai selezionato la Modalità WISP.",
+"U hebt WISP modus geselecteerd.",
+"Seleccionou o Modo WISP.",
+"Aţi selectat modul WISP.",
+"Vybrali jste režim WISP.",
+"Wybrałeś tryb WISP.",
+"Вы выбрали WISP режим.",
+"Vybrali ste režim WISP.",
+"WISP kurulumu seçtiniz.",
+"Bạn chọn chế độ WISP.",
+"您已選擇 WISP 模式。",
+"您已选择WISP模式。"
+);
+var S4_info=new Array
+(
+"The product connects wirelessly to your Wireless Internet Service Provider and provides Internet access for your cpmputers,smatphones,tablets and network devices.",
+"Das Produkt verbindet sich drahtlos mit Ihrem Wireless Internet Service Provider und bietet Internet-Zugang für Computer, Smartphones, Tablets und Netzwerkgeräte.",
+"El producto se conecta de forma inalámbrica a su proveedor de servicios Internet inalámbrico y le ofrece acceso a Internet para sus ordenadores, teléfonos inteligentes, tabletas y dispositivos de red.",
+"L'équipement se connecte sans fil à votre Fournisseur d'Accès Internet Sans Fil et fournit un accès Internet à vos ordinateurs, smartphones, tablettes et autres périphériques réseau.",
+"Il prodotto si collega senza fili al provider di servizi Internet wireless e fornisce l'accesso a Internet per i computer, smatphone, tablet e dispositivi di rete.",
+"Het apparaat maakt draadloos verbinding met uw draadloze internetaanbieder en bied internettoegang voor uw computers, smartphones,tablets en netwerkapparaten.",
+"O equipamento estabelece ligação sem fios ao seu Fornecedor de serviços Internet sem fios e fornece acesso aos seus computadores, smartphones, tablets e dispositivos de rede.",
+"Produsul se conectează wireless la furnizorul de servicii Internet şi oferă acces la Internet pentru calculatoare, telefoane, tablete şi dispozitive de reţea.",
+"Zařízení se bezdrátově připojuje k bezdrátovému poskytovateli internetu a poskytuje přístup k internetu pro vaše séťová zařízení.",
+"Router połączy się bezprzwwodowo z dostawcą i udostępni połączenie internetowe innym urządzeniom.",
+"Устройство подключится по беспроводной связи к WISP (Wireless Internet Service Provider) провайдеру и обеспечит интернет доступ вашим компьютерам, смартфонам, планшетным ПК, и другим сетевым устройствам.",
+"Zariadenie sa bezdrôtovo pripája k bezdrôtovému poskytovateľovi internetu a poskytuje prístup k internetu pre vaše setový zariadenie.",
+"Ürününüz WISP  Internet´e bağlandı ve diğer bilgisayar, akıllı telefon ve tabletler için İnternet erişimi hazırdır.",
+"Sản phẩm này kết nối không dây với thiết bị của nhà cung cấp dịch vụ mạng không dây và sau đó cung cấp truy cập mạng cho máy tính, điện thoại thông minh, máy tính bảng và các thiết bị mạng khác của bạn. ",
+"本產品以無線方式連接到無線網路服務提供商(WISP)，讓您的電腦、智慧手機、平板電腦和網路裝置等可以透過本產品連線上Internet",
+"本产品以无线方式连接到无线网络服务提供商(WISP)，让您的计算机、智能手机、平板计算机和网络装置等可以透过本产品联机上Internet"
+);
+var APcl_info=new Array
+(
+"This setup wizard will assist you to setup a wireless connection between the Wi-Fi bridge and your existing router.  Please ensure the Wi-Fi bridge is within the coverage range of your existing wireless network.",
+"Dieser Einrichtungs-Assistent hilft Ihnen, eine drahtlose Verbindung zwischen der Wi-Fi-Bridge und Ihrem vorhandenen Router einzurichten.  Stellen Sie sicher, dass sich die Wi-Fi-Bridge in Reichweite des bestehenden Wireless-Netzwerks befindet.",
+"Este asistente de instalación le ayudará a instalar la conexión inalámbrica entre el puente inalámbrico y su enrutador existente.  Compruebe que el puente inalámbrico se encuentre dentro del alcance de la cobertura de su red inalámbrica existente.",
+"L'assistant de configuration va vous aider à configurer une connexion sans fil entre le pont Wi-Fi et votre routeur existant.  Assurez-vous que le pont Wi-Fi se trouve dans la plage de couverture de votre réseau sans fil existant.",
+"Questa procedura di configurazione guidata fornirà assistenza nella configurazione di una connessione wireless tra il bridge Wi-Fi e il router esistente.  Assicurarsi che il bidge Wi-Fi si trovi entro il raggio di copertura della rete wireless esistente.",
+"Deze setup wizard helpt u met het instellen van een draadloze verbinding tussen de Wi-Fi bridge en uw bestaande router.  Zorg er a.u.b. voor dat de Wi-Fi bridge zich binnen het bereik bevindt van uw bestaande draadloze netwerk.",
+"Este assistente de configuração irá ajudá-lo a configurar uma ligação sem fios entre a Wi-Fi bridge e o router.  Certifique-se de que a Wi-Fi bridge está dentro da área de cobertura da sua rede sem fios.",
+"Aplicaţia de configurare vă va asista în configurarea unei conexiuni între Wi-Fi bridge şi routerul existent.  Vă rugăm să vă asiguraţi că Wi-Fi bridge este în raza de acoperire a reţelei wireless.",
+"Tento průvodce vám pomůže s nastavení bezdrátového připojení mezi bezdrátovým mostem a vaším existujícím routerem. Prosím ujistěte se, že bezdrátový mosti je umístěn v dosahu původní bezdrtátové sítě.",
+"iQ Setup pomoże Ci w skonfigurowaniu połączenia bezprzewodowego między mostem bezprzewodowym a routerem. Upewnij się, że most bezprzewodowy znajduje się w zasięgu istniejącej sieci bezp",
+"Этот мастер установки поможет вам настроить беспроводное соединение между беспроводным мостом и существующим маршрутизатором.  Пожалуйста, убедитесь, что беспроводной мост находится в зоне покрытия вашей беспроводной сети.",
+"Tento sprievodca vám pomôže s nastavenie bezdrôtového pripojenia medzi bezdrôtovým mostom a vaším existujúcim routerom. Prosím uistite sa, že bezdrôtový most je umiestnený v dosahu pôvodnej bezdrtátové siete.",
+"Bu kurulum yardımcısı kablosuz ağ kurulumunu ve kablosuz ağ yönlendirici arasında bağlantığı kurmak için, size yardımcı olacaktır. ",
+"Hướng dẫn cài đặt này sẽ giúp bạn thiết lập 1 kết nối không dây giữa Cầu nối Wi-Fi và bộ Định tuyến hiện có của bạn. Vui lòng đảm bảo Cầu nối Wi-Fi nằm trong phạm vi phủ sóng của mạng không dây hiện có của bạn.",
+"設定精靈將幫助您設定此無線橋接器和現有分享器之間的無線連接。請確認此無線橋接器位於您現有無線網路的覆蓋範圍內",
+"设定精灵将帮助您设定此无线网桥和现有路由器之间的无线连接。请确认此无线网桥位于您现有无线网络的覆盖范围内"
+);
+var APcl_select=new Array
+(
+"Please select the wireless frequency that same as your existing wireless network.",
+"Bitte wählen Sie die gleiche Wireless-Frequenz wie für Ihr vorhandenes Drahtlosnetzwerk.",
+"Seleccione la misma frecuencia de su red inalámbrica existente.",
+"Veuillez sélectionner la même fréquence sans fil que celle de votre réseau sans fil existant.",
+"Selezionare la stessa frequenza wireless della rete wireless esistente.",
+"Selecteer a.u.b. de draadloze frequentie die hetzelfde is als die van uw bestaande draadloze netwerk.",
+"Seleccione a frequência sem fios que seja igual à da sua rede sem fios.",
+"Vă rugăm să selectaţi frecvenţa wireless care este la fel cu cea a reţelei wireless existente.",
+"Prosím vyberte stejné bezdrátové pásmo, jaké využívá existující bezdrátová síť",
+"Wybierz to samo pasmo, w którym pracuje istniejąca sieć bezprzewodowa.",
+"Пожалуйста, выберите частоту беспроводной связи, совпадающую с существующей беспроводной сетью.",
+"Prosím vyberte rovnakej bezdrôtovej pásmo, aké využíva existujúce bezdrôtová sieť",
+"Kullanmak ıstedığınız Frekansı seçiniz.",
+"Vui lòng chọn tần số không dây giống với mạng không dây hiện có của bạn.",
+"請選擇與現有無線網路相同的無線頻段",
+"请选择与现有无线网路相同的无线频段"
+);
+var APclget24GIPfail=new Array
+(
+"The Wi-Fi bridge could not obtain an IP address from router, please click \"Back\" to check the security key, or assign an IP address to the Wi-Fi bridge manually. Then click \"Next\" when you are ready to continue.",
+"Die Wi-Fi-Bridge konnte keine IP-Adresse vom Router erhalten, klicken Sie auf \"Zurück\", um den Sicherheitsschlüssel zu überprüfen oder um manuell eine IP-Adresse für die Drahtlosbrücke zuzuweisen. Klicken Sie auf \"Weiter\", wenn Sie bereit sind fortzufahren.",
+"El puente inalámbrico no ha podido obtener una dirección IP del enrutador, pulse \"Volver\" para comprobar la clave de seguridad o atribuir una dirección IP al puente inalámbrico manualmente. A continuación, haga clic en \“Siguiente\” cuando esté listo para continuar.",
+"Le pont Wi-Fi n'a pas pu obtenir d'adresse IP du routeur, veuillez cliquer sur \"Retour\" pour vérifier la clé de sécurité ou assigner manuellement une adresse IP au pont sans fil. Cliquez ensuite sur \"Suivant\" lorsque vous êtes prêt à continuer.",
+"Il bridge wireless non è riuscito a ottenere un indirizzo IP dal router, fare clic su \"Indietro\" per verificare la chiave di sicurezza, o assegnare un indirizzo IP al bridge wireless manualmente. Quindi fare clic su \"Avanti\" quando si è pronti per procedere.",
+"De draadloze bridge kan geen IP-adres van de router verkrijgen, klik a.u.b. op \"Back (Terug)\" om de beveiligingssleutel te controleren, of voer handmatig een IP-adres in. Klik daarna op \"Next (verdergaan)\" als u klaar bent om verder te gaan.",
+"A bridge sem fios não conseguiu obter um endereço IP do router, clique em \"Back\" (Retroceder) para verificar a chave de segurança ou atribuir um endereço IP manualmente à bridge sem fios. Em seguida, clique em \"Next\" (Seguinte) quando estiver pronto para continuar.",
+"Wi-Fi bridge nu poate obţine o adresă IP de la router, vă rugăm să faceţi clic pe \"Înapoi\" pentru a verifica cheia de securitate, ori să alocaţi manual o adresă IP la Wi-Fi bridge. Apoi, faceţi clic pe \"Următor\" când sunteţi gata pentru a continua.",
+"Bezdrátový mosti nemůže získat IP adresu z routeru, prosím klikněte na \"Zpět\" pro kontrolu bezpečnostního klíče nebo manuálního nastavení IP adresy. Klikněte na \"Další\" jakmile budete připraveni pokračovat.",
+"Most bezprzewodowy nie mógł uzyskać adresu IP. Wciśnij \"Wstecz\" żeby sprawdzić  hasło lub przypisać ręcznie adres IP. Następnie wciśnij \"Dalej\".",
+"Беспроводной мост не может получить IP адрес от маршрутизатора, пожалуйста, проверьте пароль и нажмите \"Назад\" чтобы проверить ключ доступа или назначить IP адрес моста вручную. Затем, нажмите  \"Далее\", когда будете готовы продолжить.",
+"Bezdrôtový mosta nemôže získať IP adresu z routera, prosím kliknite na \"Späť \" pre kontrolu bezpečnostného kľúča alebo manuálneho nastavenia IP adresy. Kliknite na \"Ďalšie \" akonáhle budete pripravení pokračovať.",
+"Wi-Fi Bridge  bir IP adresi alamiyor, lütfen  \"Geri\" tuşlayin ve  güvenlik anahtarını kontrol edin. Veya elden bir IP adresı vermek için \"Geri\" tıklayınız. Devam etmeye hazır olduğunuzda \"ileri\" butonuna tıklayınız.",
+"Wi-Fi Bridge không thể nhận 1 địa chỉ IP từ Router, vui lòng nhấn \"Lùi\" để kiểm tra từ khóa bảo mật, hoặc gán 1 địa chỉ IP cho Wi-Fi Bridge bằng tay. Sau đó nhấn \"Tiếp\" khi bạn sẳn sàn để tiếp tục.",
+"此無線橋接器無法從分享器取得IP位址，請點選\“回上一步\”檢查安全密鑰，或手動配發一組IP 位址給此無線橋接器。完成後，請點選\“下一步\”以繼續",
+"此无线网桥无法从路由器取得IP地址，请点选\“回上一步\”检查安全密钥，或手动配发一组IP地址给此无线桥接器。完成后，请点选\“下一步\”以继续"
+);
+var APclget24GIPok=new Array
+(
+"Connection test cpmplete. Please click \"Next\" when you are ready to continue.",
+"Verbindungstest beendet. Klicken Sie bitte auf \"Weiter\", wenn Sie bereit sind fortzufahren.",
+"Prueba de conexión finalizada. Haga clic en \“Siguiente\” cuando esté listo para continuar.",
+"Test de connexion terminé. Veuillez cliquer sur \"Suivant\" lorsque vous êtes prêt à continuer.",
+"Test di connessione completato. Fare clic su \"Avanti\" quando si è pronti per procedere.",
+"Testen van de verbinding voltooid. Klik op \"Next (verdergaan)\" als u klaar bent om verder te gaan.",
+"Teste de ligação concluído. Clique em \"Next\" (Seguinte) quando estiver pronto para continuar.",
+"Test conexiune finalizat. Vă rugăm să faceţi clic pe \"Următor\" când sunteţi gata pentru a continua.",
+"Test připojení je kompletní. Klikněte na \"Další\" pro pokračování.",
+"Testowanie połączenia zakończone. Wciśnij \"Dalej\".",
+"Тестирование связи завершено. Нажмите \"Далее\",  когда будете готовы продолжить.",
+"Test pripojenia je kompletný. Kliknite na \"Ďalšie\" pre pokračovanie.",
+"Bağlantı testi tamamlandı. Devam etmeye  \"ileri\"  tıklayınız.",
+"Kiểm tra kết nối hoàn chỉnh. Vui lòng nhấn \"Tiếp\" khi bạn đã sẳn sàng tiếp tục",
+"連接測試完成。請點選\“下一步\”以繼續",
+"连接测试完成。请点选\“下一步\”以继续"
+);
+var APclautoinfo=new Array
+(
+"Please enter your existing Wi-Fi network security key if required.",
+"Bitte geben Sie Ihren vorhandenen Wi-Fi-Netzwerksicherheitsschlüssel ein, falls erforderlich.",
+"Ingrese su clave de seguridad de red Wi-Fi existente si es necesario.",
+"Veuillez, si nécessaire, entrer votre clé de sécurité de réseau Wi-Fi.",
+"Inserire la chiave di sicurezza della rete Wi-Fi esistente se necessario.",
+"Voer wanneer nodig de beveiligingssleutel in van uw huidige Wi-Fi netwerk.",
+"Introduza a chave de segurança da rede Wi-Fi, se solicitado.",
+"Vă rugăm să introduceţi cheia de securitate Wi-Fi dacă este solicitată.",
+"V případě potřeby zadejte bezdpečnostní klíč k původní Wi-Fi síti.",
+"Jeśli jest wymagane, podaj hasło do istniejącej sieci bezprzewodowej.",
+"Пожалуйста, введите ключ доступа к  Wi-Fi сети, если это требуется.",
+"V prípade potreby zadajte bezdpečnostní kľúč k pôvodnej Wi-Fi sieti.",
+"Lütfen Wi-Fi ağinin güvenlik anahtarını yazın.",
+"Vui lòng nhập từ khóa bảo mật của mạng Wi-Fi hiện có của bạn nếu được yêu cầu",
+"請輸入您現有的Wi-Fi 無線網路安全密鑰（如果有的話）。",
+"请输入您现有的无线网络连接无线网路安全密钥（如果有的话）。"
+);
+var APclmanualSSIDinfo=new Array
+(
+"Please enter your existing Wi-Fi network name (SSID) and security key if required.",
+"Bitte geben Sie Ihren vorhandenen Wi-Fi-Netzwerknamen (SSID) ein, falls erforderlich.",
+"Ingrese el nombre de su red Wi-Fi existente (SSID) y la clave de seguridad si es necesario.",
+"Veuillez, si nécessaire, entrer le nom de votre réseau Wi-Fi (SSID) existant et la clé de sécurité.",
+"Inserire il nome della rete Wi-Fi esistente (SSID) e la chiave di sicurezza se necessario.",
+"Voer wanneer nodig uw huidige Wi-Fi netwerknaam (SSID) en de beveiligingssleutel in.",
+"Introduza o nome da rede Wi-Fi (SSID) e a chave de segurança, se solicitado.",
+"Vă rugăm să introduceţi denumirea de reţea Wi-Fi (SSID) şi cheia de securitate dacă vă sunt solicitate.",
+"Prosím zadejte název existující Wi-Fi sítě a v případě potřeby bezpečnostní klíč.",
+"Wpisz nazwę istniejącej sieci bezprzewodowej. Jeśli jest to wymagane, podaj hasło do tej sieci.",
+"Пожалуйста, введите имя беспроводной сети (идентификатор SSID)  и ключ доступа, если это требуется.",
+"Prosím zadajte názov existujúcej Wi-Fi siete a v prípade potreby bezpečnostný kľúč.",
+"Lütfen Wi-Fi ağinin adını yazın ve güvenlik anahtarını yazın.",
+"Vui lòng nhập tên mạng Wi-Fi hiện có (SSID) và từ khóa bảo mật nếu được yêu cầu.",
+"請輸入您現有的Wi-Fi 無線網路名稱（SSID）和安全密鑰",
+"请输入您现有的无线网络连接无线网路名称（SSID）和安全密钥"
+);
+var wisp_info=new Array
+(
+"This setup wizard will assist you to setup a wireless connection between your Wi-Fi router and WISP.",
+"Dieser Einrichtungsassistent hilft Ihnen, eine drahtlose Verbindung zwischen Ihrem Wi-Fi-Router und WISP einzurichten.",
+"Este asistente de instalación le ayudará a instalar la conexión inalámbrica entre el WISP y su enrutador inalámbrico.",
+"Cet assistant de configuration va vous aider à configurer une connexion sans fil entre le routeur Wi-Fi et votre FAISF.",
+"Questa procedura di configurazione guidata fornirà assistenza nella configurazione di una connessione wireless tra il router Wi-Fi e il WISP.",
+"Deze setup wizard helpt u met het instellen van een draadloze verbinding tussen uw Wi-Fi router en uw WISP.",
+"Este assistente de configuração irá ajudá-lo a configurar uma ligação sem fios entre o router Wi-Fi e o WISP.",
+"Aplicaţia de configurare vă va asista în configurarea unei conexiuni între routerul Wi-Fi bridge şi WISP.",
+"Tento průvodce vám pomůže s nastavením bezdrátového připojení mezi Wi-Fi routerem a WISP.",
+"iQ Setup pomoże Ci w skonfigurowaniu połączenia bezprzewodowego między routerem a dostawcą internetu.",
+"Этот мастер установки поможет вам настроить беспроводное соединение между вашим маршрутизатором и WISP. ",
+"Tento sprievodca vám pomôže s nastavením bezdrôtového pripojenia medzi Wi-Fi routerom a WISP.",
+"Bu kurulum yardımcısı Wi-Fi Router ve WISP ağ bağlantısını kurmak için yardımcı olacaktır.",
+"Hướng dẫn cài đặt nhanh này sẽ giúp bạn thiết lập 1 kết nối không dây giữa Định tuyến Wi-Fi của bạn và WISP",
+"設定精靈將幫助您設定您的無線分享器和WISP之間的無線連接。",
+"设定精灵将帮助您设定您的无线路由器和无线互联网服务提供商之间的无线连接。"
+);
+var wisp_select=new Array
+(
+"Please select the wireless frequency that same as your WISP used.",
+"Bitte wählen Sie die gleiche Wireless-Frequenz wie für Ihr WISP.",
+"Seleccione la misma frecuencia del WISP utilizado.",
+"Veuillez sélectionner la même fréquence sans fil que celle utilisée par votre FAISF.",
+"Selezionare la stessa frequenza wireless del WISP utilizzato.",
+"Selecteer a.u.b. de draadloze frequentie die hetzelfde is als de frequentie die uw WISP gebruikt.",
+"Seleccione a frequência sem fios igual à utilizada pelo WISP.",
+"Vă rugăm să selectaţi frecvenţa wireless care este la fel cu cea a WISP-ului existent.",
+"Prosím vyberte stejné bezdrátové pásmo, jaké využívá váš WISP.",
+"Wybierz to samo pasmo, w którym pracuje sieć bezprzewodowa dostawcy.",
+"Пожалуйста, выберите частоту, соответствующую WISP сети.",
+"Prosím vyberte rovnakej bezdrôtovej pásmo, aké využíva váš WISP.",
+"Lütfen WISP kullandiği Frekansı seçiniz.",
+"Vui lòng chọn tần số không dây giống với WISP của bạn được sử dụng.",
+"請選擇與您的WISP所使用的無線頻段。",
+"请选择与您的WISP所使用的无线频段。"
+);
+var wisp_autoinfo=new Array
+(
+"Please enter the security key provide from your WISP if required.",
+"Bitte geben Sie den Sicherheitsschlüssel ein, den Sie von Ihrem WISP haben, falls erforderlich.",
+"Indique la clave de seguridad suministrada de su WISP si es necesario.",
+"Veuillez, si nécessaire, entrer la clé de sécurité fournie par votre FAISF.",
+"Inserire la chiave di sicurezza fornita dal proprio WISP se necessario.",
+"Voer wanneer nodig de beveiligingssleutel in die u hebt gekregen van uw WISP.",
+"Introduza a chave de segurança fornecida pelo seu WISP, se solicitado.",
+"Vă rugăm să introduceţi cheia de securitate de la WISP dacă este solicitată.",
+"Prosím zadejte bezpečnostní klíč od vašeho WISP, pokud je potřebný.",
+"Jeśli jest to wymagane, podaj hasło otrzymane od dostawcy Internetu.",
+"Пожалуйста, введите ключ доступа к  WISP сети, если это требуется.",
+"Prosím zadajte bezpečnostný kľúč od vášho WISP, ak je potrebný.",
+"Lütfen WISP güvenlik anahtarını yazın.",
+"Vu lòng nhập từ khóa bảo mật cung cấp từ WISP của bạn nếu được yêu cầu.",
+"請輸入WISP使用的安全密鑰(如果有的話)",
+"请输入WISP使用的安全密钥（如果有的话）"
+);
+var wisp_manualSSIDinfo=new Array
+(
+"Please enther your WISP's Wi-Fi network name and the security key provide from your WISP if required.",
+"Bitte geben Sie den Wi-Fi-Netzwerknamen Ihres WISP und den Sicherheitsschlüssel ein, den Sie von Ihrem WISP haben, falls erforderlich.",
+"Indique el nombre de su red Wi-Fi WISP y la clave de seguridad de su WISP si es necesario.",
+"Veuillez, si nécessaire, entrer le nom de réseau Wi-Fi de votre FAISF et la clé de sécurité fournie par votre FAISF.",
+"Inserire il nome della rete Wi-Fi e la chiave di sicurezza fornita dal proprio WISP se necessario.",
+"Voer wanneer nodig de Wi-Fi netwerknaam van uw WISP en de beveiligingssleutel in die u hebt gekregen van uw WISP.",
+"Introduza o nome da rede Wi-Fi do seu WISP e a chave de segurança fornecida pelo seu WISP, se solicitado.",
+"Vă rugăm să introduceţi denumirea de reţea Wi-Fi WISP şi cheia de securitate de la WISP dacă vă sunt solicitate.",
+"Prosím zadejte název sítě WISP a bezpočnostní klíč, v příbadě, že je potřebný.",
+"Wpisz nazwę sieci bezprzewodowej dostawcy. Jeśli jest to wymagane, podaj hasło do sieci bezprzewodowej dostawcy.",
+"Пожалуйста, введите имя WISP сети (идентификатор SSID)  и ключ доступа, если это требуется.",
+"Prosím zadajte názov siete WISP a bezpočnostní kľúč, v příbadě, že je potrebný.",
+"Lütfen WISP ağ adını yazın ve güvenlik anahtarını yazın.",
+"Vui lòng nhập tên mạng Wi-Fi của WISP và từ khóa bảo mật cung cấp từ WISP của bạn nếu được yêu cầu",
+"請輸入WISP的Wi-Fi 網路名稱及WISP使用的安全密鑰(如果有的話)",
+"请输入WISP的无线网络连接网路名称及无线互联网服务提供商使用的安全密钥（如果有的话）"
+);
+var wisp_detectsuccess=new Array
+(
+"Wireless connection succeeded",
+"Drahtlosverbindung ist aufgebaut",
+"Conexión inalámbrica correcta",
+"Connexion sans fil réussie",
+"Connessione wireless riuscita",
+"Draadloze verbinding geslaagd",
+"A ligação sem fios foi estabelecida com sucesso",
+"Conexiune wireless realizată cu succes",
+"Bezdátové připojení úspěšně navázáno",
+"Połączono z siecią bezprzewodową",
+"Беспроводная связь установлена",
+"Bezdátové pripojenie úspešne nadviazané",
+"Kablosuz ağ bağlantısı başarılı",
+"Kết nối không dây thành công",
+"無線連接成功",
+"无线连接成功"
+);
+var wisp_detectsuccess_1=new Array
+(
+"Please click \"Next\" to completed your Internet service type configuration.",
+"Klicken Sie auf \"Weiter\", um die Konfiguration Ihres Internet-Service-Typs abzuschließen.",
+"Pulse \"Siguiente\" para completar la configuración de su tipo de servicio de Internet.",
+"Veuillez cliquer sur \"Suivant\" pour terminer la configuration de votre type de service Internet.",
+"Fare clic su \"Avanti\" per completare la configurazione del tipo di servizio Internet.",
+"Klik a.u.b. op \"Next (Volgende)\" om uw type internet configuratie te voltooien.",
+"Clique em \"Next\" (Seguinte) para concluir a configuração do tipo de serviço Internet.",
+"Vă rugăm să faceţi clic pe \"Următor\" pentru a finaliza configuraţia tipului de serviciu de Internet.",
+"Prosím klikněte na \"Další\" dokončení konfigurace typu internetového připojení.",
+"Wciśnij \"Dalej\" żeby zakończyć konfigurację połączenia z dostawcą.",
+"Пожалуйста, нажмите \"Далее\", для завершения настройки интернет конфигурации.",
+"Prosím kliknite na \"Ďalšie \" dokončenie konfigurácie typu internetového pripojenia.",
+"Lütfen \"ileri\" tıklayınız kurulumu bitirmek için.",
+"Vui lòng nhấn \"Tiếp\" để hoàn thành kiểu cấu hình dịch vụi mạng của bạn.",
+"請點選\“下一步\”完成您的Internet服務類型配置",
+"请点选\“下一步\”完成您的因特网服务类型配置"
+);
+var wisp_detectfail=new Array
+(
+"Wireless connection failed",
+"Drahtlosverbindung fehlgeschlagen",
+"Conexión inalámbrica fallida",
+"La connexion sans fil a échoué.",
+"Connessione wireless non riuscita",
+"Draadloze verbinding mislukt",
+"A ligação sem fios falhou",
+"Conexiunea wireless nu a reuşit",
+"Bezdrátové připojení selhalo",
+"Nie połączono z siecią bezprzewodową",
+"Беспроводная связь не установлена",
+"Bezdrôtové pripojenie zlyhalo",
+"Ağ bağlantısı başarısız",
+"Kết nối không dây lỗi.",
+"無線連接失敗",
+"无线连接失败"
+);
+var wisp_detectfail_1=new Array
+(
+" Please click \"Back\" to check the Internet settings again, or click \"Next\" to continue the configuration.",
+" Klicken Sie auf \"Zurück\", um die Internet-Einstellungen zu überprüfen, oder klicken Sie auf \"Weiter\", um die Konfiguration fortzusetzen.",
+" Pulse \"Volver\" para comprobar de nuevo la configuración Internet o pulse \"Siguiente\" para seguir con la configuración.",
+" Veuillez cliquer sur \"Retour\" pour vérifier les paramètres Internet ou cliquer sur \"Suivant\" pour poursuivre la configuration.",
+" Fare clic su \"Indietro\" per controllare nuovamente le impostazioni Internet, o fare clic su \"Avanti\" per continuare la configurazione.",
+" Klik a.u.b. op \"Back (Terug)\" om de internetinstellingen nogmaals te controleren, of klik op \"Next (Volgende)\" om verder te gaan met de configuratie.",
+" Clique em \"Back\" (Retroceder) para verificar novamente as definições da Internet ou clique em \"Next\" (Seguinte) para continuar a configuração.",
+" Vă rugăm să faceţi clic pe \"Înapoi\" pentru a verifica din nou setările la Internet sau să faceţi clic pe \"Următor\" pentru a continua configuraţia.",
+"Prosím klikněte na \"Zpět\" pro kontrolu nastevení Internetu nebo klikně an \"Další\" pro pokračování v konfiguraci.",
+"Wciśnij \"Wstecz\" żeby sprawdzić ustawienia połączenia z Internetem lub wciśnij \"Dalej\" żeby kontynuować konfigurację.",
+"Пожалуйста, нажмите \"Назад\" для повторной проверки интернет конфигурации, или нажмите  \"Далее\" для продолжения настройки.",
+"Prosím kliknite na \"Späť \" pre kontrolu nastevenie Internetu alebo klik an \"Ďalšie \" pre pokračovanie v konfigurácii.",
+"Lütfen \"Geri\" tıklayınız internet ayarlarını kontrol etmek için veya yapılandırmayı devam etmek için \"İleri\" tıklayın.",
+"Vui lòng nhấn \"Lùi\" để kiểm tra cài đặt mạng lần nữa, hoặc nhấn \"Tiếp\" để tiếp tục cấu hình.",
+" 請點選\“回上一步\”再次檢查Internet設定，或點選\“下一步\”，繼續進行配置",
+"请点选\“回上一步\”再次检查Internet设定，或点选\“下一步\”，继续进行配置"
+);
+var wiz_APclsurvy_info=new Array
+(
+"The Wi-Fi bridge is surveying all available routers nearby. Please select the router you wish to connect to. If the router you wish to connect is not listed, try clicking \"Refresh\". To connect to a hidden SSID please select \"Setup Wi-Fi bridge manually\".",
+"Die Drahtlosbrücke überwacht alle vorhandenen Router in der Nähe. Wählen Sie bitte den Router aus, mit dem Sie sich verbinden wollen. Wenn der Router, mit dem Sie sich verbinden wollen, nicht aufgelistet ist, versuchen Sie, auf \"Refresh\" zu klicken. Um sich mit einem versteckten WLAN-Namen zu verbinden, wählen Sie bitte \"Drahtlosbrücke manuell einrichten\".",
+"El puente inalámbrico está inspeccionando todos los enrutadores disponibles en los alrededores. Seleccione el enrutador al que desea conectarse. Si el enrutador al que desea conectarse no aparece en la lista, haga clic en \“Actualizar\”. Para conectarse a un SSID oculto, seleccione \"Configurar el puente inalámbrico manualmente\".",
+"Le pont sans fil interroge tous les routeurs disponibles à proximité. Veuillez sélectionner le routeur auquel vous voulez vous connecter. Si le routeur auquel vous voulez vous connecter ne s'affiche pas, essayez de cliquer sur \"Actualiser\". Pour vous connecter à un SSID masqué, veuillez sélectionner \"Configurer le pont sans fil manuellement\".",
+"Il bridge wireless sta analizzando tutti i router disponibili nelle vicinanze. Selezionare il router al quale si desidera connettersi. Se il router al quale si desidera connettersi non è elencato, provarea cliccare su \"Aggiorna\". Per connettersi a un SSID nascosto, selezionare \"Configura bridge wireless manualmente\".",
+"De draadloze bridge zoekt naar alle beschikbare routers. Selecteer de router waarmee u verbinding wilt maken. Als de router waar u verbinding mee wilt maken niet in de lijst staat, klik dan op \"Refresh (Vernieuwen)\". Selecteer \"Setup Wi-Fi bridge manually (Wi-Fi bridge handmatig instellen)\" om verbinding te maken met een verborgen SSID.",
+"A bridge sem fios está a pesquisar todos os routers disponíveis por perto. Seleccione o router ao qual pretende estabelecer ligação. Se o router ao qual pretende ligar não aparecer na lista, clique em \"Refresh\" (Actualizar). Para estabelecer ligação a um SSID oculto, seleccione \"Setup Wi-Fi bridge manually\" (Configurar bridge sem fios manualmente).",
+"Bridge-ul wireless interoghează toate routerele existente în jur. Vă rugăm să selectaţi routerul la care doriţi să vă conectaţi. În cazul în care routerul la care doriţi să vă conectaţi nu este listat, încercaţi să faceţi clic pe \"Împrospătare\". Pentru a vă conecta la un SSID ascuns, vă rugăm să selectaţi \" Configurare manuală bridge\".",
+"Bezdrátový most vyhledává okolní bezdrátové sítě. Prosím vyberte síť, ke které se chcete připojit. Pokud se chcete připojit k síti, která není na seznamu klikněte na \"Obnovit\". Pro připojení ke skryté síti vyberte \"Nastavit bezdrátový most ručně\".",
+"Most bezprzewodowy wyszukuje sieci bezprzewodowe. Wybierz sieć, z którą chcesz się połączyć. Jeśli sieci, z którą chcesz się połączyć, nie ma liście, wciśnij \"Odścież\". Żeby połączyć się z ukrytą siecią wciśnij \"Skonfiguruj most bezprzewodowy ręcznie\".",
+"Беспроводной мост обнаружил все доступные маршрутизаторы. Пожалуйста, выберите маршрутизатор, к которому вы хотите подключиться. Если нужный маршрутизатор не обнаружен, нажмите кнопку \"Обновить\". Для подключения к сети со скрытым идентификатором SSID, пожалуйста, выберите \"Установить беспроводной мост вручную\".",
+"Bezdrôtový most vyhľadáva okolité bezdrôtovej siete. Prosím vyberte sieť, ku ktorej sa chcete pripojiť. Ak sa chcete pripojiť k sieti, ktorá nie je na zozname kliknite na \"Obnoviť \". Pre pripojenie ku skrytej sieti vyberte \"Nastaviť bezdrôtový most ručne \".",
+"Wi-Fi Bridge yakınlarda tüm ağ yönlendiricileri ölçme durumunda. Bağlanmak istediğiniz yönlendiriciğı seçiniz. Bağlanmak istediğiniz yönlendirici listede yoksa,\"Yenile\" tıklamayı deneyin.  Gizli SSID bağlanmak için  \"elle kurulum genişletici\" seçiniz. ",
+"Cầu nối không dây đang khảo svar át tất cả những bộ Định tuyến khả dụng gần đó. Vui lòng chọn bộ Định tuyến mà bạn muốn kết nối đến. Nếu bộ Định tuyến bạn muốn kết nối không có trong danh sách, thử cố nhấn \"Làm mới\". Để kết nối đến SSID ẩn vui lòng chọn \"Thiết lập cầu nối không dây  bằng tay\"",
+"本無線橋接器正在搜尋附近所有可用的分享器。請選擇您想要連接的分享器。如果您要連接的分享器沒有被列出，請試試點選\“重新整理\”。如您要連接到隱藏的SSID，請選擇“手動設定無線橋接器\”\。",
+"本无线网桥正在搜寻附近所有可用的路由器。请选择您想要连接的路由器。如果您要连接的路由器没有被列出，请试试点选\“重新整理\”。如您要连接到隐藏的SSID，请选择“手动设定无线网桥\”\。"
+);
+var Setupextendermanually_APcl=new Array
+(
+"Setup Wi-Fi bridge manually.",
+"Drahtlosbrücke manuell einrichten.",
+"Configurar el puente inalámbrico manualmente.",
+"Configurer le pont sans fil manuellement.",
+"Configura bridge wireless manualmente.",
+"Wi-Fi bridge handmatig instellen.",
+"Configure a bridge sem fios manualmente.",
+"Configurare manuală Wi-Fi bridge.",
+"Nastavit bezdrátový most ručně.",
+"Skonfiguruj most bezprzewodowy ręcznie.",
+"Установить беспроводной мост вручную.",
+"Nastaviť bezdrôtový most ručne.",
+"Wi-Fi Bridge manuel ayarla.",
+"Thiết lập cầu nối không dây bằng tay.",
+"手動設定無線網接器。",
+"手动设定无线网接器。"
+);
+var wiz_WISPsurvy_info=new Array
+(
+"The Wi-Fi router is surveying all available WISP nearby. Please select the WISP you wish to connect to. If the WISP you wish to connect is not listed, try clicking \"Refresh\". To connect to a hidden SSID please select \"Setup WISP manually\".",
+"Der Wi-Fi-Router überwacht alle vorhandenen WISP in der Nähe. Wählen Sie bitte den WISP aus, mit dem Sie sich verbinden wollen. Wenn der WISP, mit dem Sie sich verbinden wollen, nicht aufgelistet ist, versuchen Sie, auf \"Auffrischen\" zu klicken. Um sich mit einer versteckten SSID zu verbinden, wählen Sie bitte \"WISP manuell einrichten\".",
+"El enrutador Wi-Fi está inspeccionando todos los WISP disponibles en los alrededores. Seleccione el WISP al que desea conectarse. Si el WISP al que desea conectarse no aparece en la lista, haga clic en \“Actualizar\”. Para conectarse a un SSID oculto, seleccione \"Configurar el WISP manualmente\".",
+"Le routeur Wi-Fi interroge tous les FAISF disponibles à proximité. Veuillez sélectionner le FAISF auquel vous voulez vous connecter. Si le FAISF auquel vous voulez vous connecter ne s'affiche pas, essayez de cliquer sur \"Actualiser\". Pour vous connecter à un SSID masqué, veuillez sélectionner \"Configurer le FAISF manuellement\".",
+"Il router Wi-Fi sta analizzando tutti i router disponibili nelle vicinanze. Selezionare il WISP al quale si desidera connettersi. Se il WISP al quale si desidera connettersi non è elencato, provarea cliccare su \"Aggiorna\". Per connettersi a un SSID nascosto, selezionare \"Configura WISP manualmente\".",
+"De Wi-Fi router zoekt naar alle beschikbare WISP. Selecteer de WISP waarmee u verbinding wilt maken. Als de WISP waar u verbinding mee wilt maken niet in de lijst staat, klik dan op \"Refresh (Vernieuwen)\". Kies \"Setup WISP manually (WISP handmatig instellen)\" om verbinding te maken met een verborgen SSID.",
+"O router Wi-Fi está a pesquisar todos os WISP disponíveis por perto. Seleccione o WISP ao qual pretende estabelecer ligação. Se o WISP ao qual pretende ligar não aparecer na lista, clique em \"Refresh\" (Actualizar). Para estabelecer ligação a um SSID oculto, seleccione \"Setup WISP manually\" (Configurar WISP manualmente).",
+"Routerul Wi-Fi interoghează toate WISP-urile disponibile din zonă. Vă rugăm să selectaţi WISP-ul la care doriţi să vă conectaţi. În cazul în care WISP-ul la care doriţi să vă conectaţi nu este listat, încercaţi să faceţi clic pe \"Împrospătare\". Pentru a vă conecta la un SSID ascuns, vă rugăm să selectaţi \"Configurare manuală WISP\".",
+"Bezdrátový router vyhledává okolní sítě WISP. Prosím vyberte síť, ke které se chcete připojit. Pokud se chcete připojit k síti WISP, která není na seznamu klikněte na \"Obnovit\". Pro připojení ke skryté síti vyberte \"Nastavit WISP ručně\".",
+"Router wyszukuje sieci bezprzewodowe. Wybierz sieć, z którą chcesz się połączyć. Jeśli sieci, z którą chcesz się połączyć, nie ma liście, wciśnij \"Odścież\". Żeby połączyć się z ukrytą siecią wciśnij \"Skonfiguruj WISP ręcznie\".",
+"Беспроводной мост обнаружил все доступные WISP сети. Пожалуйста, выберите сеть WISP, к которой вы хотите подключиться. Если нужная сеть WISP не обнаружена, нажмите кнопку \"Обновить\". Для подключения к сети со скрытым идентификатором SSID, пожалуйста, выберите \"Установить WISP вручную\".",
+"Bezdrôtový router vyhľadáva okolitej siete WISP. Prosím vyberte sieť, ku ktorej sa chcete pripojiť. Ak sa chcete pripojiť k sieti WISP, ktorá nie je na zozname kliknite na \"Obnoviť \". Pre pripojenie ku skrytej sieti vyberte \"Nastaviť WISP ručne \".",
+"Wi-Fi Router yakınlarda tüm WISP ağlarını ölçme durumunda. Bağlanmak istediğiniz WISP ağlarını  seçiniz. Bağlanmak istediğiniz WISP ağlarını  listede yoksa, \"Yenile\" tıklamayı deneyin. Gizli SSID bağlanmak için \"elle kurulum genişletici\"seçiniz . ",
+"Bộ Định tuyến Wi-Fi đang khảo sát tất cả những WISP khả dụng gần đó. Vui lòng chọn WISP mà bạn muốn kết nối đến. Nếu WISP bạn muốn kết nối không có trong danh sách, thử cố nhấn \"Làm mới\". Để kết nối đến SSID ẩn vui lòng chọn \"Thiết lập WISP bằng tay\"",
+"此分享器正在搜尋附近所有可用的WISP。請選擇您希望連接的WISPvar 。如果您要連接的WISP未被列出，請試試點選\“重新整理\”，若您要連接到隱藏的SSID，請選擇\“手動設定WISP \”",
+"此路由器正在搜寻附近所有可用的WISP。请选择您希望连接的WISP。如果您要连接的WISP未被列出，请试试点选\“重新整理\”，若您要连接到隐藏的SSID，请选择\“手动设定WISP \“"
+);
+var Setupextendermanually_WISP=new Array
+(
+"Setup WISP manually.",
+"WISP manuell einrichten",
+"Configurar el WISP manualmente.",
+"Configurer le FAISF manuellement.",
+"Configura WISP manualmente.",
+"WISP handmatig instellen.",
+"Configure o WISP manualmente.",
+"Configurare manuală WISP.",
+"Nastavit WISP ručně.",
+"Skonfiguruj WISP ręcznie.",
+"Установить WISP вручную.",
+"Nastaviť WISP ručne.",
+"Ellen WISP´e ayar vermesı.",
+"Thiết lập WISP bằng tay.",
+"手動設定WISP",
+"手动设定WISP"
+);
+var selectType_wisp=new Array
+(
+"Please select your internet service type. If you are not sure, please contact your Wireless Internet Service Provider (WISP).",
+"Bitte wählen Sie den Typ Ihres Internetdienstes aus. Wenn Sie nicht sicher sind, kontaktieren Sie bitte Ihren Wireless Internet Service Provider (WISP).",
+"Seleccione su tipo de servicio Internet. Si no está seguro, póngase en contacto con su proveedor de servicios Internet inalámbrico (WISP).",
+"Veuillez sélectionner votre type de service Internet. En cas de doute, veuillez contacter votre Fournisseur d'Accès Internet Sans Fil (FAISF).",
+"Selezionare il tipo di servizio Internet. In caso di dubbi, contattare il provider di servizi Internet wireless (WISP).",
+"Selecteer uw type internet. Als u twijfelt, neem dan contact op met uw draadloze internetaanbieder (WISP).",
+"Seleccione o tipo de serviço Internet. Se não tiver a certeza, contacte o seu Wireless Internet Service Provider (WISP).",
+"Vă rugăm să selectaţi tipul serviciilor de Internet. Dacă nu sunteţi sigur, vă rugăm să contactaţi furnizorul de servicii Internet wireless (WISP).",
+"Prosím vyberte typ internetového připojení. Pokud si nejste jisti, kontaktujte poskytovatele internetového připojení.",
+"Wybierz rodzaj połączenia internetowego. Jeśli masz wątpliwości, skontaktuj się z dostawcą Internetu.",
+"Пожалуйста, выберите тип вашего интернет подключения, если вы этого не знаете, то, пожалуйста, свяжитесь с вашим провайдером (WISP).",
+"Prosím vyberte typ internetového pripojenia. Ak si nie ste istý, kontaktujte poskytovateľa internetového pripojenia.",
+"Internet servis türünü seçiniz. Emin değilseniz, Kablosuz Internet Servis Sağlayıcı (WISP) ile irtibata geçiniz.",
+"Vui lòng chọn kiểu dịch vụ mạng của bạn. Nếu bạn không chắc, vui lòng liên hệ với nhà cung cấp dịch vụ mạng không dây (WISP)",
+"請選擇您的網路服務類型。如果您不能確定，請聯繫您的無線網路服務提供商（WISP）",
+"请选择您的网络服务类型。如果您不能确定，请联系您的无线网络服务提供商（WISP）"
+);
+var wiz_gwinfo=new Array
+(
+"The iQ Setup wizard can help detect your Internet connection type, and walk you through setup step-by-step, or you can setup your device manually.",
+"Mit dem iQ-Einrichtungsassistenten können Sie Ihren Internet-Verbindungstyp feststellen und schrittweise durch die Einrichtung gehen oder Ihr Gerät manuell einrichten.",
+"El asistente de configuración rápida puede ayudarle a detectar su tipo de conexión a Internet y acompañarle a lo largo de todas las etapas de la configuración o podrá configurar su dispositivo manualmente.",
+"L'assistant de configuration iQ peut aider à détecter votre type de connexion Internet et vous guider, étape par étape, pour la configuration ou vous pouvez effectuer la configuration manuellement.",
+"La procedura di installazione guidata iQ Setup consente di individuare il tipo di connessione Internet, e guida l'utente attraverso l'installazione passo-passo, oppure è possibile configurare il dispositivo manualmente.",
+"De iQ Setup wizard kan u helpen met het detecteren van uw type internetverbinding en leid u stap voor stap door de setup, of u kunt uw apparaat handmatig instellen.",
+"O assistente iQ Setup pode ajudá-lo a detectar o seu tipo de ligação à Internet e ajudá-lo durante todos os passos da configuração ou pode configurar o dispositivo manualmente.",
+"Aplicaţia de configurare iQ Setup vă poate ajuta să detectaţi tipul de conexiune la Internet şi să treceţi prin procesul de configurare pas-cu-pas, ori vă puteţi configura dispozitivul în mod manual.",
+"Průvodce iQ Setup vám pomůže detekovat typ internetového připojení a provede vás krok za krokem nebo můžete nastavit své zařízení ručně.",
+"iQ Setup pomoże Ci wykryć rodzaj połączenia z Internetem i przeprowadzi Cię krok po kroku przez konfigurację. Możesz również skonfigurować urządzenie ręcznie.",
+"Мастер iQ установки поможет определить тип вашего интернет соединения, и проведет вас через пошаговую установку. Вы также можете выполнить установку вручную.",
+"Sprievodca iQ Setup vám pomôže detekovať typ internetového pripojenia a prevedie vás krok za krokom alebo môžete nastaviť svoje zariadenia ručne.",
+"Bu kurulum yardımcısı Internet servis türününün bulmasına ve ayar vermesine yardımcı olur. Adım adım ürününüze ayar verebilirsiniz.",
+"Hướng dẫn cài đặt nhanh iQ có thể giúp phát hiện ra các kiểu kết nối mạng của bạn, và hướng dẫn bạn thông qua thiết lập từng bước, hoặc bạn có thể cài đặt thiết bị của bạn bằng tay.",
+"iQ Setup 自動安裝精靈可幫您檢測您的Internet 連接類型，並引導您一步一步完成設定，或您也可以手動設定您的裝置。",
+"iQ  Setup 自动安装精灵可帮您检测您的网络连接类型，并引导您一步一步完成设定，或您也可以手动设定您的装置。"
+);
+var ItShouldBe4DigitInIpFormat=new Array
+(
+"It should be in the format xxx.xxx.xxx.xxx where x is a decimal number.",
+"Sie sollte im Format xxx.xxx.xxx.xxx sein, wobei x eine Dezimalzahl ist.",
+"Deberá tener el formato xxx.xxx.xxx.xxx, donde X es un número decimal.",
+"Le format devrait être xxx.xxx.xxx.xxx, x représentant un nombre décimal.",
+"Deve essere nel formato xxx.xxx.xxx.xxx dove x è un numero decimale.",
+"Het moet in deze opmaak zijn xxx.xxx.xxx.xxx waar x een decimaal nummer is.",
+"Deve estar no formato xxx.xxx.xxx.xxx, em que x é um número decimal.",
+"Trebuie să fie în formatul xxx.xxx.xxx.xxx, unde x este un număr zecimal.",
+"Měla by bát ve formátu xxx.xxx.xxx.xxx kde x je desítkové číslo.",
+"Adres IP musi mieć format xxx.xxx.xxx.xxx (gdzie x jest cyfrą dziesiętną)",
+"Должно быть заполнено числами в формате xxx.xxx.xxx.xxx, где x - цифра.",
+"Mala by báť vo formáte xxx.xxx.xxx.xxx kde x je desiatkové číslo.",
+"Bu x ondalık sayıdır biçiminde xxx.xxx.xxx.xxx olmalıdır.",
+"Định dạng nên là xxx.xxx.xxx.xxx với x là các số thập phân.",
+"它的格式應該為xxx.xxx.xxx.xxx ，其中x是一個十進制數。",
+"它的格式应该为xxx.xxx.xxx.xxx，其中x是一个十进制数。"
+);
+var pptpdefaultGateway=new Array
+(
+"PPTP gateway",
+"PPTP-Gateway",
+"Puerta de enlace PPTP",
+"Passerelle PPTP",
+"Gateway PPTP",
+"PPTP gateway",
+"Gateway PPTP",
+"Gateway PPTP",
+"PPTP brána",
+"Brama PPTP",
+"PPTP шлюз",
+"PPTP brána",
+"PPTP gateway",
+"Cổng PPTP",
+"PPTP 閘道",
+"PPTP闸道"
+);
+var l2tpdefaultGateway=new Array
+(
+"L2TP gateway",
+"L2TP-Gateway",
+"Puerta de enlace L2TP",
+"Passerelle L2TP",
+"Gateway L2TP",
+"L2TP gateway",
+"Gateway L2TP",
+"Gateway L2TP",
+"L2TP brána",
+"Brama L2TP",
+"L2TP шлюз",
+"L2TP brána",
+"L2TP gateway",
+"Cổng L2TP",
+"L2TP 閘道",
+"L2TP闸道"
+);
+var YouSelectRouterMode=new Array
+(
+"You have selected Wi-Fi Router Mode. ",
+"Sie haben den Wi-Fi-Router-Modus ausgewählt. ",
+"Ha seleccionado el Modo enrutador Wi-Fi. ",
+"Vous avez choisi le mode Routeur Wi-Fi. ",
+"Hai selezionato la Modalità Router Wi-Fi. ",
+"U hebt Wi-Fi router modus geselecteerd. ",
+"Seleccionou o Modo Router Wi-Fi. ",
+"Aţi selectat modul router Wi-Fi. ",
+"Vybrali jste režim Wi-Fi Router.",
+"Wybrałeś tryb Router bezprzewodowy.",
+"Вы выбрали режим Wi-Fi маршрутизатора. ",
+"Vybrali ste režim Wi-Fi Router.",
+"Wi-Fi Router Modu seçtiniz.",
+"Bạn chọn chế độ Định tuyến Wi-Fi",
+"您已選擇Wi-Fi 分享器模式。",
+"您已选择的Wi-Fi无线路由器模式。"
+);
+var ConnectViaCable=new Array
+(
+"The product connects to your modem via Ethernet cable and provides Internet access for your computers, smartphones, tablets and any other network devices. ",
+"Das Produkt verbindet sich via Ethernet-Kabel mit Ihrem Modem und bietet Internet-Zugang für Computer, Smartphones, Tablets und andere Netzwerkgeräte. ",
+"El producto se conecta al módem mediante un cable Ethernet y ofrece acceso a Internet para ordenadores, teléfonos inteligentes, tabletas y cualquier otro dispositivo de red. ",
+"L'équipement se connecte à votre modem grâce à un câble Ethernet et fournit un accès Internet à vos ordinateurs, smartphones, tablettes ou tout autre périphérique réseau. ",
+"Il prodotto si collega al modem tramite cavo Ethernet e fornisce l'accesso Internet per computer, smartphone, tablet e altri dispositivi di rete. ",
+"Het apparaat maakt verbinding met uw modem via een ethernetkabel en bied internettoegang voor uw computers, smartphones, tablets en alle andere netwerkapparaten. ",
+"O produto permite estabelecer ligação ao seu modem através do cabo Ethernet e fornece acesso à Internet aos seus computadores, smartphones, tablets e quaisquer outros dispositivos de rede. ",
+"Produsul se conectează la modem prin cablul Ethernet şi oferă acces la Internet pentru computere, telefoane, tablete şi orice alte dispozitive de reţea. ",
+"Zařízení se připojuje k modemu pomocí Ethernetového kabelu a poskytuje přístup k internetu pro vaše síťová zařízení.",
+"Router połączy się przewodowo z modemem i udostępni połączenie internetowe innym urządzeniom.",
+"Устройство подключается к вашему модему Ethernet кабелем и обеспечивает интернет доступ вашим компьютерам, смартфонам, планшетным ПК, и другим сетевым устройствам.",
+"Zariadenie sa pripája k modemu pomocou Ethernetového kábla a poskytuje prístup k internetu pre vaše sieťové zariadenia.",
+"Ürün Ethernet kablosu ile modeme bağlanır ve bilgisayarlar, akıllı telefonlar, tabletler ve diğer ağ cihazları için İnternet erişimi sağlar.",
+"Sản phẩm này kết nối với Modem của bạn qua cáp Ethernete và cung cấp truy cập mạng cho máy tính, điện thoại thông minh, máy tính bảng và những thiết bị mạng khác của bạn",
+"本產品是以網路線連接到您的數據機，並讓您的電腦、智慧手機、平板電腦和其它網路裝置可以連線上網Internet。",
+"本产品是以网络线连接到您的调制解调器，并让您的计算机、智能手机、平板计算机和其它网络装置可以联机上网Internet。"
+);
+var stringNoSupport=new Array
+(
+"SSID / Password does not support ” and ’",
+"SSID/Passwort unterstützt nicht ” und ’",
+"SSID / La contraseña no admite \"y\"",
+"Le SSID/Mot de passe ne peuvent pas contenir les caractères \" et ' ",
+"SSID / Password non supporta \” e ’",
+"SSID / Wachtwoord ondersteunt geen \” en ’",
+"O SSID/palavra-passe não permite a utilização de \” e ’",
+"SSID-ul / parola nu suportă \” şi ’",
+"SSID / Heslo nepodporují znaky \” a ’",
+"W nazwie sieci bezprzewodowej i haśle nie mogą występować znaki \" '",
+"SSID / пароль не поддерживает символы \” и ’",
+"SSID / Heslo nepodporujú znaky \"a '",
+"SSID / Password does not support \” and ’",
+"Tên định danh SSID / Mật khẩu không được hỗ trợ\" và '",
+"SSID /密碼不支援 \" 和  ’",
+"SSID /密码不支援 \" 和”"
+);
+var boardcastSSID=new Array
+(
+"Broadcast SSID",
+"Sende-WLAN-Name",
+"Transmisión SSID",
+"Diffuser le SSID",
+"Trasmetti SSID",
+"SSID uitzenden",
+"Transmitir SSID",
+"Transmisie SSID",
+"Vysílat SSID",
+"Rozgłaszanie nazwy sieci bezprzewodowej",
+"Широковещание SSID",
+"Vysielať SSID",
+"Broadcast SSID",
+"Quảng bá Tên định danh SSID",
+"廣播SSID",
+"广播SSID"
+);
+var defaultGatewayWarning=new Array
+(
+"Please make sure that you’d like to leave the Gateway field blank or set it to specific LAN segment?",
+"Bitte stellen Sie sicher, ob Sie das Feld „Gateway“ wirklich frei lassen oder es auf ein bestimmtes LAN-Segment festlegen wollen.",
+"Compruebe si desea dejar el campo Puerta de enlace en blanco o establecerlo como segmento LAN.",
+"Choisissez de laisser le champ Passerelle vide ou de le paramétrer avec un segment LAN spécifique.",
+"Vuoi davvero lasciare il campo Gateway vuoto o impostarlo su un segmento LAN specifico?",
+"Zorg er a.u.b. voor dat u het gateway veld leeg laat of deze instelt op een specifiek LAN adres.",
+"Certifique-se de que sai do campo Gateway ou define-o para o segmento LAN específico.",
+"Doriţi să lăsaţi gol câmpul Gateway sau să-l setai la un segment specific din LAN?",
+"Chcete nechat pole výchozí brána prázdné nebo nastavit IP adresu?",
+"Zostaw pole Brama puste lub wpisz adres IP z podsieci macierzystej.",
+"Пожалуйста, убедитесь, что вы оставили поле шлюза пустым или ввели в него адрес LAN сегмента.",
+"Chcete nechať pole predvolená brána prázdne alebo nastaviť IP adresu?",
+"Lütfen Gateway boş bırakmak istediğinize emin olun veya kendiniz ayar verin",
+"Hãy chắc chắn rằng bạn muốn để lại các trường cổng trống hoặc đặt nó vào phân đoạn mạng LAN cụ thể? ",
+"請確認您要保留閘道欄位空白，或將其設定為特定的LAN網段？",
+"请确认您要保留闸道栏位空白，或将其设定为特定的LAN网段？"
+);
+var chooseConnectType=new Array
+(
+"It has been detected that your ISP provides both Dynamic IP and PPPoE connections. Please choose one of them to connect Internet.",
+"Es wurde festgestellt , dass Ihr ISP sowohl dynamische IP- als auch PPPoE-Verbindungen anbietet. Bitte wählen Sie eine davon aus, um die Internetverbindung herzustellen.",
+"Se ha detectado que su ISP proporciona conexiones con IP dinámica y PPPoE. Seleccione una de ellas para conectarse a Internet.",
+"Il a été détecté que votre FAI fournit à la fois des connexions IP dynamique et PPPoE. Veuillez choisir l'une des deux pour vous connecter à Internet.",
+"È stato rilevato che l'ISP fornisce entrambe le connessioni IP Dinamico e PPPoE. Selezionarne una per connettersi a Internet.",
+"Wij hebben gedetecteerd dat uw internetaanbieder zowel Dynamisch IP als PPPoE verbindingen aanbied. Kies a.u.b. één van de twee om met het internet te verbinden.",
+"Foi detectado que o seu ISP fornece ligações por IP dinâmico e PPPoE. Seleccione uma das opções para estabelecer ligação à Internet.",
+"S-a detectat faptul că ISP-ul ofer atât conexiuni IP dinamic, cât şi PPPoE. Vă rugăm să alegeţi unul din ele pentru a vă conecta la Internet.",
+"Bylo rozpoznáno, že váš ISP poskytuje připojení pomocí Dynamické IP i PPPoE. Prosím vyberte jednu z možností.",
+"Połączenie z Internetem wykorzystuje dynamiczne IP i PPPoE. Wybierz jedno z nich żeby się połączyć.",
+"Обнаружено, что ваш провайдер предоставляет возможность для присоединения двумя способами: Динамический IP и PPPoE. Пожалуйста, выберите один из них.",
+"Bolo rozpoznané, že váš ISP poskytuje pripojenie pomocou Dynamické IP aj PPPoE. Prosím vyberte jednu z možností.",
+"Bu ISS hem Dinamik IP ve PPPoE bağlantıları sağlar.",
+"Nó được phát hiện ra rằng ISP của bạn cung cấp cả hai kết nối IP động và PPPoE. Vui lòng chọn một trong hai để kết nối mạng.",
+"已偵測到您的ISP同時提供動態IP和PPPoE 連線。請選擇其中之一來連接Internet。",
+"已侦测到您的ISP同时提供动态IP和PPPoE的连线。请选择其中之一来连接互联网。"
+);
+var chooseDynamicIP=new Array
+(
+"Connect Internet with Dynamic IP",
+"Internetverbindung über dynamische IP",
+"Conectarse a Internet con IP dinámica",
+"Se connecter à Internet avec une IP dynamique",
+"Connettiti a Internet con IP dinamico",
+"Maak verbinding met het internet via Dynamisch IP",
+"Ligar à Internet através de ID dinâmico",
+"Conectare la Internet prin IP dinamic",
+"Připojit pomocí dynamické IP",
+"Połącz używając dynamicznego IP",
+"Подключиться к Интернету через Динамический IP",
+"Pripojiť pomocou dynamickej IP",
+"Dinamik IP ile internete bağlayın",
+"Kết nối mạng với IP động",
+"使用動態IP連線Internet",
+"使用动态IP连线上网"
+);
+var choosePPPoE=new Array
+(
+"Connect Internet with PPPoE",
+"Internetverbindung über PPPoE",
+"Conectarse a Internet con PPPoE",
+"Se connecter à Internet en PPPoE",
+"Connettiti a Internet con PPPoE",
+"Maak verbinding met het internet via PPPoE",
+"Ligar à Internet através de PPPoE",
+"Conectare la Internet prin PPPoE",
+"Připojit pomocí PPPoE",
+"Połącz używając PPPoE",
+"Подключиться к Интернету через PPPoE",
+"Pripojiť pomocou PPPoE",
+"PPPoE ile internete bağlayın",
+"Kết nối mạng với PPPoE",
+"使用PPPoEx連線Internet",
+"使用PPPoEx连线上网"
+);
+var DefaultIsExtender=new Array
+(
+"The default mode of this product is Wi-Fi extender mode. It connects to your existing network and extends the wireless signal range.",
+"Der Standardmodus für dieses Produkt ist der Bereichserweiterer-Modus. Es verbindet sich mit Ihrem bestehenden Netzwerk und erweitert das WLAN-Signal.",
+"El modo predefinido de este producto es el modo de extensor de alcance. El producto se conecta a su red existente y extiende el alcance de la señal inalámbrica.",
+"Le mode par défaut de cet équipement est le mode Répéteur. Il se connecte à votre réseau existant et prolonge la portée du signal sans fil.",
+"La modalità predefinita di questo prodotto è la modalità unità di estensione di campo. Si collega alla rete esistente ed estende il campo del segnale wireless.",
+"De standaard modus van het apparaat is Wi-Fi extender modus. Het maakt verbinding met uw bestaande netwerk en vergroot het draadloze bereik.",
+"O modo predefinido deste produto é o modo de extensão de alcance. Estabelece ligação sem fios à sua rede e aumenta a cobertura de sinais sem fios.",
+"Modul implicit al acestui produs este modul de amplificator de semnal. Se conectează la reţeaua existentă şi extinde semnalul wireless.",
+"Výchozí režim tohoto zařízení je extender. Připojuje se k existující bezdrátové síti a rozšíří dosah signálu.",
+"Domyślnym trybem pracy urządzenia jest ekspander sieci bezprzewodowej, w którym urządzenie łączy się z istniejącą siecią bezprzewodową i pozwala zwiększyć jej zasięg.",
+"По умолчанию режимом этого устройства является ретранслятор. В этом режиме устройство подключается к существующей беспроводной сети и расширяет покрытие этой сети.",
+"Predvolený režim tohto zariadenia je extender. Pripája sa k existujúcej bezdrôtovej sieti a rozšíri dosah signálu.",
+"Bu ürününün ana modu menzil genişleticisi. Kullanmis oldugunuz kablosuz aginiza baglanir ve onu genisletir.",
+"Chế độ mặc định của sản phẩm nay là chế độ Mở rộng. Nó kết nối đến mạng hiện có của bạn và mở rộng khoảng cách không dây của tín hiệu sóng.",
+"本產品的出廠預設模式為無線訊號延伸器模式。它連接到現有網路，並延伸其無線訊號範圍",
+"本產品的出廠預設模式為無線訊號延伸器模式。它連接到現有網路，並延伸其無線訊號範圍"
+);
+var YesNeedEx=new Array
+(
+"YES, I NEED A Wi-Fi EXTENDER",
+"JA, ICH BRAUCHE EINEN BEREICHSERWEITERER",
+"SÍ, NECESITO UN EXTENSOR DE ALCANCE",
+"OUI, J'AI BESOIN D'UN RÉPÉTEUR",
+"SI', MI SERVE UN'UNITA' DI ESTENSIONE DI CAMPO",
+"JA, IK HEB EEN Wi-Fi EXTENDER NODIG",
+"SIM, QUERO UMA EXTENSÃO DE ALCANCE",
+"DA, AM NEVOIE DE UN AMPLIFICATOR DE SEMNAL",
+"ANO, POTŘEBUJI EXTENDER",
+"TAK, CHCĘ URUCHOMIĆ URZĄDZENIE JAKO EKSPANDER",
+"ДА, МНЕ НУЖЕН РЕЖИМ РЕТРАНСЛЯТОРА",
+"ÁNO, POTREBUJEM EXTENDER",
+"EVET, genişleticize ihtiyacımız var",
+"Vâng, Tôi cần 1 thiết bị Mở rộng.",
+"是的，我需要一個無線訊號延伸器",
+"是的，我需要一个无线讯号延伸器"
+);
+var apmodeinfo=new Array
+(
+"Please connect one end of an Ethernet cable to your existing router and connect the other end to the Ethernet port on the bottom of access point.",
+"Schließen Sie bitte ein Ende des Ethernet-Kabels an Ihren vorhandenen Router und das andere Ende an den Ethernet-Anschluss unten am Access Point an.",
+"Conecte un extremo del cable Ethernet a su enrutador existente y, el otro extremo, al puerto Ethernet que se encuentra en la parte inferior del punto de acceso.",
+"Veuillez brancher une extrémité d'un câble Ethernet dans votre routeur existant et brancher l'autre extrémité dans le port Ethernet au bas du point d'accès.",
+"Collegare un'estremità di un cavo Ethernet al router esistente e collegare l'altra estremità alla porta Ethernet sul fondo del punto di accesso.",
+"Verbind a.u.b. één uiteinde van een ethernetkabel met uw huidige router en verbind het andere uiteinde met de ethernet-poort aan de onderkant van het acces point.",
+"Ligue uma extremidade de um cabo Ethernet ao router e ligue a outra extremidade à porta Ethernet na parte inferior do ponto de acesso.",
+"Vă rugăm să conectaţi un capăt al cabului Ethernet la routerul existent şi să conectaţi celălalt capăt la portul Ethernet din partea de jos a punctului de acces.",
+"Prosím připojte jeden konec ethernetového kabelu do routeru a druhý konec do ethernetového portu na zadní straně přístupového bodu.",
+"Podłącz jeden koniec przewodu Ethernet do routera a drugi do portu Ethernet punktu dostępu.",
+"Пожалуйста, присоедините один конец Ethernet кабеля к маршрутизатору, а второй конец - к Ethernet порту в нижней части точки доступа.",
+"Prosím pripojte jeden koniec ethernetového kábla do routeru a druhý koniec do ethernetového portu na zadnej strane prístupového bodu.",
+"Lütfen Ethernet kablosunun bir ucunu Router bağlayin diyer ucunu Access Point portuna takın.",
+"Vui lòng kết nối một đầu cáp Ethernet vào bộ Định tuyến hiện có của bạn và kết nối đầu còn lại vào cổng Ethernet của điểm truy cập AP ",
+"請以網路線的一端連接到現有的分享器，另一端則連接到基地台。",
+"请以网路线的一端连接到现有的路由器，另一端则连接到基地台。"
+);
+var checkNamePassword=new Array
+(
+"Please check the Username and Password.",
+"Überprüfen Sie bitte den Benutzernamen und das Passwort.",
+"Compruebe el nombre de usuario y la contraseña.",
+"Veuillez vérifier le nom d'utilisateur et le mot de passe.",
+"Verificare il nome utente e la password.",
+"Controleer a.u.b. de gebruikersnaam en het wachtwoord.",
+"Verifique o nome de utilizador e a palavra-passe.",
+"Vă rugăm se verificaţi numele de utilizator şi parola.",
+"Prosím zkontrolujte uživattelské jméno a heslo.",
+"Sprawdź nazwę użytkownika i hasło.",
+"Please check the Username and Password.",
+"Prosím skontrolujte uživattelské meno a heslo.",
+"Kullanıcı Adı ve Şifre kontrol ed.",
+"Vui lòng kiểm tra Tên đăng nhập và mật khẩu.",
+"請檢查用戶名和密碼。",
+"请检查用户名和密码。"
+);
+var APcl_lastinfo=new Array
+(
+"You have successfully completed setup. Please connect your wired devices to the Ethernet ports on the bottom of Wi-Fi bridge. For advanced settings, please access http://edimaxext.setup from your computer's web browser.",
+"Sie haben die Einrichtung nun abgeschlossen. Bitte schließen Sie Ihre drahtgebundenen Geräte an die Ethernet-Anschlüsse unten an der Wi-Fi Bridge an. Informationen zu erweiterten Einstellungen finden Sie auf http://edimaxext.setup.",
+"Ha completado correctamente la instalación. Conecte sus dispositivos con cable a los puertos Ethernet que se encuentran en la parte inferior del puente inalámbrico. Para la configuración avanzada, acceda a http://edimax.setup desde el navegador Web de su ordenador.",
+"Vous venez de terminer la configuration avec succès. Veuillez brancher vos périphériques câblés aux ports Ethernet au bas du pont sans fil. Pour effectuer un paramétrage avancé, rendez-vous sur http://edimaxext.setup à partir d'un navigateur Internet sur votre ordinateur.",
+"La configurazione è stata completata con successo. Collegare i dispositivi cablati alle porte Ethernet sul fondo del bridge wireless. Per le impostazioni avanzate, accedere a http://edimaxext.setup dal browser web del computer.",
+"U hebt de setup succesvol voltooid. Verbind uw draadloze apparaat a.u.b. met de ethernet-poorten aan de onderkant van uw draadloze bridge. Ga voor geavanceerde instellingen a.u.b. naar http://edimaxext.setup vanuit de webbrowser op uw computer.",
+"A configuração foi concluída com sucesso. Ligue os dispositivos ligados às portas Ethernet na parte inferior da bridge sem fios. Para obter definições avançadas, visite http://edimaxext.setup a partir do Web browser do seu computador.",
+"Aţi finalizat cu succes conexiunea. Vă rugăm să conectaţi dispozitivele cu fir la porturile Ethernet din partea de jos a bridge-ului wireless. Pentru setările avansate, vă rugăm să accesaţi http://edimaxext.setup prin browserul web al calculatorului.",
+"Nastavení je kompletní. Připojte své kabelové zařízení do Ethernetového portu na zadní straně bezdrátového mostu. Pro pokročilá nastavení přejděte na http://edimaxext.setup pomocí internetového prohlížeče.",
+"Konfiguracja zakończyła się pomyślnie. Podłącz urządzenie przewodem Ethernet do portu Ethernet mostu bezprzewodowego. Konfiguracja zawanasowana jest mozliwa po zalogowaniu się na http://edimaxext.setup w przeglądarce internetowej.",
+"Вы успешно завершили конфигурирование. Пожалуйста, присоедините ваше кабельное устройство к Ethernet порту в нижней части беспроводного моста. Для выполнения дополнительных настроек, пожалуйста, введите в адресную строку браузера вашего компьютера http://edimaxext.setup.",
+"Nastavenie je kompletný. Pripojte svoje káblové zariadenia do Ethernetového portu na zadnej strane bezdrôtového mosta. Pre pokročilé nastavenia prejdite na http: //edimaxext.setup pomocou internetového prehliadača.",
+"Kurulumunu tamamladınız. Şimdi Wi-Fi Bridge ´in alt kisimda bulunan portlarini kulanabilirsiniz ve tarayicinizda  http://edimaxet.setup yazip, diger ayarlari verebilirsiniz.",
+"Bạn đã hoàn thành cài đặt. Vui lòng kết nối thiết bị có dây của bạn vào cổng Ethernet bên dưới của thiết bị cầu nối không dây. Để cài đặt nâng cao, vui lòng truy cập http://edimaxext.setup từ trình duyệt web của máy tính.",
+"您已成功完成設定。請使用網路線將您的有線網路裝置連接到本無線橋接器。如您要做進階設定，請開啟您電腦的網路瀏覽器，登錄http://edimaxext.setup",
+"您已成功完成设定。请使用网络线将您的有线网络装置连接到本无线网桥。如您要做进阶设定，请开启您计算机的网络浏览器，登录http://edimaxext.setup"
+);
+var router_ap_rep_lastinfo=new Array
+(
+"You have successfully completed setup. Please connect to the device's new Wi-Fi network name (SSID) listed below. For advanced settings, please access http://edimaxext.setup from your computer's web browser.",
+"Sie haben die Einrichtung nun abgeschlossen. Bitte stellen Sie eine Verbindung zu dem neuen Wi-Fi-Netzwerknamen (SSID) des Geräts her, der unten aufgelistet ist. Informationen zu erweiterten Einstellungen finden Sie auf http://edimaxext.setup.",
+"Ha completado correctamente la instalación. Conéctese al nuevo nombre de red Wi-Fi del dispositivo (SSID) indicado más abajo. Para la configuración avanzada, acceda a http://edimax.setup desde el navegador Web de su ordenador.",
+"Vous venez de terminer la configuration avec succès. Connectez-vous au nouveau nom de réseau Wi-Fi du périphérique (SSID) listé ci-dessous. Pour effectuer un paramétrage avancé, rendez-vous sur http://edimaxext.setup à partir d'un navigateur Internet sur votre ordinateur.",
+"La configurazione è stata completata con successo. Effettuare la connessione al nome della nuova rete Wi-Fi del dispositivo (SSID) elencato di seguito. Per le impostazioni avanzate, accedere a http://edimaxext.setup dal browser web del computer.",
+"U hebt de setup succesvol voltooid. Maak a.u.b. verbinding met de onderstaande nieuwe Wi-Fi netwerknaam (SSID) van het apparaat. Ga voor geavanceerde instellingen a.u.b. naar http://edimaxext.setup vanuit de webbrowser op uw computer.",
+"A configuração foi concluída com sucesso. Estabeleça ligação ao nome (SSID) da nova rede Wi-Fi do dispositivo listada abaixo. Para obter definições avançadas, visite http://edimaxext.setup a partir do Web browser do seu computador.",
+"Aţi finalizat cu succes conexiunea. Vă rugăm să vă conectaţi la noua denumire de reţea Wi-Fi (SSID) a dispozitivului listată mai jos. Pentru setările avansate, vă rugăm să accesaţi http://edimaxext.setup prin browserul web al calculatorului.",
+"Nastavení je kompletní. Připojte se k nové Wi-Fi síti zařízení. Pro pokročilá nastavení přejděte na http://edimaxext.setup pomocí internetového prohlížeče.",
+"Konfiguracja zakończyła się pomyślnie. Połącz się z nową siecią bezprzewodową o nazwie podanej poniżej. Konfiguracja zawanasowana jest mozliwa po zalogowaniu się na http://edimaxext.setup w przeglądarce internetowej.",
+"Вы успешно завершили конфигурирование. Пожалуйста, присоединитесь к новой Wi-Fi сети от вашего устройства (SSID), приведенной ниже. Для выполнения дополнительных настроек, пожалуйста, введите в адресную строку браузера вашего компьютера http://edimaxext.setup.",
+"Nastavenie je kompletný. Pripojte sa k novej Wi-Fi sieti zariadení. Pre pokročilé nastavenia prejdite na http: //edimaxext.setup pomocou internetového prehliadača.",
+"Tebrikler , kurulum tamamlanmistir ! Lütfen listeden bir kablosuz aga (SSID) baglanin. Diger ayarlar icin  lütfen tarayicinizda  http://edimaxext.setup giriniz",
+"Bạn đã hoàn thành cài đặt. Vui lòng kết nối với tên mạng Wi-Fi mới của thiết bị của thiết bị (SSID) được liệt kê dưới đây. Để cài đặt nâng cao, vui lòng truy cập http://edimaxext.setup từ trình duyệt web của máy tính.",
+"您已成功完成設定。請連接到本裝置的新Wi-Fi 網路名稱（SSID）如下所列。如欲進行進階設定，請開啟您電腦的網路瀏覽器，登錄http://edimaxext.setup",
+"。您已成功完成设定请连接到本装置的新无线网络網路名稱（SSID）如下所列。如欲進行進階設定，請開啟您電腦的網路瀏覽器，登錄http://edimaxext.setup"
+);
+var nsurethecable=new Array
+(
+"Please ensure the Ethernet cable is properly connected to this access point and your router, also check that your router is switched on and working properly.",
+"Bitte stellen Sie sicher, dass das Ethernet-Kabel ordnungsgemäß an diesen Access Point und Ihren Router angeschlossen ist, und überprüfen Sie auch, ob Ihr Router eingeschaltet ist und ordnungsgemäß funktioniert.",
+"Compruebe que el cable Ethernet esté correctamente conectado a este punto de acceso y al enrutador, y que el enrutador esté encendido y funcione correctamente.",
+"Assurez-vous que le câble Ethernet est correctement branché à ce point d'accès et à votre routeur, vérifiez également que votre routeur est allumé et qu'il fonctionne correctement.",
+"Assicurarsi che il cavo Ethernet sia collegato correttamente a questo punto di accesso e al router, verificare che il router sia acceso e funzionante.",
+"Zorg er a.u.b. voor dat de ethernetkabel correct is verbonden met de access point en uw router, controleer ook dat de router aan staat en goed werkt.",
+"Certifique-se de que o cabo Ethernet está ligado correctamente a este ponto de acesso e ao router e verifique também se o router está ligado e a funcionar correctamente.",
+"Vă rugăm să va asiguraţi că aţi conectat corect cablul Ethernet la acest punct de acces şi la router, de asemenea, verificaţi dacă routerul este pornit şi funcţionează adecvat.",
+"Prosím ujistěte se, že je Ethernetový kabel připojen do tohoto přístupového bodu a také do routeru. Dále se ujistěte že je router zapnutý.",
+"Upewnij się, żę przewód Ethernet jest prawidłowo podłączony do punktu dostępu i routera. Sprawdź również czy router jest włączony i działa poprawnie.",
+"Пожалуйста, убедитесь, что Ethernet кабель присоединен к этой точке доступа и вашему маршрутизатору, также проверьте, что маршрутизатор включен и работает.",
+"Prosím uistite sa, že je Ethernetový kábel pripojený do tohto prístupového bodu a tiež do routeru. Ďalej sa uistite že je router zapnutý.",
+"Kablo yönlendirici ve AP arasında Ehternet bağlantısı olduğundan emin olun",
+"Hãy đảm bảo rằng cáp Ethernet được kết nối đúng từ điểm truy cập AP này đến bộ Định tuyến của bạn, đồng thời kiểm tra bộ Định tuyến của bạn được bật và đang làm việc.",
+"請先確認網路線已正確連接本裝置及您的無線分享器，並請檢查您的無線分享器已正常啟動",
+"请先确认网络线已正确连接本装置及您的无线路由器，并请检查您的无线路由器已正常启动"
+);
+var Skip2GSettings=new Array
+(
+"Skip the settings, I don't use the 2.4GHz Wi-Fi",
+"Einstellungen überspringen, ich verwende das 2,4GHz-Wi-Fi nicht",
+"Omitir la configuración, no utilizo la Wi-Fi de 2.4 GHz",
+"Ignorer ces paramètres, je n'utilise pas la Wi-Fi en 2,4 GHz",
+"Salta le impostazioni, non uso la rete Wi-Fi 2,4GHz",
+"Sla deze instellingen over, Ik gebruik geen 2,4GHz Wi-Fi",
+"Ignorar as definições, não utilizo Wi-Fi de 2,4 GHz",
+"Ignoră aceste setări, nu folosesc 2,4GHz Wi-Fi",
+"Přeskočit nastavení, nepoužívám 2.4GHz Wi-Fi",
+"Pomiń konfigurację i nie używaj sieci 2.4GHz",
+"Пропустить настройку, я не использую 2.4 ГГц.",
+"Preskočiť nastavenie, nepoužívam 2.4GHz Wi-Fi",
+"2.4GHz Wi-Fi ayarlarını gec",
+"Bỏ qua các cài đặt, tôi không sử dụng Wi-Fi 2.4GHz",
+"我不使用2.4GHz 頻段的無線網路，跳過設定！",
+"我不使用的2.4GHz频段的无线网路，跳过设定！"
+);
+var dualCross=new Array
+(
+"Cross Band technology enables intelligent frequency switching to maximize the speed capacity of your Wi-Fi network and provide stable connections.",
+"Die Crossband-Technologie verwendet beide Frequenzbänder zusammen, um maximale die Geschwindigkeitskapazität des Routers durch Ihren Erweiterer und Ihr Wi-Fi-Gerät zu bewahren.",
+"La tecnología de banda cruzada utiliza ambas bandas de frecuencia juntas para mantener la capacidad máxima de velocidad de su enrutador a través del extensor y al dispositivo Wi-Fi.",
+"La technologie Cross Band (Bande Croisée) utilise les deux bandes de fréquences simultanément afin de maintenir la capacité de débit maximum du routeur vers votre répéteur et votre périphérique Wi-Fi.",
+"La tecnologia Cross Band utilizza entrambe le bande di frequenza insieme per mantenere la capacità massima della velocità del router attraverso l'unità di estensione e al dispositivo Wi-Fi.",
+"Crossband technologie gebruikt beide frequenties samen om de maximale snelheidscapaciteit van uw router te behouden via uw extender naar uw Wi-Fi apparaat.",
+"A tecnologia Cross Band utiliza ambas as bandas de frequência para manter a capacidade de velocidade máxima do seu router através da sua extensão e para o seu dispositivo Wi-Fi.",
+"Tehnologia Cross Band foloseşte ambele benzi de frecvenţă pentru a menţine viteza maximă a routerului pentru amplificator şi dispozitivul Wi-Fi.",
+"Technologie Cross Band vyžívá obě pásma současně, zajistí tak maximální rychlost pro vaše Wi-Fi zařízení.",
+"Funkcja Cross Band używa obu pasm jednocześnie w celu utrzymania maksymalnej prędkości routera przy przesyłaniu danych przez ekspander.",
+"Технология Cross Band использует обе полосы частот совместно для поддержки максимальной скорости связи между вашими Wi-Fi устройствами.",
+"Technológia Cross Band vyžíva obe pásma súčasne, zaistí tak maximálnu rýchlosť pre vaše Wi-Fi zariadenia.",
+"Cross Band teknolojisi 2 frekansi kullanip maksimum hiz ile kablosuz WiFi ürününü baglar",
+"Công nghệ Băng tần kép sử dụng cả hai băng tần với nhau để duy tri tốc độ tối đa bộ Định tuyến của bạn thông qua thiết bị Mở rộng của bạn và thiết bị Wi-Fi của bạn",
+"跨頻段技術就是同時使用兩個無線頻段傳輸，讓您的無線分享器能保持最高速度的傳輸能力，再透過無線訊號延伸器，讓您的無線上網裝置也可以享有雙頻段同時傳輸的高速傳輸能力。",
+"跨频段技术就是同时使用两个无线频段传输，让您的无线路由器能保持最高速度的传输能力，再透过无线讯号延伸器，让您的无线上网装置也可以享有双频段同时传输的高速传输能力。"
+);
+var SingleCross=new Array
+(
+"Single-Band with maximum speed capacity from your router through your extender and to your Wi-Fi device.",
+"Single-Band mit maximaler Geschwindigkeitskapazität von Ihrem Router über Ihren Erweiterer und zu Ihrem Wi-Fi-Gerät.",
+"Banda única con capacidad de velocidad máxima de su enrutador a través del extensor y el dispositivo Wi-Fi.",
+"Bande unique avec capacité de débit maximum de votre routeur vers votre répéteur et votre périphérique Wi-Fi.",
+"Single-Band con capacità massima della velocità dal router all'unità di estensione e al dispositivo Wi-Fi.",
+"Single-Band met maximale snelheidscapaciteit vanaf uw router door uw extender naar uw Wi-Fi apparaat.",
+"Banda única com capacidade de velocidade máxima do seu router através da sua extensão e para o seu dispositivo Wi-Fi.",
+"Single-Band cu viteza maximă de la router prin extender şi dispozitivul Wi-Fi.",
+"Jedno pásmo s maximální rychlostí z routeru přes extender do vašeho Wi-Fi zařízení.",
+"Pojedyncze pasmo z maksymalną prędkością routera przy przesyłaniu danych przez ekspander.",
+"Однополосная связь с максимальной скоростью между маршрутизатором и беспроводным устройством.",
+"Jedno pásmo s maximálnou rýchlosťou z routeru cez extender do vášho Wi-Fi zariadenia.",
+"maksimum tek frekans üzerinden Router´den menzil genisletici üzerinden kablosuz WiFi ürüne",
+"Băng tần đơn với khả năng tốc độ tối đa từ bộ Định tuyến của bạn thông qua Mở rộng của bạn và thiết bị Wi-Fi của bạn",
+"自您的分享器，中間經過無線訊號延伸器，再到您的無線上網裝置的單頻段傳輸最大速度",
+"自您的路由器，中间经过无线讯号延伸器，再到您的无线上网装置的单频段传输最大速度"
+);
+var EnableCrossBand=new Array
+(
+"Enable Cross Band",
+"Crossband aktivieren",
+"Habilitar banda cruzada",
+"Activer le Cross band",
+"Abilita Cross Band",
+"Crossband activeren",
+"Activar Cross Band",
+"Activare Cross Band",
+"Povolit Cross Band",
+"Włącz Cross Band",
+"Включить Cross Band",
+"Povoliť Cross Band",
+"Cross Band frekansi ac",
+"Kích hoạt tính năng Băng tần kép",
+"啟用跨頻段傳輸",
+"启用跨频段传输"
+);
+var AutoChen=new Array
+(
+"Auto",
+"Automatisch",
+"Automático",
+"Auto",
+"Auto",
+"Auto",
+"Automático",
+"Auto",
+"Automaticky",
+"Automatycznie",
+"Авто",
+"Automaticky",
+"Otomatik",
+"Tự động",
+"自動",
+"自动"
+);
+var ChannelNum=new Array
+(
+"Channel Number",
+"Kanalnummer",
+"Número de canal",
+"Numéro de canal",
+"Numero canale",
+"Kanaalnummer",
+"Número do canal",
+"Număr canal",
+"Číslo kanálu",
+"Numer kanału",
+"Номер канала",
+"Číslo kanálu",
+"Kanal Numarası",
+"Số kênh",
+"頻道號碼",
+"频道号码"
+);
+var connection_succeeded_gonext=new Array
+(
+"Wireless connection succeeded. Please click \"Next\" when you are ready to continue.",
+"Drahtlosverbindung ist aufgebaut.Klicken Sie bitte auf \"Weiter\", wenn Sie bereit sind fortzufahren.",
+"Conexión inalámbrica correcta.Haga clic en \“Siguiente\” cuando esté listo para continuar.",
+"Connexion sans fil réussie. Veuillez cliquer sur \"Suivant\" lorsque vous êtes prêt à continuer.",
+"Connessione wireless riuscita. Fare clic su \"Avanti\" quando si è pronti per procedere.",
+"Draadloze verbinding geslaagd. Klik op \"Next (verdergaan)\" als u klaar bent om verder te gaan.",
+"A ligação sem fios foi estabelecida com sucesso. Clique em \"Next\" (Seguinte) quando estiver pronto para continuar.",
+"Conexiune wireless realizată cu succes. Vă rugăm să faceţi clic pe \"Următor\" când sunteţi gata pentru a continua.",
+"Bezdátové připojení úspěšně navázáno. Klikněte na \"Další\" pro pokračování.",
+"Połączono z siecią bezprzewodową. Wciśnij \"Dalej\".",
+"Беспроводная связь установлена. Нажмите \"Далее\", для завершения настройки.",
+"Bezdátové pripojenie úspešne nadviazané. Kliknite na \"Ďalšie \" pre pokračovanie.",
+"Kablosuz ağ bağlantısı başarılı. Devam etmeye hazır olduğunuzda \"ileri \" tıklayınız.",
+"Kết nối không dây thành công. Vui lòng nhấn \"Tiếp\" khi bạn đã sẵn sàng tiếp tục",
+"無線連接成功。請點選\“下一步\”以繼續",
+"无线连接成功。请点选\“下一步\”以继续"
+);
+var connection_fail_goback=new Array
+(
+"Wireless connection failed. Please click \"Back\" to check the wireless settings again.",
+"Wireless connection failed. Please click \"Back\" to check the wireless settings again.",
+"Wireless connection failed. Please click \"Back\" to check the wireless settings again.",
+"Wireless connection failed. Please click \"Back\" to check the wireless settings again.",
+"Wireless connection failed. Please click \"Back\" to check the wireless settings again.",
+"Wireless connection failed. Please click \"Back\" to check the wireless settings again.",
+"Wireless connection failed. Please click \"Back\" to check the wireless settings again.",
+"Wireless connection failed. Please click \"Back\" to check the wireless settings again.",
+"Wireless connection failed. Please click \"Back\" to check the wireless settings again.",
+"Wireless connection failed. Please click \"Back\" to check the wireless settings again.",
+"Wireless connection failed. Please click \"Back\" to check the wireless settings again.",
+"Wireless connection failed. Please click \"Back\" to check the wireless settings again.",
+"Wireless connection failed. Please click \"Back\" to check the wireless settings again.",
+"Wireless connection failed. Please click \"Back\" to check the wireless settings again.",
+"無線連線失敗。請點選\"上一步\"再次檢查無線設定。",
+"无线联接失败。请点选\"上一步\"再次检查无线设定。"
+);
+var extenderGetIPfail=new Array
+(
+"The Wi-Fi extender could not obtain an IP address from router, please assign an IP address to the Wi-Fi extender manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi extender could not obtain an IP address from router, please assign an IP address to the Wi-Fi extender manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi extender could not obtain an IP address from router, please assign an IP address to the Wi-Fi extender manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi extender could not obtain an IP address from router, please assign an IP address to the Wi-Fi extender manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi extender could not obtain an IP address from router, please assign an IP address to the Wi-Fi extender manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi extender could not obtain an IP address from router, please assign an IP address to the Wi-Fi extender manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi extender could not obtain an IP address from router, please assign an IP address to the Wi-Fi extender manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi extender could not obtain an IP address from router, please assign an IP address to the Wi-Fi extender manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi extender could not obtain an IP address from router, please assign an IP address to the Wi-Fi extender manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi extender could not obtain an IP address from router, please assign an IP address to the Wi-Fi extender manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi extender could not obtain an IP address from router, please assign an IP address to the Wi-Fi extender manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi extender could not obtain an IP address from router, please assign an IP address to the Wi-Fi extender manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi extender could not obtain an IP address from router, please assign an IP address to the Wi-Fi extender manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi extender could not obtain an IP address from router, please assign an IP address to the Wi-Fi extender manually. Then click \"Next\" when you are ready to continue.",
+"無線訊號延伸器無法自分享器取得IP位址，請手動派發IP位址給無線訊號延伸器。接著，請再點選\"下一步\"繼續。",
+"无线讯号延伸器无法自分享器取得IP位址，请手动派发IP位址给无线讯号延伸器。接着，请再点选\"下一步\"继续。"
+);
+var APclgetIPfail=new Array
+(
+"The Wi-Fi bridge could not obtain an IP address from router, please assign an IP address to the Wi-Fi bridge manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi bridge could not obtain an IP address from router, please assign an IP address to the Wi-Fi bridge manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi bridge could not obtain an IP address from router, please assign an IP address to the Wi-Fi bridge manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi bridge could not obtain an IP address from router, please assign an IP address to the Wi-Fi bridge manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi bridge could not obtain an IP address from router, please assign an IP address to the Wi-Fi bridge manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi bridge could not obtain an IP address from router, please assign an IP address to the Wi-Fi bridge manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi bridge could not obtain an IP address from router, please assign an IP address to the Wi-Fi bridge manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi bridge could not obtain an IP address from router, please assign an IP address to the Wi-Fi bridge manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi bridge could not obtain an IP address from router, please assign an IP address to the Wi-Fi bridge manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi bridge could not obtain an IP address from router, please assign an IP address to the Wi-Fi bridge manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi bridge could not obtain an IP address from router, please assign an IP address to the Wi-Fi bridge manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi bridge could not obtain an IP address from router, please assign an IP address to the Wi-Fi bridge manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi bridge could not obtain an IP address from router, please assign an IP address to the Wi-Fi bridge manually. Then click \"Next\" when you are ready to continue.",
+"The Wi-Fi bridge could not obtain an IP address from router, please assign an IP address to the Wi-Fi bridge manually. Then click \"Next\" when you are ready to continue.",
+"無線橋接器無法自分享器取得IP位址，請手動派發IP地址給無線橋接器。接著，請再點選\"下一步\"繼續。",
+"无线桥接器无法自分享器取得IP位址，请手动派发IP地址给无线桥接器。接着，请再点选\"下一步\"继续。"
+);
+var PasswordNoSupport2=new Array
+(
+"Password does not support \\ ; , \$",
+"Passwort unterstützt nicht \\ ; , \$",
+"En la contraseña no se admiten \\ ; , \$",
+"Le mot de passe ne peut pas contenir les caractères \\ ; , \$",
+"La password non supporta \\ ; , \$",
+"Wachtwoord ondersteunt geen \\ ; , \$",
+"A palavra-passe não é compatível com \\ ; , \$",
+"Parola nu suportă \\ ; , \$",
+"Heslo nemůže obsahovat \\ ; , \$",
+"Hasło nie może zawierać \\ ; , \$",
+"В пароле нельзя использовать символы: \\ ; , \$",
+"Heslo nemože obsahovať \\ ; , \$",
+"Password does not support \\ ; , \$",
+"Mật khẩu không bao gồm các ký tự \\ ; , \$",
+"密碼不支援 \\ ; , \$",
+"密码不支援 \\ ; , \$"
+);
+var SSIDNoSupport=new Array
+(
+"SSID does not support \\ ; , \$",
+"SSID does not support \\ ; , \$",
+"SSID does not support \\ ; , \$",
+"SSID does not support \\ ; , \$",
+"SSID does not support \\ ; , \$",
+"SSID does not support \\ ; , \$",
+"SSID does not support \\ ; , \$",
+"SSID does not support \\ ; , \$",
+"SSID does not support \\ ; , \$",
+"SSID does not support \\ ; , \$",
+"SSID does not support \\ ; , \$",
+"SSID does not support \\ ; , \$",
+"SSID does not support \\ ; , \$",
+"SSID does not support \\ ; , \$",
+"SSID /密碼不支援 \\ ; , \$",
+"SSID /密码不支援 \\ ; , \$"
+);

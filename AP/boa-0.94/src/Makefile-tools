@@ -1,0 +1,72 @@
+include ../../../make.def
+include ../../../define/FUNCTION_COMPILER
+
+CC=gcc
+
+
+ENDIAN= -D_LITTLE_ENDIAN_
+
+
+
+
+all: compweb cvcfg cvimg cvimg mgbin
+
+SUPP = -DWLAN_WPA
+
+# Universal Repeater
+UNIREPEATER = -DUNIVERSAL_REPEATER
+
+DEBUG=-g
+
+
+CFLAGS = $(SUPP) $(UNIREPEATER) $(ENDIAN) $(FUNCTION) $(MODEL) $(FLASH_RESERVED) $(WLDEV)
+
+ifeq ($(GATEWAY), y)
+CFLAGS += -DHOME_GATEWAY 
+endif
+
+
+compweb: compweb.o
+	$(CC) -o compweb $(DEBUG) \
+	$(CFLAGS) $(IFLAGS) \
+	compweb.o $(LDFLAGS)
+
+
+cvcfg: cvcfg.o mibtbl.o
+	$(CC) -o cvcfg $(DEBUG) \
+	$(CFLAGS) $(IFLAGS) \
+	cvcfg.o mibtbl.o $(LDFLAGS)
+
+cvimg: cvimg.o
+	$(CC) -o cvimg $(DEBUG) \
+	$(CFLAGS) $(IFLAGS) \
+	cvimg.o $(LDFLAGS)
+
+mgbin: mgbin.o
+	$(CC) -o mgbin $(DEBUG) \
+	$(CFLAGS) $(IFLAGS) \
+	mgbin.o $(LDFLAGS)
+
+clean:
+	rm compweb.o cvcfg.o cvcfg.o mibtbl.o mibtbl.o cvimg.o mgbin.o -f
+
+#
+#	Dependencies
+#
+compweb.o: compweb.c
+
+cvcfg.o: cvcfg.c
+	$(CC) -c -o $@ $(DEBUG) $(CFLAGS) $(IFLAGS) $<
+	
+mibtbl.o: mibtbl.c
+	$(CC) -c -o $@ $(DEBUG) $(CFLAGS) $(IFLAGS) $<
+
+cvimg.o: cvimg.c
+
+mgbin.o: mgbin.c
+
+#
+#	Transition rules (add -o to put object in right directory)
+#
+.c.o:
+	$(CC) -c -o $@ $(DEBUG) $(CFLAGS) $(IFLAGS) $<

@@ -1,0 +1,30 @@
+include ../../../make.def
+include ../module_mak.def
+
+#CC		=	gcc
+#LD		=	ld
+#CC		=	mips-uclibc-gcc
+#LD		=	mips-uclibc-ld
+#INCLUDE	=	-I/usr/src/linux/include
+#CFLAGS	=	-c -O2 -DMODULE -D__KERNEL__ -fno-pic -fomit-frame-pointer $(INCLUDE)
+INCLUDE =   -I../../../linux-2.4.18/include
+#CFLAGS  =   -c -O2 -DMODULE -D__KERNEL__ -Wall -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -G 0 -mno-abicalls -pipe -Wa,  -mlong-calls -fno-pic -fomit-frame-pointer $(INCLUDE)
+LFLAGS	=	-r
+TAR		=	urlblock_mod.ko
+OBJS	=	ip_conntrack_urlblock.o
+
+#all: $(TAR) $(NAT)
+all: $(TAR)
+
+#$(NAT): $(NATOBJS)
+#	$(LD) $(LFLAGS) $(NATOBJS) -o $(NAT)
+
+$(TAR): $(OBJS)
+	$(LD) $(LFLAGS) $(OBJS) -o $(TAR)
+
+.c.o:
+	$(CC) $(CFLAGS) $*.c
+
+clean:
+	rm -f *.o
+

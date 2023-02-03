@@ -1,0 +1,85 @@
+*{font-family:Calibri,Arial,Microsoft JhengHei,sans-serif;}
+
+fieldset {width:700px;}
+legend {FONT-SIZE: 12pt; COLOR: #b40404; FONT-FAMILY:Calibri,Arial,Microsoft JhengHei;}
+
+.restartInfo {FONT-SIZE: 13pt; COLOR: #2e2e2e; FONT-FAMILY:Calibri,Arial,Microsoft JhengHei;}
+.restartitemText {FONT-SIZE: 11pt; COLOR: #6e6e6e; FONT-FAMILY:Calibri,Arial,Microsoft JhengHei;}
+
+.tiltleText {FONT-SIZE: 15pt; COLOR: #2e2e2e; FONT-FAMILY:Calibri,Arial,Microsoft JhengHei;}
+.itemText {FONT-SIZE: 10pt; COLOR: #6e6e6e; FONT-FAMILY:Calibri,Arial,Microsoft JhengHei;}
+.choose-itemText {FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY:Calibri,Arial,Microsoft JhengHei;}
+
+.listtableText {FONT-SIZE: 10pt; color: #000000; background-color: #D8D8D8; FONT-FAMILY:Calibri,Arial,Microsoft JhengHei;}
+.titletableText {FONT-FAMILY:Calibri,Arial,Microsoft JhengHei; font-weight: bold; FONT-SIZE: 10pt; background: #848484; color: #FFFFFF;}
+.dnsTableHe {FONT-FAMILY:Calibri,Arial,Microsoft JhengHei; font-weight: bold; FONT-SIZE: 10pt; background: #FFFFFF; color: #000000;}
+.dnsTableText {FONT-SIZE: 10pt; color: #000000; FONT-FAMILY:Calibri,Arial,Microsoft JhengHei;}
+
+.iQsubText { FONT-SIZE: 12pt; COLOR: #6e6e6e; FONT-FAMILY:Calibri,Arial,Microsoft JhengHei;}
+
+.itemText-len { text-align:right; width:270px;  padding-right:20px; FONT-SIZE: 10pt; COLOR: #6e6e6e; FONT-FAMILY:Calibri,Arial,Microsoft JhengHei;}
+.itemText2-len { text-align:left; width:380px;  padding-left:1px; }
+
+.status-itemText-len { text-align:right;  padding-right:20px; width:300px;  FONT-SIZE: 10pt; COLOR: #6e6e6e; FONT-FAMILY:Calibri,Arial,Microsoft JhengHei;}
+.status-itemText2-len { text-align:left; width:400px;  padding-left:1px;}
+
+.minilen { text-align:right; width:150px;  padding-right:10px; FONT-SIZE: 10pt; COLOR: #6e6e6e; FONT-FAMILY:Calibri,Arial,Microsoft JhengHei;}
+.mini2len { text-align:left; width:150px;  padding-left:1px; }
+
+.wizard-itemText-len { text-align:right; width:180px;  padding-right:15px; FONT-SIZE: 10pt; COLOR: #6e6e6e; FONT-FAMILY:Calibri,Arial,Microsoft JhengHei;}
+.wizard-itemText2-len { text-align:left; width:490px;  padding-left:1px; }
+
+.medleft-itemText-len { text-align:right; width:280px;  padding-right:10px; FONT-SIZE: 10pt; COLOR: #6e6e6e; FONT-FAMILY:Calibri,Arial,Microsoft JhengHei;}
+.medleft-itemText2-len { text-align:left; width:320px;  padding-left:1px; }
+
+
+.ui-button { FONT-FAMILY:Calibri,Arial,Microsoft JhengHei; FONT-SIZE: 10pt; width: 100px; font-weight: bold; cursor:pointer; border-width:1px; border-bottom-color: #848484; border-right-color: #848484; border-left-color: #a4a4a4; border-top-color: #a4a4a4; background-color: #FF7F50; color: #FFFFFF; }
+.ui-button-nolimit { FONT-FAMILY:Calibri,Arial,Microsoft JhengHei; FONT-SIZE: 10pt; padding: 0px 10px 0px 10px; font-weight: bold; cursor:pointer; border-width:1px; border-bottom-color: #848484; border-right-color: #848484; border-left-color: #a4a4a4; border-top-color: #a4a4a4; background-color: #FF7F50; color: #FFFFFF; }
+.ui-smal-button { FONT-FAMILY:Calibri,Arial,Microsoft JhengHei; FONT-SIZE: 10pt; padding: 0px 0px 0px 0px; font-weight: bold; cursor:pointer; border-width:1px; border-bottom-color: #848484; border-right-color: #848484; border-left-color: #a4a4a4; border-top-color: #a4a4a4; background-color: #FF7F50; color: #FFFFFF;}
+
+
+.help-d1-button { padding: 1px 15px 1px 15px; font-weight: normal; cursor:pointer; border-width:0px; background-color: #ff7f50; color:#FFFFFF; position:relative; margin-left:705px;}  
+
+
+.help-text {width:730px; height:110px; FONT-SIZE: 11pt; COLOR: #2e2e2e; FONT-FAMILY:Calibri,Arial,Microsoft JhengHei; padding:15px 12px 30px 12px; overflow:auto;}
+.help-information { margin-left:25px; margin-top:0px; }
+.help-table1 { width:730px; background-color:#ffffff; border-color:#A4A4A4; border-width:1px; border-right-style:solid; border-bottom-style:solid; border-left-style:solid; line-height:22px; border-collapse:collapse}
+
+.with_pic_ezqos   { border:none; width:69px; height:69px; }
+.without_pic_ezqos   { border-style:dashed; border-width:1px; border-color:black; width:69px; height:69px; }
+.without_pic_temp   { border-style:dashed; border-width:1px; border-color:black; width:35px; height:35px;}
+.without_pic_iptv   { border-style:solid; border-width:3px; border-color:black; width:55px; height:55px;}
+.tableColor   { border-style:groove; border-width:1px; border-color:#F0F0F0;}
+
+/*IQ setup v2*/
+.IQbg{background-position:50% 50%;background-attachment:fixed;background-repeat:no-repeat;font-family:Calibri,Arial,Microsoft JhengHei;background-image:url(graphics/bg.jpg)}
+.IQbg2{background-position:50% 50%;background-attachment:fixed;background-repeat:no-repeat;font-family:Calibri,Arial,Microsoft JhengHei;background-image:url(graphics/empty-dot.jpg)}
+.IQbg3{background-position:50% 50%;background-attachment:fixed;background-repeat:no-repeat;font-family:Calibri,Arial,Microsoft JhengHei;background-image:url(graphics/empty-dot.jpg)}
+.IQbg4{background-position:50% 50%;background-attachment:fixed;background-repeat:no-repeat;font-family:Calibri,Arial,Microsoft JhengHei;background-image:url(graphics/empty-dot.jpg)}
+.IQbg5{background-position:50% 50%;background-attachment:fixed;background-repeat:no-repeat;font-family:Calibri,Arial,Microsoft JhengHei;background-image:url(graphics/empty-dot.jpg)}
+.IQbg1{background-position:50% 50%;background-attachment:fixed;background-repeat:no-repeat;font-family:Calibri,Arial,Microsoft JhengHei;background-image:url(graphics/bg1.jpg)}
+.IQbg6428{background-position:50% 50%;background-attachment:fixed;background-repeat:no-repeat;font-family:Calibri,Arial,Microsoft JhengHei;background-image:url(graphics/bg2.jpg)}
+.button_IQ{height:45px;color:#FFFFFF;background-color:#0C66FF;font-family:Calibri,Arial,Microsoft JhengHei;font-weight:normal;font-size:18pt;text-align:center}
+.button_IQ2{height:45px;color:#FFFFFF;background-color:#0C66FF;font-family:Calibri,Arial,Microsoft JhengHei;font-weight:normal;font-size:14pt;text-align:center}
+.button_IQ2gray{height:45px;color:#FFFFFF;background-color:#a1a1a1;font-family:Calibri,Arial,Microsoft JhengHei;font-weight:normal;font-size:14pt;text-align:center}
+.button_IQ3{height:45px;width:360px;color:#FFFFFF;background-color:#0C66FF;font-family:Calibri,Arial,Microsoft JhengHei;font-weight:normal;font-size:14pt;text-align:center}
+.button_IQ4{height:35px;color:#FFFFFF;background-color:#0C66FF;font-family:Calibri,Arial,Microsoft JhengHei;font-weight:normal;font-size:18pt;text-align:center}
+
+.button_ap{height:40px;width:180px;color:#FFFFFF;background-color:#a1a1a1;font-family:Calibri,Arial,Microsoft JhengHei;font-weight:normal;font-size:14pt;text-align:center}
+.button_rep{height:40px;width:180px;color:#FFFFFF;background-color:#a1a1a1;font-family:Calibri,Arial,Microsoft JhengHei;font-weight:normal;font-size:14pt;text-align:center}
+.button_apcl{height:40px;width:180px;color:#FFFFFF;background-color:#a1a1a1;font-family:Calibri,Arial,Microsoft JhengHei;font-weight:normal;font-size:14pt;text-align:center}
+.button_wisp{height:40px;width:180px;color:#FFFFFF;background-color:#a1a1a1;font-family:Calibri,Arial,Microsoft JhengHei;font-weight:normal;font-size:14pt;text-align:center}
+
+
+.save-itemText {FONT-SIZE: 12pt; COLOR: #000000; FONT-FAMILY:Calibri,Arial,Microsoft JhengHei;} 
+.Arial_14  { font-family:Calibri,Arial,Microsoft JhengHei; font-size:14px; }
+.Arial_16  { font-family:Calibri,Arial,Microsoft JhengHei; font-size:16px; }
+.Arial_18  { font-family:Calibri,Arial,Microsoft JhengHei; font-size:18px; }
+.Arial_20  { font-family:Calibri,Arial,Microsoft JhengHei; font-size:20px; }
+
+.footBorder {border-bottom-style:solid; border-color:#d8d8d8;border-width:1px;}
+
+#width2{width:0px; height:16px;background:#33CCFF;color:#000000;text-align:left;}
+#width5{width:0px; height:16px;background:#33CCFF;color:#000000;text-align:left;}
+
+.mainbg{ color:#000000; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif;  background-image:url(/graphics/back-a.gif)}

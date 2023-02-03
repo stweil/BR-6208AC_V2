@@ -1,0 +1,62 @@
+
+/*Title�������I��*/
+.title_background { background-color:#999999; }
+
+/*Title�����k�W��������r�r���C��*/
+A.title_menu_font         { color:#CCCCCC; font-size:10pt; text-decoration:none; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; }
+A.title_menu_font:link    { color:#CCCCCC; font-size:10pt; text-decoration:none; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; }
+A.title_menu_font:visited { color:#CCCCCC; font-size:10pt; text-decoration:none; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; }
+A.title_menu_font:active  { color:#CCCCCC; font-size:10pt; text-decoration:none; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; }
+A.title_menu_font:hover   { color:#CCCCCC; font-size:10pt; text-decoration:none; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; }
+
+/*Title�������W�������D��r�r���C��*/
+.title_modelname { color:#FFFFFF; font-size:22pt; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; }
+
+/*�����歶�����I���C��*/
+.menubg         { background-color:#666666; color:#FFFFFF; text-decoration:none; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; font-size:10pt; }
+
+/*�����歶���A�𪬿��ɡA�Ĥ@�h����r�C��*/
+A.menu1         { color:#FFFFFF; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; text-decoration: none; font-size: 14pt; text-decoration:none; }
+A.menu1:link    { color:#FFFFFF; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; text-decoration: none; font-size: 14pt; text-decoration:none; }
+A.menu1:visited { color:#FFFFFF; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; text-decoration: none; font-size: 14pt; text-decoration:none; }
+A.menu1:active  { color:#FFFFFF; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; text-decoration: none; font-size: 14pt; text-decoration:none; }
+A.menu1:hover   { color:#FFFFFF; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; text-decoration: none; font-size: 14pt; text-decoration:none; }
+
+/*�����歶���A�𪬿��ɡA�ĤG�h����r�C��*/
+A.menu2         { color:#FFFF00; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; text-decoration: none; font-size: 10pt; text-decoration:none; }
+A.menu2:link    { color:#FFFF00; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; text-decoration: none; font-size: 10pt; text-decoration:none; }
+A.menu2:visited { color:#FFFF00; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; text-decoration: none; font-size: 10pt; text-decoration:none; }
+A.menu2:active  { color:#FFFF00; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; text-decoration: none; font-size: 10pt; text-decoration:none; }
+A.menu2:hover   { color:#FFFF00; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; text-decoration: none; font-size: 10pt; text-decoration:none; }
+
+/*�D�n�����I��*/
+.mainbg         { color:#000000; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif;  background-image:url(/graphics/back-a.gif)}
+.background     { color:#000000; font-family:Calibri,Arial,Microsoft JhengHei; background-image:url(/graphics/back-a.gif)}
+
+/*���D��r*/
+.titlecolor     { color:#333366; font-weight:bold; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; font-size:14pt; }
+
+/*�����r*/
+.textcolor      { color:#000000; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; font-size:10pt; }
+
+/*���s�˦�*/
+.button         { font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; font-size:10pt; width:100px; }
+
+/*��r�ؼ˦�*/
+.text           { font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; font-size:10pt; }
+
+/*�U�Ԧ����˦�*/
+.select         { font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; font-size:10pt; }
+
+/*��V��檺���D���˦�*/
+.table1         { height:25px; color:#FFFFFF; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; font-size:10pt; background-color:#666666; font-weight:bold; text-align:right; }
+
+/*�a�V��檺���D���˦�*/
+.stable         { height:25px; color:#FFFFFF; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; font-size:10pt; background-color:#666666; font-weight:bold; text-align:center; }
+
+/*���D���D���˦�*/
+.table2         { height:25px; color:#000000; font-family:Calibri,Arial,Microsoft JhengHei, sans-serif; font-size:10pt; background-color:#CCCCCC; }
+
+.IQbg1{background-position:50% 50%;background-attachment:fixed;background-repeat:no-repeat;font-family:Calibri,Arial,Microsoft JhengHei;background-image:url(graphics/bg1.jpg)}
+.button_IQ{height:45px;width:180px;color:#FFFFFF;background-color:#0C66FF;font-family:Calibri,Arial,Microsoft JhengHei;font-weight:normal;font-size:18pt;text-align:center}
+	

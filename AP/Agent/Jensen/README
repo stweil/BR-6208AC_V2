@@ -1,0 +1,9 @@
+
+1. Use peter/peter to login "CVS server" 192.168.2.6
+
+2. cd /home/peter/Agent to make source code
+
+3. use ftpget cmd to download modified agent to target board
+   ftpget -u peter  -p peter 192.168.2.6 /var/agent /home/peter/Agent/agent
+
+

@@ -1,0 +1,51 @@
+#!/bin/sh
+. /web/FUNCTION_SCRIPT
+date $_DATE_
+ifconfig lo 127.0.0.1 netmask 255.255.255.255
+if [ "`flash get HW_MODEL_NAME | cut -f 2 -d \'`" = "" ]; then
+	flash set HW_MODEL_NAME $_MODEL_
+fi
+if [  "$_SITECOM_AUTO_FW_UPGRADE_" = "y" ]; then
+	flash set HW_MODEL_NAME $_CUSTOMIZE_MODEL_NAME_
+fi
+if [ "$_WAN3G_" = "y" ]; then
+	mount -t sysfs sysfs /sys
+fi
+mount -o loop -t ramfs /dev/ram0 /var
+mount -o loop -t ramfs /dev/ram0 /tmp
+mount -o loop -t ramfs /dev/ram0 /dev
+if [ "$_ROOTFS_IN_FLASH_" = "y" ];then
+	cp -Rf /dev.tmp/* /dev
+else
+	mv /dev.tmp/* /dev
+	rm -r /dev.tmp
+fi
+
+mkdir -p /dev/pts
+mount -o loop -t ramfs /dev/ram0 /etc
+if [ "$_ROOTFS_IN_FLASH_" = "y" ];then
+	cp -Rf /etc.tmp/* /etc
+else
+	mv /etc.tmp/* /etc
+	rm -r /etc.tmp
+fi
+DIRS="l2tp usr/share/udhcpc\
+web ppp etc/udhcpc etc/udhcpd dnrd run lib/misc linuxigd tmp log dev/pts lock cron"
+for dir in $DIRS ; do
+	mkdir -p /var/$dir
+done
+for minor in 0 1 2 3 4 5 6 7 8 9 10 ; do
+	mknod -m666 /dev/pts/$minor c 136 $minor
+done
+mount -t proc proc /proc
+if [ "$_WAN3G_" = "y" ]; then
+	mount -t usbfs none /proc/bus/usb
+	mkdir -p /var/wan
+fi
+if [ "$_WISP_7711UN_SWITCH_" = "y" ]; then
+	mount -t usbfs none /proc/bus/usb
+fi
+syslogd -C
+sleep 1
+init.sh
+setup

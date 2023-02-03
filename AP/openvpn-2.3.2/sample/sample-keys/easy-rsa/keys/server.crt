@@ -1,0 +1,75 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=TW, ST=Taiwan, L=Taipei, O=linux.org, OU=MyOrganizationalUnit, CN=linux.org CA/name=EasyRSA
+        Validity
+            Not Before: Dec 27 04:05:23 2014 GMT
+            Not After : Dec 24 04:05:23 2024 GMT
+        Subject: C=TW, ST=Taiwan, L=Taipei, O=linux.org, OU=MyOrganizationalUnit, CN=server/name=EasyRSA/emailAddress=test@linux.org
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:cb:a3:88:6e:f5:3c:5c:a6:c0:f5:6f:61:5c:b3:
+                    8f:88:11:b3:f1:17:46:ab:05:20:3b:03:8b:94:db:
+                    44:f4:a4:10:0c:e5:a8:03:74:17:e6:6a:99:27:a5:
+                    39:b3:15:0b:ca:e6:e7:38:75:2a:a3:5c:1c:06:a8:
+                    38:81:34:8d:bb:ba:3c:8b:a4:e7:2b:e4:4d:07:96:
+                    09:e7:1f:e3:82:72:02:11:ba:1e:8c:22:33:fe:17:
+                    26:9c:d6:17:1e:0f:3d:f9:b4:d8:af:10:6d:bc:68:
+                    1a:01:a5:58:c5:a3:25:61:fc:a8:01:74:50:09:26:
+                    97:b1:72:cf:21:45:08:45:1d
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Server
+            Netscape Comment: 
+                Easy-RSA Generated Server Certificate
+            X509v3 Subject Key Identifier: 
+                A8:FB:0D:C1:6A:20:BD:A7:3D:E5:AF:C8:61:C9:0F:7C:2B:6C:18:DF
+            X509v3 Authority Key Identifier: 
+                keyid:B1:6A:8A:CC:8A:45:B4:69:74:06:C2:F9:BE:D0:F4:BE:EF:E2:23:A2
+                DirName:/C=TW/ST=Taiwan/L=Taipei/O=linux.org/OU=MyOrganizationalUnit/CN=linux.org CA/name=EasyRSA
+                serial:D3:11:84:CB:38:3A:63:EE
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+    Signature Algorithm: sha256WithRSAEncryption
+        35:8b:66:79:4f:a4:4e:52:47:25:97:e0:af:32:af:ff:52:c5:
+        4c:b5:ed:b1:0e:f8:d6:8f:c1:20:4c:ad:e0:39:3d:4f:ee:56:
+        a6:a7:01:d5:1b:4f:e0:00:42:9f:3b:8a:13:51:85:ea:37:3d:
+        76:d3:a1:3c:68:94:a9:88:3a:82:d2:f5:a3:34:ef:5a:3e:0f:
+        59:c3:1a:e7:b7:3b:11:b5:70:67:32:f9:44:02:7c:f8:12:ba:
+        36:44:0f:6a:b3:73:4c:e2:ac:96:d9:ac:b8:62:1f:c4:1c:f7:
+        02:1b:61:b8:84:b4:6e:33:6f:4e:db:70:43:35:7c:f6:f1:f2:
+        7d:09
+-----BEGIN CERTIFICATE-----
+MIIEBTCCA26gAwIBAgIBATANBgkqhkiG9w0BAQsFADCBizELMAkGA1UEBhMCVFcx
+DzANBgNVBAgTBlRhaXdhbjEPMA0GA1UEBxMGVGFpcGVpMRIwEAYDVQQKEwlsaW51
+eC5vcmcxHTAbBgNVBAsTFE15T3JnYW5pemF0aW9uYWxVbml0MRUwEwYDVQQDEwxs
+aW51eC5vcmcgQ0ExEDAOBgNVBCkTB0Vhc3lSU0EwHhcNMTQxMjI3MDQwNTIzWhcN
+MjQxMjI0MDQwNTIzWjCBpDELMAkGA1UEBhMCVFcxDzANBgNVBAgTBlRhaXdhbjEP
+MA0GA1UEBxMGVGFpcGVpMRIwEAYDVQQKEwlsaW51eC5vcmcxHTAbBgNVBAsTFE15
+T3JnYW5pemF0aW9uYWxVbml0MQ8wDQYDVQQDEwZzZXJ2ZXIxEDAOBgNVBCkTB0Vh
+c3lSU0ExHTAbBgkqhkiG9w0BCQEWDnRlc3RAbGludXgub3JnMIGfMA0GCSqGSIb3
+DQEBAQUAA4GNADCBiQKBgQDLo4hu9TxcpsD1b2Fcs4+IEbPxF0arBSA7A4uU20T0
+pBAM5agDdBfmapknpTmzFQvK5uc4dSqjXBwGqDiBNI27ujyLpOcr5E0HlgnnH+OC
+cgIRuh6MIjP+Fyac1hceDz35tNivEG28aBoBpVjFoyVh/KgBdFAJJpexcs8hRQhF
+HQIDAQABo4IBXDCCAVgwCQYDVR0TBAIwADARBglghkgBhvhCAQEEBAMCBkAwNAYJ
+YIZIAYb4QgENBCcWJUVhc3ktUlNBIEdlbmVyYXRlZCBTZXJ2ZXIgQ2VydGlmaWNh
+dGUwHQYDVR0OBBYEFKj7DcFqIL2nPeWvyGHJD3wrbBjfMIHABgNVHSMEgbgwgbWA
+FLFqisyKRbRpdAbC+b7Q9L7v4iOioYGRpIGOMIGLMQswCQYDVQQGEwJUVzEPMA0G
+A1UECBMGVGFpd2FuMQ8wDQYDVQQHEwZUYWlwZWkxEjAQBgNVBAoTCWxpbnV4Lm9y
+ZzEdMBsGA1UECxMUTXlPcmdhbml6YXRpb25hbFVuaXQxFTATBgNVBAMTDGxpbnV4
+Lm9yZyBDQTEQMA4GA1UEKRMHRWFzeVJTQYIJANMRhMs4OmPuMBMGA1UdJQQMMAoG
+CCsGAQUFBwMBMAsGA1UdDwQEAwIFoDANBgkqhkiG9w0BAQsFAAOBgQA1i2Z5T6RO
+Ukcll+CvMq//UsVMte2xDvjWj8EgTK3gOT1P7lampwHVG0/gAEKfO4oTUYXqNz12
+06E8aJSpiDqC0vWjNO9aPg9ZwxrntzsRtXBnMvlEAnz4Ero2RA9qs3NM4qyW2ay4
+Yh/EHPcCG2G4hLRuM29O23BDNXz28fJ9CQ==
+-----END CERTIFICATE-----

@@ -1,0 +1,147 @@
+pam_keyinit.lo: pam_keyinit.c ../../config.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/gcc/stdarg.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/string.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/features.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_config.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_arch_features.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/cdefs.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/gcc/stddef.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/syslog.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/syslog.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/pwd.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/types.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wordsize.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/kernel_types.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/typesizes.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/pthreadtypes.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sched.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/stdio.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/unistd.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/posix_opt.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/environments.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/confname.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/getopt.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/errno.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/errno.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/linux/errno.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/asm/errno.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/asm-generic/errno-base.h \
+ ../../libpam/include/security/pam_modules.h \
+ ../../libpam/include/security/_pam_types.h \
+ ../../libpam/include/security/_pam_compat.h \
+ ../../libpam/include/security/pam_modutil.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/types.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/time.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/endian.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/endian.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/byteswap.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/byteswap.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/select.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/select.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sigset.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/time.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/sysmacros.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/grp.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/shadow.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/paths.h \
+ ../../libpam/include/security/pam_ext.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/syscall.h \
+ /home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sysnum.h
+
+../../config.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/gcc/stdarg.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/string.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/features.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_config.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_arch_features.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/cdefs.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/gcc/stddef.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/syslog.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/syslog.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/pwd.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/types.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wordsize.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/kernel_types.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/typesizes.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/pthreadtypes.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sched.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/stdio.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/unistd.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/posix_opt.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/environments.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/confname.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/getopt.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/errno.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/errno.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/linux/errno.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/asm/errno.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/asm-generic/errno-base.h:
+
+../../libpam/include/security/pam_modules.h:
+
+../../libpam/include/security/_pam_types.h:
+
+../../libpam/include/security/_pam_compat.h:
+
+../../libpam/include/security/pam_modutil.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/types.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/time.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/endian.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/endian.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/byteswap.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/byteswap.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/select.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/select.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sigset.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/time.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/sysmacros.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/grp.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/shadow.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/paths.h:
+
+../../libpam/include/security/pam_ext.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/syscall.h:
+
+/home/RTL8197D/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sysnum.h:

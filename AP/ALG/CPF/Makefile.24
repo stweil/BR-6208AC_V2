@@ -1,0 +1,28 @@
+
+#CC		=	gcc
+#LD		=	ld
+
+include ../../../make.def
+include ../module_mak.def
+
+#CC		=	mips-uclibc-gcc
+#LD		=	mips-uclibc-ld
+#INCLUDE	=	-I/usr/src/linux/include
+#CFLAGS	=	-c -O2 -DMODULE -D__KERNEL__ -fno-pic -fomit-frame-pointer $(INCLUDE)
+INCLUDE =   -I../../../linux-2.4.18/include
+#CFLAGS  =   -c -O2 -DMODULE -D__KERNEL__ -Wall -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -G 0 -mno-abicalls -pipe -Wa,  -mlong-calls -fno-pic -fomit-frame-pointer $(INCLUDE)
+LFLAGS	=	-r
+TAR		=	CPF_mod.ko
+OBJS	=	proc_create_file.o 
+
+all: $(TAR) 
+
+$(TAR): $(OBJS)
+	$(LD) $(LFLAGS) $(OBJS) -o $(TAR)
+
+.c.o:
+	$(CC) $(CFLAGS) $*.c
+
+clean:
+	rm -f *.o
+

@@ -1,0 +1,19 @@
+#!/bin/sh
+. ../../../define/PATH
+. ../../../define/FUNCTION_SCRIPT
+pwd=`pwd`
+if [ "$1" = "m" ]; then
+	make clean
+	make x86=1
+	cp -rf ../etc/boa /etc
+	cd ..
+	pwd2=`pwd`
+	cd /
+	rm -rf web
+	ln -s $pwd2/web
+	cd $pwd
+	cp -rf ../../../define/FUNCTION_SCRIPT ../web/
+	./boa -d
+else
+	make CC=gcc STRIP=strip
+fi
